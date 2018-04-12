@@ -1,0 +1,110 @@
+		Conduite régie Bug'n'buzz V2
+
+
+
+	Mise :
+
+============================================================
+------------------------------------------------------------
+
+Piles HF !
+Check ON HF tables
+Table 1 & 3 cross -> Audio
+
+Cross gilet Adil -> Audio
+
+------------------------------------------------------------
+
+VCA -> -inf
+
+Boost DPA -> On
+
+------------------------------------------------------------
+============================================================
+
+
+
+	Déroulé :
+
+============================================================
+------------------------------------------------------------
+TOP                    |            Action
+------------------------------------------------------------
+Adil "c'est partit"    |  
+                       |  Cut VCA sortie
+                       |  Boost DPA
+                       |
+                       |  Unmute Voix, DPA, Cravate
+                       |  Play
+------------------------------------------------------------
+Maud Entre             |  Mute Voix, DPA, Cravate
+  +pause loop          |  No Boost DPA
+                       |  VCA sortie 0dB
+------------------------------------------------------------
+Maud + Adil assis      |  Unmute TableBnB   + refresh cross
+                       |     + Unmut Cravatte
+------------------------------------------------------------
+Adil prend Touilleur   |  
+                       |  Mute TableBnB
+                       |  Cross TableBnB -> Synth
+------------------------------------------------------------
+Adil lache Touilleur   |  
+------------------------------------------------------------
+Adil prend Voix        |  Adil Crossfade Cravate -> Synth
+                       |  Unmute Voix + Cravatte
+------------------------------------------------------------
+Adil fin loop kck + cc |  Mute Cravate
+------------------------------------------------------------
+Adil pose Voix         |  Mute Voix	
+------------------------------------------------------------
+Adil Touilleur         |
+ENLEVE Touilleur Bouche|  Unmute Cravate
+                       |
+REMET  Touilleur Bouche|  Mute Cravate
+------------------------------------------------------------
+Adil Archet            |  Unmute Cravate -7-9dB
+------------------------------------------------------------
+Pose Archet            |  Mute Cravate
+------------------------------------------------------------
+Adil prend Voix        |  Unmute Voix
+------------------------------------------------------------
+Fin bug, Adil static   |  Unmute Cravate
+------------------------------------------------------------
+Loop Kik / Tata        |  Mute Cravate
+------------------------------------------------------------
+Adil pose Voix         |  Unmute Cuisse + Cravatte + Table 1 
+                       |     + Mute Voix
+------------------------------------------------------------
+Loop Kik/snare         |  Mute Cravate & Cuisse
+                       |  Cross Table1 -> Audio
+                       | 
+------------------------------------------------------------
+Loop Table1 Audio  OK  |  Cross Table1 -> Synthé
+   Adil redresse       |  Table1 + 3-6dB
+------------------------------------------------------------
+Adil pret a loop       |  Table1 -2dB
+------------------------------------------------------------
+OroPassi Loop     OK   |  Mute Table1
+------------------------------------------------------------
+Apres OroPassi         |  Baisse voix pour note tenu
+ -> Note Tenu Vx       |
+------------------------------------------------------------
+Allumette	       |  Monte Mic Voix
+                       |    + Activation Reverb "Loop 1 VX"
+------------------------------------------------------------
+Pose Voix              |  Mute Voix
+                       |  Desactivation Reverb "Loop 1 VX"
+------------------------------------------------------------
+Adil s'approche Table4 |  Unmut Table 4
+  Table 4	       |  
+------------------------------------------------------------
+Adil Prend Verre Pour  |  Unmut DPA + Mute Table 4
+Jouer                  |  -> Mute DPA
+------------------------------------------------------------
+Master Baisse          |  Cross TableBnB -> Synth
+Arrivée TableBnB       |  Unmute TableBnB
+                       |  
+------------------------------------------------------------
+FIN
+------------------------------------------------------------
+============================================================
