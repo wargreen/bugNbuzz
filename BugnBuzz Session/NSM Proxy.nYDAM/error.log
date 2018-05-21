@@ -1,4 +1,0 @@
-slgui: our URL is osc.udp://CieConcordance.localdomain:11863/
-Changing our url to be : osc.udp://localhost:11863/
-slgui: remote looper is at osc.udp://CieConcordance.localdomain:9951/ version=1.7.3   loopcount=4  id=1523974948
-  but treating the engine URL as osc.udp://localhost:9951/
