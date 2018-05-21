@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="BugNBuzz" sample-rate="48000" end-is-free="1" id-counter="2375146" name-counter="7" event-counter="3485205" vca-counter="2">
+<Session version="3002" name="BugNBuzz" sample-rate="48000" end-is-free="1" id-counter="2384906" name-counter="7" event-counter="3489159" vca-counter="2">
   <ProgramVersion created-with="unknown" modified-with="Ardour 5.12"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -122,7 +122,7 @@
     <Region name="REC-24" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="110919024" position="394231808" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1701416" type="audio" first-edit="nothing" source-0="1700398" source-1="1700400" master-source-0="1700398" master-source-1="1700400" channels="2"/>
   </Regions>
   <Selection>
-    <StripableAutomationControl stripable="187984" control="0" order="8"/>
+    <StripableAutomationControl stripable="1226925" control="0" order="7"/>
   </Selection>
   <Locations>
     <Location id="1701437" name="session" start="394231808" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
@@ -3456,7 +3456,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="1085897" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="188010" flags="" value="0.37789404392242432"/>
+        <Controllable name="gaincontrol" id="188010" flags="" value="0.31998869776725769"/>
       </Processor>
       <Processor id="188015" name="meter-IN Piezzo 5" active="1" user-latency="0" type="meter"/>
       <Processor id="188016" name="Table2Audio" active="1" user-latency="0" own-input="1" own-output="0" output="Table2Audio" type="main-outs" role="Main">
@@ -6251,7 +6251,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="2085415" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="2085416" flags="GainLike" value="1"/>
+        <Controllable name="gaincontrol" id="2085416" flags="GainLike" value="1.1230720281600952"/>
       </Processor>
       <Processor id="2085444" name="meter-SynthAudio 2" active="1" user-latency="0" type="meter"/>
       <Processor id="2085445" name="CuisseSynthAudio" active="1" user-latency="0" own-input="1" own-output="0" output="CuisseSynthAudio" type="main-outs" role="Main">
@@ -6803,8 +6803,8 @@
           <AutomationList automation-id="parameter-5" id="1287681" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="1287683" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="1287685" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="2369445" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="2369447" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="2379200" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="2379202" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -6957,8 +6957,8 @@
           <AutomationList automation-id="parameter-5" id="1287681" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="1287683" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="1287685" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="2369527" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="2369529" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="2379282" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="2379284" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -7139,8 +7139,8 @@
           <AutomationList automation-id="parameter-5" id="2278005" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="2278007" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="2278009" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="2369613" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="2369615" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="2379368" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="2379370" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -7293,8 +7293,8 @@
           <AutomationList automation-id="parameter-5" id="2278085" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="2278087" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="2278089" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="2369695" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="2369697" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="2379450" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="2379452" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -7447,8 +7447,8 @@
           <AutomationList automation-id="parameter-5" id="2278064" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="2278066" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="2278068" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="2369777" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="2369779" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="2379532" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="2379534" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -7986,11 +7986,11 @@
       <Window name="key-editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="session-options-editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="speaker-config" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="about" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="about" visible="0" x-off="0" y-off="0" x-size="424" y-size="590"/>
       <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="777" y-size="491"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="audio-midi-setup" visible="0" x-off="595" y-off="78" x-size="655" y-size="410"/>
+      <Window name="audio-midi-setup" visible="0" x-off="0" y-off="0" x-size="655" y-size="410"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="0" x-off="1079" y-off="0" x-size="361" y-size="340"/>
       <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -10189,6 +10189,7 @@
         <Object id="vtv 2346328" height="68"/>
         <Object id="vtv 2356073" height="68"/>
         <Object id="vtv 2365823" height="68"/>
+        <Object id="vtv 2375578" height="68"/>
       </GUIObjectState>
     </UI>
     <Videomonitor active="0"/>
