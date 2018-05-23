@@ -1,0 +1,49 @@
+on init
+	declare $inst := 0
+
+	declare $newNote := 0
+
+	declare $i := 0
+
+	declare const %total[4] := ( 4, 4, 4, 4 )
+end on
+
+function noteAnote
+	$newNote := ($inst * 24) + $i
+	{message("NewNote : " & $newNote & ", inst : " & $inst & ", i : " & $i & "total1 :" & %total[$inst])}
+	
+	change_note($EVENT_ID, $newNote)
+	
+	$i := $i + 1
+	
+	if ($i >= %total[$inst])
+		$i := 0
+	end if
+				
+	exit()
+end function
+
+on note
+	
+	{Premier case : si la note est de 0 a 4 on change d'instrument, 
+	sinon on joue la note selon l'instrument selectionner}
+	select $EVENT_NOTE
+		case 0 to 4
+			if ($inst # $EVENT_NOTE)
+				$i := 0
+			end if
+
+			$inst := $EVENT_NOTE
+			
+			
+			call noteAnote
+
+			{message("Changement d'instrument et remise a zero de i, instument : " & $inst)}
+
+			exit
+		case 5 to 127
+			
+			{Changement note pour silence}
+			change_note($EVENT_ID, 126)
+	end select
+end on

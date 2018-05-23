@@ -1,4 +1,28 @@
+
+{
+Copyright (C) 2018  Felix GENSOLLEN
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+}
+
+
+{
+SET_CONDITION(DEBUG_MODE)
+}
+
 on init
+	message("#######  Initialisation du Script MultiInstrument  #######")
 	declare $inst := 0
 
 	declare $newNote := 0
@@ -6,21 +30,55 @@ on init
 	declare $i := 0
 
 	declare const %total[4] := ( 4, 4, 4, 4 )
+
+	USE_CODE_IF(DEBUG_MODE)
+	declare $changementInstrumentMessage := 0
+	message("###################  Debug Mode Actif  ###################")
+	END_USE_CODE
 end on
 
-function noteAnote
+{Change la valeur de la note par le sample $i de l'instrument $inst.}
+function changeNote
 	$newNote := ($inst * 24) + $i
-	{message("NewNote : " & $newNote & ", inst : " & $inst & ", i : " & $i & "total1 :" & %total[$inst])}
+
+	USE_CODE_IF(DEBUG_MODE)
+	message("NewNote : " & $newNote & ", inst : " & $inst & ", i : " & $i & ",  total1 :" & %total[$inst])
+	END_USE_CODE
 	
 	change_note($EVENT_ID, $newNote)
+end function
+
+
+{Tire les notes dans l'ordre a chaque on}
+function noteAnote
+	USE_CODE_IF(DEBUG_MODE)
+	if ($changementInstrumentMessage = 1)
+		message("Appel de la function noteAnote")
+		$changementInstrumentMessage := 0
+	end if
+	END_USE_CODE
+
+	call changeNote
 	
 	$i := $i + 1
 	
 	if ($i >= %total[$inst])
 		$i := 0
 	end if
-				
-	exit()
+end function
+
+{Tire une note aleatoire a chaque on}
+function randomNote
+	USE_CODE_IF(DEBUG_MODE)
+	if ($changementInstrumentMessage = 1)
+		message("Appel de la function randomNote")
+		$changementInstrumentMessage := 0
+	end if
+	END_USE_CODE
+	
+	$i := random(0, %total[$inst] - 1)
+	
+	call changeNote
 end function
 
 on note
@@ -29,21 +87,36 @@ on note
 	sinon on joue la note selon l'instrument selectionner}
 	select $EVENT_NOTE
 		case 0 to 4
+			{Si on fait un changement d'instrument, on reinitialise i}
 			if ($inst # $EVENT_NOTE)
 				$i := 0
+				USE_CODE_IF(DEBUG_MODE)
+				$changementInstrumentMessage := 1
+				END_USE_CODE
 			end if
-
+			
+			{la note jouer va correspondre a l'instrument.}
 			$inst := $EVENT_NOTE
 			
-			
-			call noteAnote
-
-			{message("Changement d'instrument et remise a zero de i, instument : " & $inst)}
+			{a chaque instrument son script !}
+			select $inst
+				case 0
+					call noteAnote
+				case 1
+					call noteAnote
+				case 2
+					call randomNote
+				case 3
+					call noteAnote
+				case 4
+					call noteAnote
+			end select
 
 			exit
 		case 5 to 127
 			
 			{Changement note pour silence}
 			change_note($EVENT_ID, 126)
+			exit
 	end select
 end on
