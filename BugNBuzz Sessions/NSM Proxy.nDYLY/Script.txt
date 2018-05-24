@@ -29,7 +29,7 @@ on init
 
 	declare $i := 0
 
-	declare const %total[4] := ( 4, 4, 4, 0, 0 )
+	declare const %total[5] := ( 4, 4, 4, 0, 0 )
 
 	USE_CODE_IF(DEBUG_MODE)
 	declare $changementInstrumentMessage := 0
