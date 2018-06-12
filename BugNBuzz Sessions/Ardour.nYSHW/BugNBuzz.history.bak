@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1501768470" tv-usec="374612" name="Capturer">
-    <StatefulDiffCommand obj-id="1304857" type-name="ARDOUR::AudioPlaylist">
-      <Changes>
-        <Regions>
-          <Add id="1304916"/>
-        </Regions>
-      </Changes>
-    </StatefulDiffCommand>
-  </UndoTransaction>
   <UndoTransaction tv-sec="1501771967" tv-usec="214775" name="Capturer">
     <StatefulDiffCommand obj-id="1304857" type-name="ARDOUR::AudioPlaylist">
       <Changes>
@@ -181,6 +172,15 @@
       <Changes>
         <Regions>
           <Add id="1701424"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1527004117" tv-usec="531789" name="Capturer">
+    <StatefulDiffCommand obj-id="1304857" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="2472166"/>
         </Regions>
       </Changes>
     </StatefulDiffCommand>
