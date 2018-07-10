@@ -1,6 +1,9 @@
 #!/usr/bin/env python2
 # coding=utf8
 
+### debuging ###
+import os
+### end
 
 from time import time, sleep
 from liblo import *
@@ -8,12 +11,15 @@ import liblo
 import curses
 import sys
 import signal
+
 import colorsys
+
 
 
 #### Define IPs ####
 ip_sooploop = "localhost", 9951
 ip_xosc =  "192.168.1.30", 9000 #"169.254.1.1", 9000
+port = 8000
 
 
 #### let possible to change XOSC's ip for testing purposes ####
@@ -33,12 +39,12 @@ ip_xosc =  "192.168.1.30", 9000 #"169.254.1.1", 9000
 class MyServer(ServerThread):
 
     def __init__(self):
-        ServerThread.__init__(self, 8000)
+        ServerThread.__init__(self, port)
 
         self.states = [0.0] * 5
         self.buttons = [1] * 16
-        self.led = [0] * 27
-        self.ledState = [0] * 27
+        self.led = [0] * 3 *5
+        self.ledState = [0] * 3 *5 
         self.loopnum = -1
         self.frame = 0
         self.allPaused = False
@@ -78,7 +84,6 @@ class MyServer(ServerThread):
         curses.echo()
         curses.endwin()
         sys.exit(0)
-
 ########## OSC methods from SooperLooper ###########
 
     @make_method('/pong', 'ssi')
@@ -93,11 +98,11 @@ class MyServer(ServerThread):
             # Just in case
             send(self.sooperlooper, "/loop_add", l + 1, 1.0)
             send(self.sooperlooper, "/ping",
-                 "osc.udp://localhost:8000/", "/pong")
+                 "osc.udp://localhost:" + str(port) +"/", "/pong")
         else:
             for l in range(4):
                 send(self.sooperlooper, "/sl/" + str(l) + "/register_auto_update",
-                     "state", 100, "osc.udp://localhost:8000/", "/update")
+                     "state", 100, "osc.udp://localhost:" + str(port) + "/", "/update")
         self.blank()
         self.loopSelect(0)  # to be ready to receive command
         self.stdscr.refresh()
@@ -178,7 +183,7 @@ class MyServer(ServerThread):
                         float(potar[l] * 2 - 1))
     
     
-        send(self.jacket, "/outputs/rgb/16", self.ledState)
+        ## send(self.jacket, "/outputs/rgb/16", self.ledState)
 
         """ Add the first crossfade
       
@@ -233,10 +238,11 @@ class MyServer(ServerThread):
             self.ledState[i * 3] = 0
             self.ledState[i * 3 + 1] = 0
             self.ledState[i * 3 + 2] = 0
+        os.system('echo "' + str(self.ledState) + '" > /tmp/oscdebug.log')
         send(self.jacket, "/outputs/rgb/16", self.ledState)
 
     def blank(self):
-        self.ledState = [0] * (16 * 3)
+        self.ledState = [0] * (5 * 3)
         send(self.jacket, "/outputs/rgb/16", self.ledState)
 
 
@@ -244,7 +250,7 @@ class MyServer(ServerThread):
 
     def ping(self):
         """ Ping and ask for status """
-        send(self.sooperlooper, "/ping", "osc.udp://localhost:8000/", "/pong")
+        send(self.sooperlooper, "/ping", "osc.udp://localhost:" + str(port) +"/", "/pong")
 
     def loopSelect(self, loopnum):
         """ Select a channel on SooperLooper
