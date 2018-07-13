@@ -10,6 +10,7 @@ LinuxSampler:Table BnB L                 |> ardour:TableBnBSynthAudio/audio_in 1
 LinuxSampler:Table BnB R                 |> ardour:TableBnBSynthAudio/audio_in 2
 PulseAudio JACK Sink:front-left          |> system:playback_1
 PulseAudio JACK Sink:front-right         |> system:playback_2
+a2j:LPD8 [20] (capture): LPD8 MIDI 1     |> ardour:MIDI control in
 ardour:CravateAudio/audio_out 1          |> ardour:PiezzCrav/audio_in 1
 ardour:CravateAudio/audio_out 2          |> ardour:PiezzCrav/audio_in 2
 ardour:CravatteSynthAudio/audio_out 1    |> ardour:PiezzCrav/audio_in 3
@@ -148,4 +149,16 @@ sooperlooper:loop3_out_4                 |> ardour:Loop4Piezz/audio_in 2
 system:capture_1                         |> PulseAudio JACK Source:front-left
 system:capture_1                         |> ardour:LTC-in
 system:capture_1                         |> ardour:Voix/audio_in 1
-system:capture_2                         |> ardour:DPA/audio_in 1
+system:capture_11                        |> ardour:Voix/audio_in 1
+system:capture_2                         |> PulseAudio JACK Source:front-right
+system:capture_2                         |> ardour:CravateAudio/audio_in 1
+system:capture_2                         |> ardour:CravatteTrigger/audio_in 1
+system:capture_3                         |> ardour:DPA/audio_in 1
+system:capture_4                         |> ardour:CuisseAudio/audio_in 1
+system:capture_4                         |> ardour:CuisseTrigger/audio_in 1
+system:capture_5                         |> ardour:Table1Audio/audio_in 1
+system:capture_5                         |> ardour:Table1Trigger/audio_in 1
+system:capture_7                         |> ardour:TableBnB Audio/audio_in 1
+system:capture_7                         |> ardour:TableBnBTrigger/audio_in 1
+system:capture_8                         |> ardour:Table2Audio/audio_in 1
+system:capture_8                         |> ardour:Table2Trigger/audio_in 1
