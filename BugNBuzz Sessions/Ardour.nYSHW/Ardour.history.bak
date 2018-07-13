@@ -68,7 +68,7 @@
         <Regions/>
       </Changes>
     </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
+    <MementoCommand obj-id="42" type-name="Editor">
       <SelectionMemento mouse-mode="MouseObject" zoom="415397" left-frame="0" y-origin="2516">
         <Selection>
           <Regions>
@@ -97,7 +97,7 @@
         <Regions/>
       </Changes>
     </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
+    <MementoCommand obj-id="42" type-name="Editor">
       <SelectionMemento mouse-mode="MouseObject" zoom="415397" left-frame="0" y-origin="2516">
         <Selection>
           <Regions>
@@ -126,7 +126,7 @@
         <Regions/>
       </Changes>
     </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
+    <MementoCommand obj-id="42" type-name="Editor">
       <SelectionMemento mouse-mode="MouseObject" zoom="415397" left-frame="0" y-origin="2516">
         <Selection>
           <Regions>
@@ -155,7 +155,7 @@
         <Regions/>
       </Changes>
     </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
+    <MementoCommand obj-id="42" type-name="Editor">
       <SelectionMemento mouse-mode="MouseObject" zoom="415397" left-frame="0" y-origin="2516">
         <Selection>
           <Regions>
@@ -184,7 +184,7 @@
         <Regions/>
       </Changes>
     </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
+    <MementoCommand obj-id="42" type-name="Editor">
       <SelectionMemento mouse-mode="MouseObject" zoom="415397" left-frame="0" y-origin="2516">
         <Selection>
           <Regions>
@@ -213,7 +213,7 @@
         <Regions/>
       </Changes>
     </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
+    <MementoCommand obj-id="42" type-name="Editor">
       <SelectionMemento mouse-mode="MouseObject" zoom="415397" left-frame="0" y-origin="2516">
         <Selection>
           <Regions>
@@ -242,7 +242,7 @@
         <Regions/>
       </Changes>
     </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
+    <MementoCommand obj-id="42" type-name="Editor">
       <SelectionMemento mouse-mode="MouseObject" zoom="415397" left-frame="0" y-origin="2516">
         <Selection>
           <Regions>
@@ -271,7 +271,7 @@
         <Regions/>
       </Changes>
     </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
+    <MementoCommand obj-id="42" type-name="Editor">
       <SelectionMemento mouse-mode="MouseObject" zoom="415397" left-frame="0" y-origin="2516">
         <Selection>
           <Regions>
@@ -300,7 +300,7 @@
         <Regions/>
       </Changes>
     </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
+    <MementoCommand obj-id="42" type-name="Editor">
       <SelectionMemento mouse-mode="MouseObject" zoom="415397" left-frame="0" y-origin="2516">
         <Selection>
           <Regions>
@@ -329,7 +329,7 @@
         <Regions/>
       </Changes>
     </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
+    <MementoCommand obj-id="42" type-name="Editor">
       <SelectionMemento mouse-mode="MouseObject" zoom="415397" left-frame="317259455" y-origin="2516">
         <Selection>
           <Regions>
@@ -349,7 +349,7 @@
         <beat from="2734.6969166666663" to="9519.5145833333336"/>
       </Changes>
     </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
+    <MementoCommand obj-id="42" type-name="Editor">
       <SelectionMemento mouse-mode="MouseObject" zoom="415397" left-frame="0" y-origin="2448">
         <Selection>
           <Regions>
@@ -382,7 +382,7 @@
         <Regions/>
       </Changes>
     </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
+    <MementoCommand obj-id="42" type-name="Editor">
       <SelectionMemento mouse-mode="MouseObject" zoom="415397" left-frame="0" y-origin="2448">
         <Selection>
           <Regions>

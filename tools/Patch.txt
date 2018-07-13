@@ -1,9 +1,18 @@
-1 Voix        Sen ew300
-2 PiezzCrav   Audiopho 2
-3 DPA         AKG Out1 
-4 PiezzCuiss  AKG Out2
-5 Table1	  Audiopho 1
-6 Table2      
-7 Table3      Audiopho 3
-8 Table4      Audiopho 4
-
+1  Voix        Sen ew300
+2  PiezzCrav   Audiopho 2
+3  PiezzCuiss  AKG Out2
+4  BnB         Audiopho 3
+5  Table 3
+6  Table 4
+7  Table 5
+8  Table 6
+9  Musique L
+10 Musique R
+11 DPA         AKG Out1 
+12
+13 Table1	   Audiopho 1
+14 Table2      Audiopho 4
+15 Table7
+16
+17
+18
