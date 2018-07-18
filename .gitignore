@@ -2,6 +2,7 @@ analysis/
 peaks/
 interchange/
 export/
+*.wav
 
 
 Controller\ Scripts/
