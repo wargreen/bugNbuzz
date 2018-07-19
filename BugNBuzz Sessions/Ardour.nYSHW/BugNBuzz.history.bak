@@ -396,18 +396,6 @@
         </Regions>
       </Changes>
     </StatefulDiffCommand>
-    <MementoCommand obj-id="43" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="415397" left-frame="126903782" y-origin="3416">
-        <Selection>
-          <Regions>
-            <Region id="2588922"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="415397" left-frame="126903782" y-origin="3416">
-        <Selection/>
-      </SelectionMemento>
-    </MementoCommand>
   </UndoTransaction>
   <UndoTransaction tv-sec="1531829046" tv-usec="182062" name="effacer intervalle">
     <StatefulDiffCommand obj-id="1304857" type-name="ARDOUR::AudioPlaylist">
@@ -417,19 +405,6 @@
         </Regions>
       </Changes>
     </StatefulDiffCommand>
-    <MementoCommand obj-id="43" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="415397" left-frame="126903782" y-origin="3416">
-        <Selection>
-          <StripableView id="1304815"/>
-          <AudioRange start="251522882" end="288908612"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="415397" left-frame="126903782" y-origin="3416">
-        <Selection>
-          <StripableView id="1304815"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
   </UndoTransaction>
   <UndoTransaction tv-sec="1531829297" tv-usec="210189" name="Capturer">
     <StatefulDiffCommand obj-id="1304857" type-name="ARDOUR::AudioPlaylist">
