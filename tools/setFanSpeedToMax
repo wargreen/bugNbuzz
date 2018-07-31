@@ -1,0 +1,48 @@
+#!/bin/bash
+
+
+
+echo "Actual mode :"
+echo "  Fan 1 :"
+echo "    Manual : "
+cat /sys/devices/platform/applesmc.768/fan1_manual
+echo "    Speed :"
+cat /sys/devices/platform/applesmc.768/fan1_output
+
+echo "Actual mode :"
+echo "  Fan 2 :"
+echo "    Manual :"
+cat /sys/devices/platform/applesmc.768/fan2_manual
+echo "    Speed :"
+cat /sys/devices/platform/applesmc.768/fan2_output
+
+
+
+
+read -p "Redefinir les valeurs ?" yn
+
+if [ "$yn" = "y" ] || [ "$yn" = "Y" ]; then
+	echo "1" > /sys/devices/platform/applesmc.768/fan1_manual
+	echo "1" > /sys/devices/platform/applesmc.768/fan2_manual
+
+	echo "6200" > /sys/devices/platform/applesmc.768/fan1_output
+	echo "6200" > /sys/devices/platform/applesmc.768/fan2_output
+
+
+	echo "Nouvelles Valeurs :"
+
+	echo "Actual mode :"
+	echo "  Fan 1 :"
+	echo "    Manual : "
+	cat /sys/devices/platform/applesmc.768/fan1_manual
+	echo "    Speed :"
+	cat /sys/devices/platform/applesmc.768/fan1_output
+	
+	echo "Actual mode :"
+	echo "  Fan 2 :"
+	echo "    Manual :"
+	cat /sys/devices/platform/applesmc.768/fan2_manual
+	echo "    Speed :"
+	cat /sys/devices/platform/applesmc.768/fan2_output
+
+fi
