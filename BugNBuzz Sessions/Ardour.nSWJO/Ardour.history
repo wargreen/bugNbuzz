@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UndoHistory>
+  <UndoTransaction tv-sec="1530108197" tv-usec="427126" name="Capturer">
+    <StatefulDiffCommand obj-id="1304857" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions/>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1530108210" tv-usec="61906" name="Déplacer la région"/>
+  <UndoTransaction tv-sec="1530108626" tv-usec="978722" name="Déplacer la région"/>
+  <UndoTransaction tv-sec="1531149188" tv-usec="734633" name="effacer objets">
+    <StatefulDiffCommand obj-id="1304857" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions/>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1531149191" tv-usec="358950" name="effacer objets">
+    <StatefulDiffCommand obj-id="1304857" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions/>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1531149192" tv-usec="487613" name="effacer objets">
+    <StatefulDiffCommand obj-id="1304857" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions/>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1531149194" tv-usec="37830" name="effacer objets">
+    <StatefulDiffCommand obj-id="1304857" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions/>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1531149195" tv-usec="805569" name="effacer objets">
+    <StatefulDiffCommand obj-id="1304857" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions/>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1531149198" tv-usec="29550" name="effacer objets">
+    <StatefulDiffCommand obj-id="1304857" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions/>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1531149201" tv-usec="117296" name="effacer objets">
+    <StatefulDiffCommand obj-id="1304857" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions/>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1531149202" tv-usec="389474" name="effacer objets">
+    <StatefulDiffCommand obj-id="1304857" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions/>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1531149204" tv-usec="381821" name="effacer objets">
+    <StatefulDiffCommand obj-id="1304857" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions/>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1531149208" tv-usec="621354" name="effacer objets">
+    <StatefulDiffCommand obj-id="1304857" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions/>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1531149232" tv-usec="430109" name="Déplacer la région"/>
+  <UndoTransaction tv-sec="1531149233" tv-usec="892607" name="effacer objets">
+    <StatefulDiffCommand obj-id="1304857" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions/>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1531409165" tv-usec="641401" name="Capturer">
+    <StatefulDiffCommand obj-id="288" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions/>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1551002001" tv-usec="174386" name="Déplacer la région"/>
+  <UndoTransaction tv-sec="1551002002" tv-usec="343703" name="effacer objets">
+    <StatefulDiffCommand obj-id="288" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions/>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1551002024" tv-usec="373389" name="effacer objets">
+    <StatefulDiffCommand obj-id="1304857" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions/>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1551002028" tv-usec="438113" name="effacer objets">
+    <StatefulDiffCommand obj-id="1304857" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions/>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+</UndoHistory>
