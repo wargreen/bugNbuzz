@@ -1,6 +1,6 @@
 Nouveau plan d'adressage :
 
-nanostation 10.13.0.1
-pc	    10.13.0.10
-x-OSC	    10.13.0.11
-stations    10.13.0.50-128
+nanostation 192.168.1.1
+pc	    192.168.1.10
+x-OSC	    192.168.1.30
+stations    192.168.1.50-128
