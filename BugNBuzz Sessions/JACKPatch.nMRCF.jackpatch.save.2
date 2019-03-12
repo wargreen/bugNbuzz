@@ -1,27 +1,20 @@
-LinuxSampler:Cravatte L                  |> ardour:CravatteSynthAudio/audio_in 1
-LinuxSampler:Cravatte R                  |> ardour:CravatteSynthAudio/audio_in 2
-LinuxSampler:Cuisse L                    |> ardour:CuisseSynthAudio/audio_in 1
-LinuxSampler:Cuisse R                    |> ardour:CuisseSynthAudio/audio_in 2
-LinuxSampler:Table 1 L                   |> ardour:Table1SynthAudio/audio_in 1
-LinuxSampler:Table 1 R                   |> ardour:Table1SynthAudio/audio_in 2
-LinuxSampler:Table 2 L                   |> ardour:Table2SynthAudio/audio_in 1
-LinuxSampler:Table 2 R                   |> ardour:Table2SynthAudio/audio_in 2
-LinuxSampler:Table BnB L                 |> ardour:TableBnBSynthAudio/audio_in 1
-LinuxSampler:Table BnB R                 |> ardour:TableBnBSynthAudio/audio_in 2
+REAPER:out1                              |> ardour:REC/audio_in 1
+REAPER:out2                              |> ardour:REC/audio_in 2
+ardour:CravateAudio/audio_out 1          |> REAPER:in3
 ardour:CravateAudio/audio_out 1          |> ardour:PiezzCrav/audio_in 1
 ardour:CravateAudio/audio_out 2          |> ardour:PiezzCrav/audio_in 2
 ardour:CravatteSynthAudio/audio_out 1    |> ardour:PiezzCrav/audio_in 3
 ardour:CravatteSynthAudio/audio_out 2    |> ardour:PiezzCrav/audio_in 4
-ardour:CravatteTrigger/midi_out 1        |> LinuxSampler:Cravatte
+ardour:CuisseAudio/audio_out 1           |> REAPER:in4
 ardour:CuisseSynthAudio/audio_out 1      |> ardour:Piezzo Cuisse/audio_in 1
 ardour:CuisseSynthAudio/audio_out 2      |> ardour:Piezzo Cuisse/audio_in 2
-ardour:CuisseTrigger/audio_out 1         |> ardour:Master/audio_in 1
-ardour:CuisseTrigger/audio_out 2         |> ardour:Master/audio_in 2
-ardour:CuisseTrigger/midi_out 1          |> LinuxSampler:Cuisse
+ardour:DPA/audio_out 1                   |> REAPER:in2
 ardour:DPA/audio_out 1                   |> sooperlooper:loop0_in_2
 ardour:DPA/audio_out 1                   |> sooperlooper:loop1_in_2
 ardour:DPA/audio_out 1                   |> sooperlooper:loop2_in_2
 ardour:DPA/audio_out 1                   |> sooperlooper:loop3_in_2
+ardour:EARS/audio_out 1                  |> system:playback_3
+ardour:EARS/audio_out 2                  |> system:playback_4
 ardour:LOOP 1/audio_out 1                |> ardour:Master/audio_in 1
 ardour:LOOP 1/audio_out 2                |> ardour:Master/audio_in 2
 ardour:LOOP2/audio_out 1                 |> ardour:Master/audio_in 1
@@ -54,10 +47,18 @@ ardour:Loop4 VX/audio_out 1              |> ardour:LOOP4/audio_in 1
 ardour:Loop4 VX/audio_out 2              |> ardour:LOOP4/audio_in 2
 ardour:Loop4Piezz/audio_out 1            |> ardour:LOOP4/audio_in 1
 ardour:Loop4Piezz/audio_out 2            |> ardour:LOOP4/audio_in 2
-ardour:Master/audio_out 1                |> firewire_pcm:000a350196e1d168_pbk_analog-1_out
-ardour:Master/audio_out 2                |> firewire_pcm:000a350196e1d168_pbk_analog-2_out
-ardour:Monitor 1/audio_out 1             |> ardour:Monitor/audio_in 1
-ardour:Monitor 1/audio_out 2             |> ardour:Monitor/audio_in 2
+ardour:Master/audio_out 1                |> REAPER:in25
+ardour:Master/audio_out 1                |> system:playback_1
+ardour:Master/audio_out 2                |> REAPER:in26
+ardour:Master/audio_out 2                |> system:playback_2
+ardour:Master/audio_out 3                |> REAPER:in27
+ardour:Master/audio_out 3                |> system:playback_5
+ardour:Master/audio_out 4                |> REAPER:in28
+ardour:Master/audio_out 4                |> system:playback_6
+ardour:Monitor/audio_out 1               |> system:playback_17
+ardour:Monitor/audio_out 1               |> system:playback_7
+ardour:Monitor/audio_out 2               |> system:playback_18
+ardour:Monitor/audio_out 2               |> system:playback_8
 ardour:PiezzCrav/audio_out 1             |> sooperlooper:loop0_in_3
 ardour:PiezzCrav/audio_out 1             |> sooperlooper:loop1_in_3
 ardour:PiezzCrav/audio_out 1             |> sooperlooper:loop2_in_3
@@ -74,6 +75,10 @@ ardour:Piezzo Cuisse/audio_out 2         |> sooperlooper:loop0_in_4
 ardour:Piezzo Cuisse/audio_out 2         |> sooperlooper:loop1_in_4
 ardour:Piezzo Cuisse/audio_out 2         |> sooperlooper:loop2_in_4
 ardour:Piezzo Cuisse/audio_out 2         |> sooperlooper:loop3_in_4
+ardour:REC/audio_out 1                   |> ardour:Master/audio_in 1
+ardour:REC/audio_out 2                   |> ardour:Master/audio_in 2
+ardour:TALKBACK/audio_out 1              |> ardour:EARS/audio_in 1
+ardour:TALKBACK/audio_out 2              |> ardour:EARS/audio_in 2
 ardour:Table1/audio_out 1                |> sooperlooper:loop0_in_3
 ardour:Table1/audio_out 1                |> sooperlooper:loop1_in_3
 ardour:Table1/audio_out 1                |> sooperlooper:loop2_in_3
@@ -82,13 +87,11 @@ ardour:Table1/audio_out 2                |> sooperlooper:loop0_in_4
 ardour:Table1/audio_out 2                |> sooperlooper:loop1_in_4
 ardour:Table1/audio_out 2                |> sooperlooper:loop2_in_4
 ardour:Table1/audio_out 2                |> sooperlooper:loop3_in_4
+ardour:Table1Audio/audio_out 1           |> REAPER:in5
 ardour:Table1Audio/audio_out 1           |> ardour:Table1/audio_in 1
 ardour:Table1Audio/audio_out 2           |> ardour:Table1/audio_in 2
 ardour:Table1SynthAudio/audio_out 1      |> ardour:Table1/audio_in 3
 ardour:Table1SynthAudio/audio_out 2      |> ardour:Table1/audio_in 4
-ardour:Table1Trigger/audio_out 1         |> ardour:Master/audio_in 1
-ardour:Table1Trigger/audio_out 2         |> ardour:Master/audio_in 2
-ardour:Table1Trigger/midi_out 1          |> LinuxSampler:Table 1
 ardour:Table2/audio_out 1                |> sooperlooper:loop0_in_3
 ardour:Table2/audio_out 1                |> sooperlooper:loop1_in_3
 ardour:Table2/audio_out 1                |> sooperlooper:loop2_in_3
@@ -97,13 +100,63 @@ ardour:Table2/audio_out 2                |> sooperlooper:loop0_in_4
 ardour:Table2/audio_out 2                |> sooperlooper:loop1_in_4
 ardour:Table2/audio_out 2                |> sooperlooper:loop2_in_4
 ardour:Table2/audio_out 2                |> sooperlooper:loop3_in_4
+ardour:Table2Audio/audio_out 1           |> REAPER:in6
 ardour:Table2Audio/audio_out 1           |> ardour:Table2/audio_in 1
 ardour:Table2Audio/audio_out 2           |> ardour:Table2/audio_in 2
 ardour:Table2SynthAudio/audio_out 1      |> ardour:Table2/audio_in 3
 ardour:Table2SynthAudio/audio_out 2      |> ardour:Table2/audio_in 4
-ardour:Table2Trigger/audio_out 1         |> ardour:Master/audio_in 1
-ardour:Table2Trigger/audio_out 2         |> ardour:Master/audio_in 2
-ardour:Table2Trigger/midi_out 1          |> LinuxSampler:Table 2
+ardour:Table3/audio_out 1                |> sooperlooper:loop0_in_3
+ardour:Table3/audio_out 1                |> sooperlooper:loop1_in_3
+ardour:Table3/audio_out 1                |> sooperlooper:loop2_in_3
+ardour:Table3/audio_out 1                |> sooperlooper:loop3_in_3
+ardour:Table3/audio_out 2                |> sooperlooper:loop0_in_4
+ardour:Table3/audio_out 2                |> sooperlooper:loop1_in_4
+ardour:Table3/audio_out 2                |> sooperlooper:loop2_in_4
+ardour:Table3/audio_out 2                |> sooperlooper:loop3_in_4
+ardour:Table3SynthAudio/audio_out 1      |> ardour:Table3/audio_in 1
+ardour:Table3SynthAudio/audio_out 2      |> ardour:Table3/audio_in 2
+ardour:Table4/audio_out 1                |> sooperlooper:loop0_in_3
+ardour:Table4/audio_out 1                |> sooperlooper:loop1_in_3
+ardour:Table4/audio_out 1                |> sooperlooper:loop2_in_3
+ardour:Table4/audio_out 1                |> sooperlooper:loop3_in_3
+ardour:Table4/audio_out 2                |> sooperlooper:loop0_in_4
+ardour:Table4/audio_out 2                |> sooperlooper:loop1_in_4
+ardour:Table4/audio_out 2                |> sooperlooper:loop2_in_4
+ardour:Table4/audio_out 2                |> sooperlooper:loop3_in_4
+ardour:Table4SynthAudio/audio_out 1      |> ardour:Table4/audio_in 1
+ardour:Table4SynthAudio/audio_out 2      |> ardour:Table4/audio_in 2
+ardour:Table5/audio_out 1                |> sooperlooper:loop0_in_3
+ardour:Table5/audio_out 1                |> sooperlooper:loop1_in_3
+ardour:Table5/audio_out 1                |> sooperlooper:loop2_in_3
+ardour:Table5/audio_out 1                |> sooperlooper:loop3_in_3
+ardour:Table5/audio_out 2                |> sooperlooper:loop0_in_4
+ardour:Table5/audio_out 2                |> sooperlooper:loop1_in_4
+ardour:Table5/audio_out 2                |> sooperlooper:loop2_in_4
+ardour:Table5/audio_out 2                |> sooperlooper:loop3_in_4
+ardour:Table5SynthAudio/audio_out 1      |> ardour:Table5/audio_in 1
+ardour:Table5SynthAudio/audio_out 2      |> ardour:Table5/audio_in 2
+ardour:Table6/audio_out 1                |> sooperlooper:loop0_in_3
+ardour:Table6/audio_out 1                |> sooperlooper:loop1_in_3
+ardour:Table6/audio_out 1                |> sooperlooper:loop2_in_3
+ardour:Table6/audio_out 1                |> sooperlooper:loop3_in_3
+ardour:Table6/audio_out 2                |> sooperlooper:loop0_in_4
+ardour:Table6/audio_out 2                |> sooperlooper:loop1_in_4
+ardour:Table6/audio_out 2                |> sooperlooper:loop2_in_4
+ardour:Table6/audio_out 2                |> sooperlooper:loop3_in_4
+ardour:Table6SynthAudio/audio_out 1      |> ardour:Table6/audio_in 1
+ardour:Table6SynthAudio/audio_out 2      |> ardour:Table6/audio_in 2
+ardour:Table7/audio_out 1                |> sooperlooper:loop0_in_3
+ardour:Table7/audio_out 1                |> sooperlooper:loop1_in_3
+ardour:Table7/audio_out 1                |> sooperlooper:loop2_in_3
+ardour:Table7/audio_out 1                |> sooperlooper:loop3_in_3
+ardour:Table7/audio_out 2                |> sooperlooper:loop0_in_4
+ardour:Table7/audio_out 2                |> sooperlooper:loop1_in_4
+ardour:Table7/audio_out 2                |> sooperlooper:loop2_in_4
+ardour:Table7/audio_out 2                |> sooperlooper:loop3_in_4
+ardour:Table7SynthAudio/audio_out 1      |> ardour:Table7/audio_in 1
+ardour:Table7SynthAudio/audio_out 2      |> ardour:Table7/audio_in 2
+ardour:TableBnB Audio/audio_out 1        |> REAPER:in7
+ardour:TableBnB Audio/audio_out 1        |> REAPER:in8
 ardour:TableBnB Audio/audio_out 1        |> ardour:TableBnB/audio_in 1
 ardour:TableBnB Audio/audio_out 2        |> ardour:TableBnB/audio_in 2
 ardour:TableBnB/audio_out 1              |> sooperlooper:loop0_in_3
@@ -116,9 +169,7 @@ ardour:TableBnB/audio_out 2              |> sooperlooper:loop2_in_4
 ardour:TableBnB/audio_out 2              |> sooperlooper:loop3_in_4
 ardour:TableBnBSynthAudio/audio_out 1    |> ardour:TableBnB/audio_in 3
 ardour:TableBnBSynthAudio/audio_out 2    |> ardour:TableBnB/audio_in 4
-ardour:TableBnBTrigger/audio_out 1       |> ardour:Master/audio_in 1
-ardour:TableBnBTrigger/audio_out 2       |> ardour:Master/audio_in 2
-ardour:TableBnBTrigger/midi_out 1        |> LinuxSampler:Table BnB
+ardour:Voix/audio_out 1                  |> REAPER:in1
 ardour:Voix/audio_out 1                  |> sooperlooper:loop0_in_1
 ardour:Voix/audio_out 1                  |> sooperlooper:loop1_in_1
 ardour:Voix/audio_out 1                  |> sooperlooper:loop2_in_1
@@ -127,32 +178,56 @@ ardour:Zik/audio_out 1                   |> ardour:Master/audio_in 1
 ardour:Zik/audio_out 2                   |> ardour:Master/audio_in 2
 ardour:auditioner/audio_out 1            |> ardour:Monitor/audio_in 1
 ardour:auditioner/audio_out 2            |> ardour:Monitor/audio_in 2
-firewire_pcm:000a350196e1d168_cap_analog-1_in |> ardour:LTC-in
-firewire_pcm:000a350196e1d168_cap_analog-1_in |> ardour:Voix/audio_in 1
-firewire_pcm:000a350196e1d168_cap_analog-2_in |> ardour:CravateAudio/audio_in 1
-firewire_pcm:000a350196e1d168_cap_analog-2_in |> ardour:CravatteTrigger/audio_in 1
-firewire_pcm:000a350196e1d168_cap_analog-3_in |> ardour:DPA/audio_in 1
-firewire_pcm:000a350196e1d168_cap_analog-4_in |> ardour:CuisseAudio/audio_in 1
-firewire_pcm:000a350196e1d168_cap_analog-4_in |> ardour:CuisseTrigger/audio_in 1
-firewire_pcm:000a350196e1d168_cap_analog-5_in |> ardour:Table1Audio/audio_in 1
-firewire_pcm:000a350196e1d168_cap_analog-5_in |> ardour:Table1Trigger/audio_in 1
-firewire_pcm:000a350196e1d168_cap_analog-7_in |> ardour:TableBnB Audio/audio_in 1
-firewire_pcm:000a350196e1d168_cap_analog-7_in |> ardour:TableBnBTrigger/audio_in 1
-firewire_pcm:000a350196e1d168_cap_analog-8_in |> ardour:Table2Audio/audio_in 1
-firewire_pcm:000a350196e1d168_cap_analog-8_in |> ardour:Table2Trigger/audio_in 1
+sooperlooper:loop0_out_1                 |> REAPER:in9
 sooperlooper:loop0_out_1                 |> ardour:Loop1 VX/audio_in 1
+sooperlooper:loop0_out_2                 |> REAPER:in10
 sooperlooper:loop0_out_2                 |> ardour:Loop1 DPA/audio_in 1
+sooperlooper:loop0_out_3                 |> REAPER:in11
 sooperlooper:loop0_out_3                 |> ardour:Loop1Piezz/audio_in 1
+sooperlooper:loop0_out_4                 |> REAPER:in12
 sooperlooper:loop0_out_4                 |> ardour:Loop1Piezz/audio_in 2
+sooperlooper:loop1_out_1                 |> REAPER:in13
 sooperlooper:loop1_out_1                 |> ardour:Loop2 VX/audio_in 1
+sooperlooper:loop1_out_2                 |> REAPER:in14
 sooperlooper:loop1_out_2                 |> ardour:Loop2 DPA/audio_in 1
+sooperlooper:loop1_out_3                 |> REAPER:in15
 sooperlooper:loop1_out_3                 |> ardour:Loop2Piezz/audio_in 1
+sooperlooper:loop1_out_4                 |> REAPER:in16
 sooperlooper:loop1_out_4                 |> ardour:Loop2Piezz/audio_in 2
+sooperlooper:loop2_out_1                 |> REAPER:in17
 sooperlooper:loop2_out_1                 |> ardour:Loop3 VX/audio_in 1
+sooperlooper:loop2_out_2                 |> REAPER:in18
 sooperlooper:loop2_out_2                 |> ardour:Loop3 DPA/audio_in 1
+sooperlooper:loop2_out_3                 |> REAPER:in19
 sooperlooper:loop2_out_3                 |> ardour:Loop3Piezz/audio_in 1
+sooperlooper:loop2_out_4                 |> REAPER:in20
 sooperlooper:loop2_out_4                 |> ardour:Loop3Piezz/audio_in 2
+sooperlooper:loop3_out_1                 |> REAPER:in21
 sooperlooper:loop3_out_1                 |> ardour:Loop4 VX/audio_in 1
+sooperlooper:loop3_out_2                 |> REAPER:in22
 sooperlooper:loop3_out_2                 |> ardour:Loop4 DPA/audio_in 1
+sooperlooper:loop3_out_3                 |> REAPER:in23
 sooperlooper:loop3_out_3                 |> ardour:Loop4Piezz/audio_in 1
+sooperlooper:loop3_out_4                 |> REAPER:in24
 sooperlooper:loop3_out_4                 |> ardour:Loop4Piezz/audio_in 2
+system:capture_1                         |> ardour:LTC-in
+system:capture_1                         |> ardour:Voix/audio_in 1
+system:capture_10                        |> ardour:Zik/audio_in 2
+system:capture_11                        |> ardour:DPA/audio_in 1
+system:capture_12                        |> ardour:TALKBACK/audio_in 1
+system:capture_13                        |> ardour:Table1Audio/audio_in 1
+system:capture_13                        |> ardour:Table1Trigger/audio_in 1
+system:capture_14                        |> ardour:Table2Audio/audio_in 1
+system:capture_14                        |> ardour:Table2Trigger/audio_in 1
+system:capture_15                        |> ardour:Table7Trigger/audio_in 1
+system:capture_2                         |> ardour:CravateAudio/audio_in 1
+system:capture_2                         |> ardour:CravatteTrigger/audio_in 1
+system:capture_3                         |> ardour:CuisseAudio/audio_in 1
+system:capture_3                         |> ardour:CuisseTrigger/audio_in 1
+system:capture_4                         |> ardour:TableBnB Audio/audio_in 1
+system:capture_4                         |> ardour:TableBnBTrigger/audio_in 1
+system:capture_5                         |> ardour:Table3Trigger/audio_in 1
+system:capture_6                         |> ardour:Table4Trigger/audio_in 1
+system:capture_7                         |> ardour:Table5Trigger/audio_in 1
+system:capture_8                         |> ardour:Table6Trigger/audio_in 1
+system:capture_9                         |> ardour:Zik/audio_in 1
