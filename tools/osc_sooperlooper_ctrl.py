@@ -12,7 +12,10 @@ import curses
 import sys
 import signal
 
+import os #pour la bidouille pour le gilet...
+
 import colorsys
+
 
 """
 from utils.pstate_setter import pstate_setter
@@ -20,7 +23,7 @@ from utils.pstate_setter import pstate_setter
 
 #### Define IPs ####
 ip_sooploop = "localhost", 9951
-ip_xosc =  "192.168.1.30", 9000 #"169.254.1.1", 9000
+ip_xosc =  "169.254.1.30", 9000 #"169.254.1.1", 9000
 port = 8000
 
 """
@@ -55,6 +58,8 @@ class MyServer(ServerThread):
         self.frame = 0
         self.allPaused = False
         self.ts = time()
+        
+        self.serverSend = ServerThread(8001)#Contournement en faisant appel a un autre server pour changer de port (necessaire a cause du gilet qui commence a accusé le coup et qu'on ne peut pas changer pour le moment... Pour revenir en arriere il suffit de faire appelle a la commande send sans self.serverSend
 
         try:
             self.sooperlooper = Address(*ip_sooploop)
@@ -244,12 +249,13 @@ class MyServer(ServerThread):
             self.ledState[i * 3] = 0
             self.ledState[i * 3 + 1] = 0
             self.ledState[i * 3 + 2] = 0
-        os.system('echo "' + str(self.ledState) + '" > /tmp/oscdebug.log')
-        send(self.jacket, "/outputs/rgb/16", self.ledState)
+        #os.system('echo "' + str(self.ledState) + '" > /tmp/oscdebug.log')
+        #os.system("python2 -c \"import liblo\nliblo.send(liblo.Address(" + self.jacket.url + ", " + str(self.jacket.port) + ", '/outputs/rgb/16', " + ''.join(self.ledState) + ")\"") #Grosse bidouille !
+        self.serverSend.send(self.jacket, "/outputs/rgb/16", self.ledState) #Contournement en faisant appel a un autre server pour changer de port (necessaire a cause du gilet qui commence a accusé le coup et qu'on ne peut pas changer pour le moment... Pour revenir en arriere il suffit de faire appelle a la commande send sans self.serverSend
 
     def blank(self):
         self.ledState = [0] * (5 * 3)
-        send(self.jacket, "/outputs/rgb/16", self.ledState)
+        self.serverSend.send(self.jacket, "/outputs/rgb/16", self.ledState) #Contournement en faisant appel a un autre server pour changer de port (necessaire a cause du gilet qui commence a accusé le coup et qu'on ne peut pas changer pour le moment... Pour revenir en arriere il suffit de faire appelle a la commande send sans self.serverSend
 
 
 ########## Sooperlooper Send methods ###########
@@ -407,6 +413,7 @@ class MyServer(ServerThread):
         if s == 14.0:
             return .75
         return -1
+
 
 
 """
