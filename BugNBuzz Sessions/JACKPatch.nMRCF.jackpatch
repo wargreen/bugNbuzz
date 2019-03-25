@@ -18,7 +18,6 @@ LinuxSampler:Table 7 L                   |> ardour:Voix Synthé/audio_in 1
 LinuxSampler:Table 7 R                   |> ardour:Voix Synthé/audio_in 2
 LinuxSampler:Table BnB L                 |> ardour:TableBnBSynthAudio/audio_in 1
 LinuxSampler:Table BnB R                 |> ardour:TableBnBSynthAudio/audio_in 2
-a2j:LPD8 [16] (capture): LPD8 MIDI 1     |> ardour:MIDI control in
 ardour:CravateAudio/audio_out 1          |> ardour:PiezzCrav/audio_in 1
 ardour:CravateAudio/audio_out 2          |> ardour:PiezzCrav/audio_in 2
 ardour:CravatteSynthAudio/audio_out 1    |> ardour:PiezzCrav/audio_in 3
