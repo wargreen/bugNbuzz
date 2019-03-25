@@ -1,133 +1,1243 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1530108626" tv-usec="978722" name="Déplacer la région"/>
-  <UndoTransaction tv-sec="1531149188" tv-usec="734633" name="effacer objets">
-    <StatefulDiffCommand obj-id="1304857" type-name="ARDOUR::AudioPlaylist">
-      <Changes>
-        <Regions/>
-      </Changes>
-    </StatefulDiffCommand>
+  <UndoTransaction tv-sec="1552937371" tv-usec="693887" name="ajouter un repère">
+    <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127703" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127707" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1531149191" tv-usec="358950" name="effacer objets">
-    <StatefulDiffCommand obj-id="1304857" type-name="ARDOUR::AudioPlaylist">
-      <Changes>
-        <Regions/>
-      </Changes>
-    </StatefulDiffCommand>
+  <UndoTransaction tv-sec="1552937371" tv-usec="727212" name="ajouter un repère">
+    <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127711" name="mark12" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127707" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127711" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1531149192" tv-usec="487613" name="effacer objets">
-    <StatefulDiffCommand obj-id="1304857" type-name="ARDOUR::AudioPlaylist">
-      <Changes>
-        <Regions/>
-      </Changes>
-    </StatefulDiffCommand>
+  <UndoTransaction tv-sec="1552937371" tv-usec="759822" name="ajouter un repère">
+    <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127711" name="mark12" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127711" name="mark12" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127715" name="mark13" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127711" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127715" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1531149194" tv-usec="37830" name="effacer objets">
-    <StatefulDiffCommand obj-id="1304857" type-name="ARDOUR::AudioPlaylist">
-      <Changes>
-        <Regions/>
-      </Changes>
-    </StatefulDiffCommand>
+  <UndoTransaction tv-sec="1552937371" tv-usec="794012" name="ajouter un repère">
+    <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127711" name="mark12" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127715" name="mark13" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127711" name="mark12" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127715" name="mark13" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127719" name="mark14" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127715" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127719" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1531149195" tv-usec="805569" name="effacer objets">
-    <StatefulDiffCommand obj-id="1304857" type-name="ARDOUR::AudioPlaylist">
-      <Changes>
-        <Regions/>
-      </Changes>
-    </StatefulDiffCommand>
+  <UndoTransaction tv-sec="1552937371" tv-usec="827571" name="ajouter un repère">
+    <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127711" name="mark12" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127715" name="mark13" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127719" name="mark14" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127711" name="mark12" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127715" name="mark13" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127719" name="mark14" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127723" name="mark15" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127719" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127723" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1531149198" tv-usec="29550" name="effacer objets">
-    <StatefulDiffCommand obj-id="1304857" type-name="ARDOUR::AudioPlaylist">
-      <Changes>
-        <Regions/>
-      </Changes>
-    </StatefulDiffCommand>
+  <UndoTransaction tv-sec="1552937371" tv-usec="858123" name="ajouter un repère">
+    <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127711" name="mark12" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127715" name="mark13" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127719" name="mark14" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127723" name="mark15" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127711" name="mark12" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127715" name="mark13" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127719" name="mark14" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127723" name="mark15" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127727" name="mark16" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127723" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127727" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1531149201" tv-usec="117296" name="effacer objets">
-    <StatefulDiffCommand obj-id="1304857" type-name="ARDOUR::AudioPlaylist">
-      <Changes>
-        <Regions/>
-      </Changes>
-    </StatefulDiffCommand>
+  <UndoTransaction tv-sec="1552937371" tv-usec="890944" name="ajouter un repère">
+    <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127711" name="mark12" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127715" name="mark13" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127719" name="mark14" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127723" name="mark15" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127727" name="mark16" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127711" name="mark12" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127715" name="mark13" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127719" name="mark14" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127723" name="mark15" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127727" name="mark16" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127731" name="mark17" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127727" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127731" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1531149202" tv-usec="389474" name="effacer objets">
-    <StatefulDiffCommand obj-id="1304857" type-name="ARDOUR::AudioPlaylist">
-      <Changes>
-        <Regions/>
-      </Changes>
-    </StatefulDiffCommand>
+  <UndoTransaction tv-sec="1552937371" tv-usec="926452" name="ajouter un repère">
+    <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127711" name="mark12" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127715" name="mark13" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127719" name="mark14" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127723" name="mark15" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127727" name="mark16" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127731" name="mark17" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127711" name="mark12" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127715" name="mark13" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127719" name="mark14" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127723" name="mark15" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127727" name="mark16" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127731" name="mark17" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127735" name="mark18" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127731" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127735" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1531149204" tv-usec="381821" name="effacer objets">
-    <StatefulDiffCommand obj-id="1304857" type-name="ARDOUR::AudioPlaylist">
-      <Changes>
-        <Regions/>
-      </Changes>
-    </StatefulDiffCommand>
+  <UndoTransaction tv-sec="1552937371" tv-usec="958479" name="ajouter un repère">
+    <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127711" name="mark12" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127715" name="mark13" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127719" name="mark14" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127723" name="mark15" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127727" name="mark16" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127731" name="mark17" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127735" name="mark18" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127711" name="mark12" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127715" name="mark13" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127719" name="mark14" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127723" name="mark15" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127727" name="mark16" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127731" name="mark17" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127735" name="mark18" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127739" name="mark19" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127735" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127739" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1531149208" tv-usec="621354" name="effacer objets">
-    <StatefulDiffCommand obj-id="1304857" type-name="ARDOUR::AudioPlaylist">
-      <Changes>
-        <Regions/>
-      </Changes>
-    </StatefulDiffCommand>
+  <UndoTransaction tv-sec="1552937371" tv-usec="990937" name="ajouter un repère">
+    <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127711" name="mark12" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127715" name="mark13" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127719" name="mark14" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127723" name="mark15" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127727" name="mark16" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127731" name="mark17" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127735" name="mark18" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127739" name="mark19" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127711" name="mark12" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127715" name="mark13" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127719" name="mark14" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127723" name="mark15" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127727" name="mark16" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127731" name="mark17" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127735" name="mark18" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127739" name="mark19" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127743" name="mark20" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127739" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127743" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1531149232" tv-usec="430109" name="Déplacer la région"/>
-  <UndoTransaction tv-sec="1531149233" tv-usec="892607" name="effacer objets">
-    <StatefulDiffCommand obj-id="1304857" type-name="ARDOUR::AudioPlaylist">
-      <Changes>
-        <Regions/>
-      </Changes>
-    </StatefulDiffCommand>
+  <UndoTransaction tv-sec="1552937372" tv-usec="25006" name="ajouter un repère">
+    <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127711" name="mark12" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127715" name="mark13" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127719" name="mark14" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127723" name="mark15" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127727" name="mark16" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127731" name="mark17" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127735" name="mark18" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127739" name="mark19" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127743" name="mark20" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127711" name="mark12" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127715" name="mark13" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127719" name="mark14" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127723" name="mark15" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127727" name="mark16" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127731" name="mark17" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127735" name="mark18" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127739" name="mark19" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127743" name="mark20" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127747" name="mark21" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127743" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127747" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1531409165" tv-usec="641401" name="Capturer">
-    <StatefulDiffCommand obj-id="288" type-name="ARDOUR::AudioPlaylist">
-      <Changes>
-        <Regions>
-          <Add id="3736053"/>
-        </Regions>
-      </Changes>
-    </StatefulDiffCommand>
+  <UndoTransaction tv-sec="1552937372" tv-usec="58738" name="ajouter un repère">
+    <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127711" name="mark12" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127715" name="mark13" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127719" name="mark14" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127723" name="mark15" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127727" name="mark16" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127731" name="mark17" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127735" name="mark18" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127739" name="mark19" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127743" name="mark20" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127747" name="mark21" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127711" name="mark12" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127715" name="mark13" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127719" name="mark14" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127723" name="mark15" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127727" name="mark16" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127731" name="mark17" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127735" name="mark18" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127739" name="mark19" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127743" name="mark20" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127747" name="mark21" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127751" name="mark22" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127747" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127751" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1531829017" tv-usec="593118" name="Capturer">
-    <StatefulDiffCommand obj-id="1304857" type-name="ARDOUR::AudioPlaylist">
-      <Changes>
-        <Regions/>
-      </Changes>
-    </StatefulDiffCommand>
+  <UndoTransaction tv-sec="1552937372" tv-usec="90321" name="ajouter un repère">
+    <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127711" name="mark12" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127715" name="mark13" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127719" name="mark14" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127723" name="mark15" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127727" name="mark16" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127731" name="mark17" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127735" name="mark18" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127739" name="mark19" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127743" name="mark20" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127747" name="mark21" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127751" name="mark22" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127711" name="mark12" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127715" name="mark13" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127719" name="mark14" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127723" name="mark15" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127727" name="mark16" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127731" name="mark17" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127735" name="mark18" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127739" name="mark19" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127743" name="mark20" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127747" name="mark21" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127751" name="mark22" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127755" name="mark23" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127751" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127755" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1531829043" tv-usec="436203" name="effacer objets">
-    <StatefulDiffCommand obj-id="1304857" type-name="ARDOUR::AudioPlaylist">
-      <Changes>
-        <Regions/>
-      </Changes>
-    </StatefulDiffCommand>
+  <UndoTransaction tv-sec="1552937372" tv-usec="122315" name="ajouter un repère">
+    <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127711" name="mark12" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127715" name="mark13" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127719" name="mark14" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127723" name="mark15" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127727" name="mark16" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127731" name="mark17" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127735" name="mark18" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127739" name="mark19" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127743" name="mark20" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127747" name="mark21" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127751" name="mark22" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127755" name="mark23" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127711" name="mark12" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127715" name="mark13" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127719" name="mark14" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127723" name="mark15" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127727" name="mark16" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127731" name="mark17" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127735" name="mark18" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127739" name="mark19" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127743" name="mark20" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127747" name="mark21" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127751" name="mark22" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127755" name="mark23" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127759" name="mark24" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127755" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127759" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1531829046" tv-usec="182062" name="effacer intervalle">
-    <StatefulDiffCommand obj-id="1304857" type-name="ARDOUR::AudioPlaylist">
-      <Changes>
-        <Regions/>
-      </Changes>
-    </StatefulDiffCommand>
+  <UndoTransaction tv-sec="1552937372" tv-usec="156989" name="ajouter un repère">
+    <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127711" name="mark12" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127715" name="mark13" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127719" name="mark14" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127723" name="mark15" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127727" name="mark16" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127731" name="mark17" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127735" name="mark18" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127739" name="mark19" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127743" name="mark20" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127747" name="mark21" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127751" name="mark22" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127755" name="mark23" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127759" name="mark24" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127711" name="mark12" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127715" name="mark13" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127719" name="mark14" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127723" name="mark15" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127727" name="mark16" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127731" name="mark17" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127735" name="mark18" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127739" name="mark19" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127743" name="mark20" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127747" name="mark21" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127751" name="mark22" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127755" name="mark23" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127759" name="mark24" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127763" name="mark25" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127759" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127763" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1531829297" tv-usec="210189" name="Capturer">
-    <StatefulDiffCommand obj-id="1304857" type-name="ARDOUR::AudioPlaylist">
-      <Changes>
-        <Regions/>
-      </Changes>
-    </StatefulDiffCommand>
+  <UndoTransaction tv-sec="1552937372" tv-usec="189645" name="ajouter un repère">
+    <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127711" name="mark12" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127715" name="mark13" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127719" name="mark14" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127723" name="mark15" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127727" name="mark16" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127731" name="mark17" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127735" name="mark18" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127739" name="mark19" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127743" name="mark20" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127747" name="mark21" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127751" name="mark22" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127755" name="mark23" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127759" name="mark24" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127763" name="mark25" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127711" name="mark12" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127715" name="mark13" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127719" name="mark14" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127723" name="mark15" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127727" name="mark16" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127731" name="mark17" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127735" name="mark18" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127739" name="mark19" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127743" name="mark20" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127747" name="mark21" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127751" name="mark22" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127755" name="mark23" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127759" name="mark24" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127763" name="mark25" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127767" name="mark26" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127763" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127767" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1552210908" tv-usec="220831" name="effacer objets">
-    <StatefulDiffCommand obj-id="1304857" type-name="ARDOUR::AudioPlaylist">
-      <Changes>
-        <Regions/>
-      </Changes>
-    </StatefulDiffCommand>
+  <UndoTransaction tv-sec="1552937372" tv-usec="223581" name="ajouter un repère">
+    <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127711" name="mark12" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127715" name="mark13" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127719" name="mark14" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127723" name="mark15" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127727" name="mark16" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127731" name="mark17" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127735" name="mark18" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127739" name="mark19" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127743" name="mark20" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127747" name="mark21" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127751" name="mark22" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127755" name="mark23" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127759" name="mark24" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127763" name="mark25" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127767" name="mark26" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127711" name="mark12" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127715" name="mark13" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127719" name="mark14" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127723" name="mark15" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127727" name="mark16" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127731" name="mark17" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127735" name="mark18" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127739" name="mark19" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127743" name="mark20" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127747" name="mark21" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127751" name="mark22" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127755" name="mark23" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127759" name="mark24" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127763" name="mark25" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127767" name="mark26" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127771" name="mark27" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127767" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127771" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1552210911" tv-usec="404600" name="effacer objets">
-    <StatefulDiffCommand obj-id="1304857" type-name="ARDOUR::AudioPlaylist">
-      <Changes>
-        <Regions/>
-      </Changes>
-    </StatefulDiffCommand>
+  <UndoTransaction tv-sec="1552937372" tv-usec="256237" name="ajouter un repère">
+    <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127711" name="mark12" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127715" name="mark13" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127719" name="mark14" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127723" name="mark15" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127727" name="mark16" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127731" name="mark17" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127735" name="mark18" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127739" name="mark19" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127743" name="mark20" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127747" name="mark21" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127751" name="mark22" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127755" name="mark23" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127759" name="mark24" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127763" name="mark25" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127767" name="mark26" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127771" name="mark27" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127711" name="mark12" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127715" name="mark13" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127719" name="mark14" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127723" name="mark15" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127727" name="mark16" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127731" name="mark17" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127735" name="mark18" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127739" name="mark19" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127743" name="mark20" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127747" name="mark21" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127751" name="mark22" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127755" name="mark23" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127759" name="mark24" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127763" name="mark25" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127767" name="mark26" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127771" name="mark27" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127775" name="mark28" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127771" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127775" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1552937372" tv-usec="290358" name="ajouter un repère">
+    <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127711" name="mark12" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127715" name="mark13" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127719" name="mark14" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127723" name="mark15" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127727" name="mark16" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127731" name="mark17" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127735" name="mark18" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127739" name="mark19" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127743" name="mark20" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127747" name="mark21" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127751" name="mark22" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127755" name="mark23" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127759" name="mark24" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127763" name="mark25" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127767" name="mark26" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127771" name="mark27" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127775" name="mark28" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127711" name="mark12" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127715" name="mark13" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127719" name="mark14" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127723" name="mark15" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127727" name="mark16" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127731" name="mark17" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127735" name="mark18" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127739" name="mark19" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127743" name="mark20" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127747" name="mark21" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127751" name="mark22" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127755" name="mark23" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127759" name="mark24" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127763" name="mark25" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127767" name="mark26" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127771" name="mark27" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127775" name="mark28" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127779" name="mark29" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127775" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127779" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1552937372" tv-usec="323482" name="ajouter un repère">
+    <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127711" name="mark12" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127715" name="mark13" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127719" name="mark14" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127723" name="mark15" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127727" name="mark16" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127731" name="mark17" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127735" name="mark18" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127739" name="mark19" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127743" name="mark20" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127747" name="mark21" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127751" name="mark22" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127755" name="mark23" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127759" name="mark24" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127763" name="mark25" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127767" name="mark26" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127771" name="mark27" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127775" name="mark28" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127779" name="mark29" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127613" name="mark1" start="138912" end="138912" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127671" name="mark2" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127675" name="mark3" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127679" name="mark4" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127683" name="mark5" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127687" name="mark6" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127691" name="mark7" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127695" name="mark8" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127699" name="mark9" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127703" name="mark10" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127707" name="mark11" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127711" name="mark12" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127715" name="mark13" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127719" name="mark14" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127723" name="mark15" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127727" name="mark16" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127731" name="mark17" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127735" name="mark18" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127739" name="mark19" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127743" name="mark20" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127747" name="mark21" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127751" name="mark22" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127755" name="mark23" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127759" name="mark24" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127763" name="mark25" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127767" name="mark26" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127771" name="mark27" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127775" name="mark28" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127779" name="mark29" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+        <Location id="5127783" name="mark30" start="143088" end="143088" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127779" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="454038" left-frame="0" y-origin="64">
+        <Selection>
+          <Marker id="5127783" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
   </UndoTransaction>
 </UndoHistory>
