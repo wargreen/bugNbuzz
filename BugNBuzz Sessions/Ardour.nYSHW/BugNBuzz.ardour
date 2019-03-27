@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="BugNBuzz" sample-rate="48000" end-is-free="1" id-counter="5502961" name-counter="7" event-counter="7124345" vca-counter="2">
+<Session version="3002" name="BugNBuzz" sample-rate="48000" end-is-free="1" id-counter="5622267" name-counter="7" event-counter="10104670" vca-counter="2">
   <ProgramVersion created-with="unknown" modified-with="Ardour 5.12"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -195,7 +195,7 @@
     <Region name="REC-20" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="816" position="142272" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="5127641" type="audio" first-edit="nothing" source-0="5127597" source-1="5127599" master-source-0="5127597" master-source-1="5127599" channels="2"/>
   </Regions>
   <Selection>
-    <StripableAutomationControl stripable="483" control="0" order="2"/>
+    <StripableAutomationControl stripable="331" control="0" order="2"/>
   </Selection>
   <Locations>
     <Location id="1701437" name="session" start="0" end="505150831" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
@@ -632,7 +632,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="1082304" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="51" flags="GainLike" value="1.2803564071655273"/>
+        <Controllable name="gaincontrol" id="51" flags="GainLike" value="0.84912091493606567"/>
       </Processor>
       <Processor id="55" name="meter-Master" active="1" user-latency="0" type="meter"/>
       <Processor id="56" name="Master" active="1" user-latency="0" own-input="1" own-output="0" output="Master" type="main-outs" role="Main">
@@ -982,7 +982,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="1082409" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="278" flags="GainLike" value="0.98749661445617676"/>
+        <Controllable name="gaincontrol" id="278" flags="GainLike" value="0.67347002029418945"/>
       </Processor>
       <Processor id="283" name="Voix" active="1" user-latency="0" own-input="1" own-output="0" output="Voix" type="main-outs" role="Main">
         <PannerShell bypassed="1" user-panner="" linked-to-route="1"/>
@@ -1370,7 +1370,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="1082717" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="354" flags="GainLike" value="0.24434305727481842"/>
+        <Controllable name="gaincontrol" id="354" flags="GainLike" value="0.066856019198894501"/>
       </Processor>
       <Processor id="359" name="PiezzCrav" active="1" user-latency="0" own-input="1" own-output="0" output="PiezzCrav" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
@@ -1545,8 +1545,8 @@
           <Connection other="sooperlooper:loop3_in_4"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
-      <Controllable name="mute" id="411" flags="Toggle" value="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
+      <Controllable name="mute" id="411" flags="Toggle" value="1"/>
       <Controllable name="phase" id="1082882" flags="Toggle" value="0" phase-invert="0000"/>
       <Automation>
         <AutomationList automation-id="solo" id="1082877" interpolation-style="Discrete" state="Off"/>
@@ -1645,7 +1645,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="1082873" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="430" flags="GainLike" value="0.14003507792949677"/>
+        <Controllable name="gaincontrol" id="430" flags="GainLike" value="0.87383991479873657"/>
       </Processor>
       <Processor id="435" name="Table1" active="1" user-latency="0" own-input="1" own-output="0" output="Table1" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
@@ -1963,7 +1963,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="1083107" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="544" flags="GainLike" value="0.71018731594085693"/>
+        <Controllable name="gaincontrol" id="544" flags="GainLike" value="0.32587257027626038"/>
       </Processor>
       <Processor id="549" name="Table2" active="1" user-latency="0" own-input="1" own-output="0" output="Table2" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
@@ -5485,7 +5485,7 @@
         </Automation>
         <Controllable name="gaincontrol" id="1227197" flags="GainLike" value="1"/>
       </Processor>
-      <Processor id="4759432" name="Tal-Reverb-III" active="1" user-latency="0" type="lv2" unique-id="urn:juce:TalReverb3" count="1" custom="0">
+      <Processor id="4759432" name="Tal-Reverb-III" active="0" user-latency="0" type="lv2" unique-id="urn:juce:TalReverb3" count="1" custom="0">
         <Automation>
           <AutomationList automation-id="parameter-0" id="4759433" interpolation-style="Discrete" state="Off"/>
           <AutomationList automation-id="parameter-6" id="4759435" interpolation-style="Linear" state="Off"/>
@@ -5543,7 +5543,7 @@
         <Controllable name="stereo input" id="4759452" flags="" value="0" parameter="14" symbol="stereo_input"/>
         <Controllable name="power" id="4759454" flags="" value="1" parameter="15" symbol="power"/>
       </Processor>
-      <Processor id="4759472" name="Calf Limiter" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Limiter" count="1" custom="0">
+      <Processor id="4759472" name="Calf Limiter" active="0" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Limiter" count="1" custom="0">
         <Automation>
           <AutomationList automation-id="parameter-4" id="4759473" interpolation-style="Discrete" state="Off"/>
           <AutomationList automation-id="parameter-5" id="4759475" interpolation-style="Linear" state="Off"/>
@@ -7272,8 +7272,8 @@
           <AutomationList automation-id="parameter-5" id="1287681" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="1287683" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="1287685" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="5488023" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="5488025" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="5607279" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="5607281" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -7450,8 +7450,8 @@
           <AutomationList automation-id="parameter-5" id="5304417" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="5304419" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="5304421" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="5488109" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="5488111" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="5607365" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="5607367" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -7634,8 +7634,8 @@
           <AutomationList automation-id="parameter-5" id="2278005" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="2278007" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="2278009" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="5488195" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="5488197" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="5607451" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="5607453" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -7658,7 +7658,7 @@
         <ThruMap/>
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
           <Port symbol="threshold" value="-71.340255737304688"/>
-          <Port symbol="midinote" value="0"/>
+          <Port symbol="midinote" value="1"/>
           <Port symbol="mididuration" value="181.23194885253906"/>
           <Port symbol="velocity_min" value="110"/>
           <Port symbol="velocity_scale" value="3.1855611801147461"/>
@@ -7667,7 +7667,7 @@
           <Port symbol="filter_bandwidth" value="120"/>
         </lv2>
         <Controllable name="Signal Level Theshold [dBFS, RMS]" id="2278000" flags="" value="-71.340255737304688" parameter="2" symbol="threshold"/>
-        <Controllable name="Midi Note" id="2278002" flags="" value="0" parameter="3" symbol="midinote"/>
+        <Controllable name="Midi Note" id="2278002" flags="" value="1" parameter="3" symbol="midinote"/>
         <Controllable name="Note Duration [ms]" id="2278004" flags="" value="181.23194885253906" parameter="4" symbol="mididuration"/>
         <Controllable name="Midi Velocity Minimum" id="2278006" flags="" value="110" parameter="5" symbol="velocity_min"/>
         <Controllable name="Midi Velocity Scale Factor" id="2278008" flags="" value="3.1855611801147461" parameter="6" symbol="velocity_scale"/>
@@ -7815,8 +7815,8 @@
           <AutomationList automation-id="parameter-5" id="2278085" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="2278087" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="2278089" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="5488281" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="5488283" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="5607537" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="5607539" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -8052,8 +8052,8 @@
 505150831 0.60000002384185791
 </events>
           </AutomationList>
-          <AutomationList automation-id="parameter-8" id="5488369" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="5488371" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="5607625" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="5607627" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -8471,7 +8471,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="3867959" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="3867960" flags="GainLike" value="0.37936285138130188"/>
+        <Controllable name="gaincontrol" id="3867960" flags="GainLike" value="0.83717840909957886"/>
       </Processor>
       <Processor id="3867988" name="meter-Table  3" active="1" user-latency="0" type="meter"/>
       <Processor id="3867989" name="Table5" active="1" user-latency="0" own-input="1" own-output="0" output="Table5" type="main-outs" role="Main">
@@ -8579,8 +8579,8 @@
           <AutomationList automation-id="parameter-5" id="2278064" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="2278066" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="2278068" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="5488651" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="5488653" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="5607907" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="5607909" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -8758,8 +8758,8 @@
           <AutomationList automation-id="parameter-5" id="2278064" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="2278066" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="2278068" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="5488735" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="5488737" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="5607991" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="5607993" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -8937,8 +8937,8 @@
           <AutomationList automation-id="parameter-5" id="2278064" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="2278066" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="2278068" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="5488819" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="5488821" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="5608075" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="5608077" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -9116,8 +9116,8 @@
           <AutomationList automation-id="parameter-5" id="2278064" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="2278066" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="2278068" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="5488905" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="5488907" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="5608161" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="5608163" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -9324,8 +9324,8 @@
           <AutomationList automation-id="parameter-5" id="2278064" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="2278066" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="2278068" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="5488993" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="5488995" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="5608249" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="5608251" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -9348,7 +9348,7 @@
         <ThruMap/>
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
           <Port symbol="threshold" value="-80"/>
-          <Port symbol="midinote" value="0"/>
+          <Port symbol="midinote" value="1"/>
           <Port symbol="mididuration" value="80"/>
           <Port symbol="velocity_min" value="110"/>
           <Port symbol="velocity_scale" value="0.030927779152989388"/>
@@ -9357,7 +9357,7 @@
           <Port symbol="filter_bandwidth" value="120"/>
         </lv2>
         <Controllable name="Signal Level Theshold [dBFS, RMS]" id="3869003" flags="" value="-80" parameter="2" symbol="threshold"/>
-        <Controllable name="Midi Note" id="3869004" flags="" value="0" parameter="3" symbol="midinote"/>
+        <Controllable name="Midi Note" id="3869004" flags="" value="1" parameter="3" symbol="midinote"/>
         <Controllable name="Note Duration [ms]" id="3869005" flags="" value="80" parameter="4" symbol="mididuration"/>
         <Controllable name="Midi Velocity Minimum" id="3869006" flags="" value="110" parameter="5" symbol="velocity_min"/>
         <Controllable name="Midi Velocity Scale Factor" id="3869007" flags="" value="1" parameter="6" symbol="velocity_scale"/>
@@ -10079,8 +10079,8 @@
           <Connection other="sooperlooper:loop3_in_4"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
-      <Controllable name="mute" id="5124883" flags="Toggle,RealTime" value="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
+      <Controllable name="mute" id="5124883" flags="Toggle,RealTime" value="1"/>
       <Controllable name="phase" id="5124885" flags="Toggle" value="0" phase-invert="00"/>
       <Automation>
         <AutomationList automation-id="solo" id="5124880" interpolation-style="Discrete" state="Off"/>
@@ -11687,7 +11687,7 @@
       <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="793" y-size="485"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="69" y-off="24" x-size="620" y-size="370"/>
-      <Window name="audio-midi-setup" visible="0" x-off="370" y-off="248" x-size="636" y-size="398"/>
+      <Window name="audio-midi-setup" visible="0" x-off="279" y-off="0" x-size="636" y-size="398"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="0" x-off="507" y-off="394" x-size="361" y-size="341"/>
       <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -12266,51 +12266,51 @@
       <Window name="PM-2093354-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2093233-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2093236-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-2093299-5468502" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-2093299-5587707" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-2093299-5304389" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-2093299-2278057" visible="0" x-off="350" y-off="80" x-size="830" y-size="351" custom-ui="1"/>
       <Window name="P-2093299-2093370" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-2093299-2093329" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-2093299-2093331" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-2093299-2093332" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-5468502-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-5587707-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-5304389-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2278057-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2093370-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2093329-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2093331-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2093332-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-3868326-5468788" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-3868326-5587993" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-3868326-3868375" visible="0" x-off="299" y-off="405" x-size="830" y-size="322" custom-ui="1"/>
       <Window name="P-3868326-3868401" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-3868326-3868406" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-3868326-3868409" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-3868326-3868410" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-5468788-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-5587993-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3868375-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3868401-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3868406-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3868409-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3868410-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-3868485-5468872" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-3868485-5588077" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-3868485-3868534" visible="0" x-off="237" y-off="0" x-size="830" y-size="352" custom-ui="1"/>
       <Window name="P-3868485-3868560" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-3868485-3868565" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-3868485-3868568" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-3868485-3868569" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-5468872-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-5588077-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3868534-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3868560-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3868565-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3868568-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3868569-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-3868644-5468956" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-3868644-5588161" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-3868644-3868693" visible="0" x-off="201" y-off="0" x-size="742" y-size="351" custom-ui="1"/>
       <Window name="P-3868644-3868719" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-3868644-3868724" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-3868644-3868727" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-3868644-3868728" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-5468956-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-5588161-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3868693-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3868719-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3868724-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -12328,14 +12328,14 @@
       <Window name="PM-3868883-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3868886-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3868887-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-3868962-5469126" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-3868962-5588331" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-3868962-5126242" visible="0" x-off="421" y-off="195" x-size="847" y-size="197" custom-ui="1"/>
-      <Window name="P-3868962-3869011" visible="0" x-off="237" y-off="0" x-size="830" y-size="322" custom-ui="1"/>
+      <Window name="P-3868962-3869011" visible="0" x-off="237" y-off="26" x-size="830" y-size="322" custom-ui="1"/>
       <Window name="P-3868962-3869037" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-3868962-3869042" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-3868962-3869045" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-3868962-3869046" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-5469126-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-5588331-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-5126242-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3869011-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3869037-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -12468,13 +12468,13 @@
       <Window name="PM-3874988-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-1265142-1265173" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-1265142-1265174" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1265142-5467588" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1265142-5586793" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-1265142-1265191" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-1265142-1265172" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-1265142-1265175" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-1265173-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-1265174-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-5467588-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-5586793-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-1265191-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-1265172-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-1265175-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -13861,6 +13861,11 @@
           <Object id="processor 5427912"/>
           <Object id="processor 5447750"/>
           <Object id="processor 5467588"/>
+          <Object id="processor 5507295"/>
+          <Object id="processor 5527153"/>
+          <Object id="processor 5547024"/>
+          <Object id="processor 5566902"/>
+          <Object id="processor 5586793"/>
         </Object>
         <Object id="rtav 1304815" height="174" visible="1"/>
         <Object id="automation 1304819" height="68" visible="0"/>
@@ -14241,6 +14246,11 @@
           <Object id="processor 5428826"/>
           <Object id="processor 5448664"/>
           <Object id="processor 5468502"/>
+          <Object id="processor 5508209"/>
+          <Object id="processor 5528067"/>
+          <Object id="processor 5547938"/>
+          <Object id="processor 5567816"/>
+          <Object id="processor 5587707"/>
         </Object>
         <Object id="vtv 2097486" height="68"/>
         <Object id="vtv 2108088" height="68"/>
@@ -14541,6 +14551,11 @@
           <Object id="processor 5429112"/>
           <Object id="processor 5448950"/>
           <Object id="processor 5468788"/>
+          <Object id="processor 5508495"/>
+          <Object id="processor 5528353"/>
+          <Object id="processor 5548224"/>
+          <Object id="processor 5568102"/>
+          <Object id="processor 5587993"/>
         </Object>
         <Object id="strip 3868485" visible="1" strip-width="Wide">
           <Object id="processor 3868505">
@@ -14605,6 +14620,11 @@
           <Object id="processor 5429196"/>
           <Object id="processor 5449034"/>
           <Object id="processor 5468872"/>
+          <Object id="processor 5508579"/>
+          <Object id="processor 5528437"/>
+          <Object id="processor 5548308"/>
+          <Object id="processor 5568186"/>
+          <Object id="processor 5588077"/>
         </Object>
         <Object id="strip 3868644" visible="1" strip-width="Wide">
           <Object id="processor 3868664">
@@ -14670,6 +14690,11 @@
           <Object id="processor 5429280"/>
           <Object id="processor 5449118"/>
           <Object id="processor 5468956"/>
+          <Object id="processor 5508663"/>
+          <Object id="processor 5528521"/>
+          <Object id="processor 5548392"/>
+          <Object id="processor 5568270"/>
+          <Object id="processor 5588161"/>
         </Object>
         <Object id="strip 3868803" visible="1" strip-width="Wide">
           <Object id="processor 3868823">
@@ -14793,6 +14818,11 @@
           <Object id="processor 5429450"/>
           <Object id="processor 5449288"/>
           <Object id="processor 5469126"/>
+          <Object id="processor 5508833"/>
+          <Object id="processor 5528691"/>
+          <Object id="processor 5548562"/>
+          <Object id="processor 5568440"/>
+          <Object id="processor 5588331"/>
         </Object>
         <Object id="rtav 3874500" height="64" visible="1"/>
         <Object id="automation 3874550" height="64" visible="0"/>
@@ -14967,6 +14997,11 @@
         <Object id="vtv 5424779" height="68"/>
         <Object id="vtv 5444617" height="68"/>
         <Object id="vtv 5464455" height="68"/>
+        <Object id="vtv 5504162" height="68"/>
+        <Object id="vtv 5524020" height="68"/>
+        <Object id="vtv 5543891" height="68"/>
+        <Object id="vtv 5563769" height="68"/>
+        <Object id="vtv 5583660" height="68"/>
       </GUIObjectState>
     </UI>
     <Videomonitor active="0"/>

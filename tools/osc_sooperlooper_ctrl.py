@@ -190,7 +190,7 @@ class MyServer(ServerThread):
                         send(self.sooperlooper, "/sl/" + str(l - 1) + 
                             "/set", "wet", float(potar[l]))
                 else:
-                    send(self.ardour, "/strip/plugin/parameter", 3, 1, 1,
+                    send(self.ardour, "/strip/plugin/parameter", 5, 1, 1,
                         float(potar[l] * 2 - 1))
     
     
