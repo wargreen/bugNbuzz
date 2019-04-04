@@ -23,7 +23,7 @@ from utils.pstate_setter import pstate_setter
 
 #### Define IPs ####
 ip_sooploop = "localhost", 9951
-ip_xosc =  "169.254.1.30", 9000 #"169.254.1.1", 9000
+ip_xosc =  "172.16.9.30", 9000 #"169.254.1.1", 9000
 port = 8000
 
 """
