@@ -184,6 +184,10 @@ class MyServer(ServerThread):
         potar = [0, 0, 0, 0, 0]
         for l in range(5):
             if potar[l] != args[l]:                    
+                if args[l] >= 0.97 :
+                        args[l] = 1
+                if args[l] < 0.01 :
+                        args[l] = 0
                 potar[l] = args[l]
                 self.stdscr.addstr(l + 4, 35, str(int(100.0 * potar[l])) + " % ")
                 if l != 0:
