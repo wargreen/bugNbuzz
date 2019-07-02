@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="BugNBuzz" sample-rate="48000" end-is-free="1" id-counter="6514217" name-counter="7" event-counter="15148418" vca-counter="2">
+<Session version="3002" name="BugNBuzz" sample-rate="48000" end-is-free="1" id-counter="6514219" name-counter="7" event-counter="15294182" vca-counter="2">
   <ProgramVersion created-with="unknown" modified-with="Ardour 5.12"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -644,7 +644,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="1082304" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="51" flags="GainLike" value="0.29960495233535767"/>
+        <Controllable name="gaincontrol" id="51" flags="GainLike" value="0.11163919419050217"/>
       </Processor>
       <Processor id="55" name="meter-Master" active="1" user-latency="0" type="meter"/>
       <Processor id="56" name="Master" active="1" user-latency="0" own-input="1" own-output="0" output="Master" type="main-outs" role="Main">
@@ -1238,7 +1238,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="1082409" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="278" flags="GainLike" value="1.2625784873962402"/>
+        <Controllable name="gaincontrol" id="278" flags="GainLike" value="1.3477146625518799"/>
       </Processor>
       <Processor id="283" name="Voix" active="1" user-latency="0" own-input="1" own-output="0" output="Voix" type="main-outs" role="Main">
         <PannerShell bypassed="1" user-panner="" linked-to-route="1"/>
@@ -1526,8 +1526,8 @@
         </Port>
         <Port type="midi" name="PiezzCrav/midi_out 1"/>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
-      <Controllable name="mute" id="335" flags="Toggle" value="1"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="335" flags="Toggle" value="0"/>
       <Controllable name="phase" id="1082726" flags="Toggle" value="0" phase-invert="0000"/>
       <Automation>
         <AutomationList automation-id="solo" id="1082721" interpolation-style="Discrete" state="Off"/>
@@ -1588,11 +1588,11 @@
         </OutputMap-0>
         <ThruMap/>
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
-          <Port symbol="xfade" value="1"/>
+          <Port symbol="xfade" value="-0.8691246509552002"/>
           <Port symbol="shape" value="0.6597931981086731"/>
           <Port symbol="mode" value="0"/>
         </lv2>
-        <Controllable name="Signal A/B" id="84951" flags="" value="1" parameter="0" symbol="xfade"/>
+        <Controllable name="Signal A/B" id="84951" flags="" value="-0.8691246509552002" parameter="0" symbol="xfade"/>
         <Controllable name="Shape" id="84953" flags="" value="0.6597931981086731" parameter="1" symbol="shape"/>
         <Controllable name="Mode" id="84955" flags="" value="0" parameter="2" symbol="mode"/>
       </Processor>
@@ -1943,7 +1943,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="1083029" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="506" flags="GainLike" value="2"/>
+        <Controllable name="gaincontrol" id="506" flags="GainLike" value="0.85917586088180542"/>
       </Processor>
       <Processor id="511" name="TableBnB" active="1" user-latency="0" own-input="1" own-output="0" output="TableBnB" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
@@ -2068,11 +2068,11 @@
         </OutputMap-0>
         <ThruMap/>
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
-          <Port symbol="xfade" value="-0.069767951965332031"/>
+          <Port symbol="xfade" value="0"/>
           <Port symbol="shape" value="0.58296114206314087"/>
           <Port symbol="mode" value="0"/>
         </lv2>
-        <Controllable name="Signal A/B" id="84951" flags="" value="-0.069767951965332031" parameter="0" symbol="xfade"/>
+        <Controllable name="Signal A/B" id="84951" flags="" value="0" parameter="0" symbol="xfade"/>
         <Controllable name="Shape" id="84953" flags="" value="0.58296114206314087" parameter="1" symbol="shape"/>
         <Controllable name="Mode" id="84955" flags="" value="0" parameter="2" symbol="mode"/>
       </Processor>
@@ -7771,7 +7771,6 @@
       <Controllable name="solo-safe" id="2093219" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Table1Trigger" id="2093231" direction="Input" default-type="midi" user-latency="0">
         <Port type="audio" name="Table1Trigger/audio_in 1">
-          <Connection other="system:capture_11"/>
           <Connection other="system:capture_13"/>
         </Port>
         <Port type="midi" name="Table1Trigger/midi_in 1"/>
@@ -8020,9 +8019,9 @@
         </OutputMap-0>
         <ThruMap/>
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
-          <Port symbol="gain" value="34.648628234863281"/>
+          <Port symbol="gain" value="19.997459411621094"/>
         </lv2>
-        <Controllable name="Amps gain (dB)" id="2278102" flags="" value="34.648628234863281" parameter="0" symbol="gain"/>
+        <Controllable name="Amps gain (dB)" id="2278102" flags="" value="19.997459411621094" parameter="0" symbol="gain"/>
       </Processor>
       <Processor id="2278078" name="Onset Trigger - Bassdrum Detection Mono" active="1" user-latency="0" type="lv2" unique-id="http://gareus.org/oss/lv2/onsettrigger#bassdrum_mono" count="1" custom="0">
         <Automation>
@@ -8055,7 +8054,7 @@
         </OutputMap-0>
         <ThruMap/>
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
-          <Port symbol="threshold" value="-80"/>
+          <Port symbol="threshold" value="-66.976753234863281"/>
           <Port symbol="midinote" value="0"/>
           <Port symbol="mididuration" value="80"/>
           <Port symbol="velocity_min" value="64"/>
@@ -8064,7 +8063,7 @@
           <Port symbol="filter_freq" value="60"/>
           <Port symbol="filter_bandwidth" value="40"/>
         </lv2>
-        <Controllable name="Signal Level Theshold [dBFS, RMS]" id="2278080" flags="" value="-80" parameter="2" symbol="threshold"/>
+        <Controllable name="Signal Level Theshold [dBFS, RMS]" id="2278080" flags="" value="-66.976753234863281" parameter="2" symbol="threshold"/>
         <Controllable name="Midi Note" id="2278082" flags="" value="0" parameter="3" symbol="midinote"/>
         <Controllable name="Note Duration [ms]" id="2278084" flags="" value="80" parameter="4" symbol="mididuration"/>
         <Controllable name="Midi Velocity Minimum" id="2278086" flags="" value="64" parameter="5" symbol="velocity_min"/>
@@ -8136,7 +8135,6 @@
       <Controllable name="solo-safe" id="2093315" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Table2Trigger" id="2093327" direction="Input" default-type="midi" user-latency="0">
         <Port type="audio" name="Table2Trigger/audio_in 1">
-          <Connection other="system:capture_11"/>
           <Connection other="system:capture_14"/>
         </Port>
         <Port type="midi" name="Table2Trigger/midi_in 1"/>
@@ -8205,9 +8203,9 @@
         <ThruMap/>
         <luaproc last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
           <script lua="Lua 5.3" origin="/opt/ardour/share/scripts/amp4.lua">YXJkb3VyIHsKCVsidHlwZSJdICAgID0gImRzcCIsCgluYW1lICAgICAgICA9ICJhLUFtcGxpZmllciIsCgljYXRlZ29yeSAgICA9ICJBbXBsaWZpZXIiLAoJbGljZW5zZSAgICAgPSAiTUlUIiwKCWF1dGhvciAgICAgID0gIkFyZG91ciBUZWFtIiwKCWRlc2NyaXB0aW9uID0gW1tWZXJzYXRpbGUgKy8tIDIwZEIgbXVsdGljaGFubmVsIGFtcGxpZmllcl1dCn0KCmZ1bmN0aW9uIGRzcF9pb2NvbmZpZyAoKQoJcmV0dXJuCgl7CgkJLS0gLTEsIC0xID0gYW55IG51bWJlciBvZiBjaGFubmVscyBhcyBsb25nIGFzIGlucHV0IGFuZCBvdXRwdXQgY291bnQgbWF0Y2hlcwoJCXsgYXVkaW9faW4gPSAtMSwgYXVkaW9fb3V0ID0gLTF9LAoJfQplbmQKCgpmdW5jdGlvbiBkc3BfcGFyYW1zICgpCglyZXR1cm4KCXsKCQl7IFsidHlwZSJdID0gImlucHV0IiwgbmFtZSA9ICJHYWluIiwgbWluID0gLTIwLCBtYXggPSAyMCwgZGVmYXVsdCA9IDAsIHVuaXQ9ImRCIn0sCgl9CmVuZAoKbG9jYWwgbHBmID0gMC4wMiAtLSBwYXJhbWV0ZXIgbG93LXBhc3MgZmlsdGVyIHRpbWUtY29uc3RhbnQKbG9jYWwgY3VyX2dhaW4gPSAwIC0tIGN1cnJlbnQgc21vb3RoZWQgZ2FpbiAoZEIpCgotLSBjYWxsZWQgb25jZSB3aGVuIHBsdWdpbiBpcyBpbnN0YW50aWF0ZWQKZnVuY3Rpb24gZHNwX2luaXQgKHJhdGUpCglscGYgPSA3ODAgLyByYXRlIC0tIGludGVycG9sYXRpb24gdGltZSBjb25zdGFudAplbmQKCmZ1bmN0aW9uIGxvd19wYXNzX2ZpbHRlcl9wYXJhbSAob2xkLCBuZXcsIGxpbWl0KQoJaWYgbWF0aC5hYnMgKG9sZCAtIG5ldykgPCBsaW1pdCAgdGhlbgoJCXJldHVybiBuZXcKCWVsc2UKCQlyZXR1cm4gb2xkICsgbHBmICogKG5ldyAtIG9sZCkKCWVuZAplbmQKCi0tIHRoZSBEU1AgY2FsbGJhY2sgZnVuY3Rpb24KLS0gImlucyIgYW5kICJvdXRzIiBhcmUgaHR0cDovL21hbnVhbC5hcmRvdXIub3JnL2x1YS1zY3JpcHRpbmcvY2xhc3NfcmVmZXJlbmNlLyNDOkZsb2F0QXJyYXkKZnVuY3Rpb24gZHNwX3J1biAoaW5zLCBvdXRzLCBuX3NhbXBsZXMpCglsb2NhbCBjdHJsID0gQ3RybFBvcnRzOmFycmF5KCkgLS0gZ2V0IGNvbnRyb2wgcG9ydCBhcnJheSAocmVhZC93cml0ZSkKCWxvY2FsIHNpeiA9IG5fc2FtcGxlcyAtLSBzYW1wbGVzIHJlbWFpbmluZyB0byBwcm9jZXNzCglsb2NhbCBvZmYgPSAwIC0tIGFscmVhZHkgcHJvY2Vzc2VkIHNhbXBsZXMKCWxvY2FsIGNoYW5nZWQgPSBmYWxzZQoKCS0tIGlmIHRoZSBnYWluIHBhcmFtZXRlciB3YXMgY2hhbmdlZCwgcHJvY2VzcyBhdCBtb3N0IDMyIHNhbXBsZXMgYXQgYSB0aW1lCgktLSBhbmQgaW50ZXJwb2xhdGUgZ2FpbiB1bnRpbCB0aGUgY3VycmVudCBzZXR0aW5ncyBtYXRjaCB0aGUgdGFyZ2V0IHZhbHVlcwoJaWYgY3VyX2dhaW4gfj0gY3RybFsxXSB0aGVuCgkJY2hhbmdlZCA9IHRydWUKCQlzaXogPSAzMgoJZW5kCgoJd2hpbGUgbl9zYW1wbGVzID4gMCBkbwoJCWlmIHNpeiA+IG5fc2FtcGxlcyB0aGVuIHNpeiA9IG5fc2FtcGxlcyBlbmQgLS0gcHJvY2VzcyBhdCBtb3N0ICJyZW1haW5pbmcgc2FtcGxlcyIKCQlpZiBjaGFuZ2VkIHRoZW4KCQkJLS0gc21vb3RoIGdhaW4gY2hhbmdlcyBhYm92ZSAwLjAyIGRCIGRpZmZlcmVuY2UKCQkJY3VyX2dhaW4gPSBsb3dfcGFzc19maWx0ZXJfcGFyYW0gKGN1cl9nYWluLCBjdHJsWzFdLCAwLjAyKQoJCWVuZAoKCQlsb2NhbCBnYWluID0gQVJET1VSLkRTUC5kQl90b19jb2VmZmljaWVudCAoY3VyX2dhaW4pIC0tIDEwIF4gKDAuMDUgKiBjdXJfZ2FpbikKCgkJZm9yIGMgPSAxLCNpbnMgZG8gLS0gcHJvY2VzcyBhbGwgY2hhbm5lbHMKCQkJLS0gY2hlY2sgaWYgb3V0cHV0IGFuZCBpbnB1dCBidWZmZXJzIGZvciB0aGlzIGNoYW5uZWwgYXJlIGlkZW50aWNhbAoJCQktLSBodHRwOi8vbWFudWFsLmFyZG91ci5vcmcvbHVhLXNjcmlwdGluZy9jbGFzc19yZWZlcmVuY2UvI0M6RmxvYXRBcnJheQoJCQlpZiBpbnNbY10gfj0gb3V0c1tjXSB0aGVuCgkJCQktLSBodHRwOi8vbWFudWFsLmFyZG91ci5vcmcvbHVhLXNjcmlwdGluZy9jbGFzc19yZWZlcmVuY2UvI0FSRE9VUjpEU1AKCQkJCUFSRE9VUi5EU1AuY29weV92ZWN0b3IgKG91dHNbY106b2Zmc2V0IChvZmYpLCBpbnNbY106b2Zmc2V0IChvZmYpLCBzaXopCgkJCWVuZAoJCQlBUkRPVVIuRFNQLmFwcGx5X2dhaW5fdG9fYnVmZmVyIChvdXRzW2NdOm9mZnNldCAob2ZmKSwgc2l6LCBnYWluKTsgLS0gYXBwbHktZ2FpbiwgcHJvY2VzcyBpbi1wbGFjZQoJCWVuZAoJCW5fc2FtcGxlcyA9IG5fc2FtcGxlcyAtIHNpegoJCW9mZiA9IG9mZiArIHNpegoJZW5kCgotLVtbCglpZiBjaGFuZ2VkIHRoZW4KCQlzZWxmOnF1ZXVlX2RyYXcgKCkgLS0gbm90aWZ5IGRpc3BsYXkKCWVuZAotLV1dCmVuZAoKLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQotLS0gaW5saW5lIGRpc3BsYXkgKyB0ZXh0IGV4YW1wbGUKCi0tW1sKbG9jYWwgdHh0ID0gbmlsIC0tIGNhY2hlIHBhbmdvIGNvbnRleHQgZ2xvYmFsbHkKCmZ1bmN0aW9uIHJlbmRlcl9pbmxpbmUgKGN0eCwgdywgbWF4X2gpCglsb2NhbCBjdHJsID0gQ3RybFBvcnRzOmFycmF5ICgpIC0tIGdldCBjb250cm9sIHBvcnRzCgoJaWYgbm90IHR4dCB0aGVuCgkJLS0gYWxsb2NhdGUgUGFuZ29MYXlvdXQgYW5kIHNldCBmb250CgkJLS1odHRwOi8vbWFudWFsLmFyZG91ci5vcmcvbHVhLXNjcmlwdGluZy9jbGFzc19yZWZlcmVuY2UvI0NhaXJvOlBhbmdvTGF5b3V0CgkJdHh0ID0gQ2Fpcm8uUGFuZ29MYXlvdXQgKGN0eCwgIk1vbm8gOHB4IikKCWVuZAoKCXR4dDpzZXRfdGV4dCAoc3RyaW5nLmZvcm1hdCAoIiUrLjJmIGRCIiwgY3RybFsxXSkpOwoJdHcsIHRoID0gdHh0OmdldF9waXhlbF9zaXplICgpCgoJbG9jYWwgaCA9IHRoICsgNCAtLSB1c2UgdGV4dC1oZWlnaHQgd2l0aCA0cHggcGFkZGluZwoJaWYgKGggPiBtYXhfaCkgdGhlbiBoID0gbWF4X2ggZW5kIC0tIGJ1dCBhdCBtb3N0IG1heC1oZWlnaHQKCgktLSBjbGVhciBiYWNrZ3JvdW5kCgljdHg6cmVjdGFuZ2xlICgwLCAwLCB3LCBoKQoJY3R4OnNldF9zb3VyY2VfcmdiYSAoLjIsIC4yLCAuMiwgMS4wKQoJY3R4OmZpbGwgKCkKCgktLSBjZW50ZXIgdGV4dAoJY3R4OnNldF9zb3VyY2VfcmdiYSAoLjgsIC44LCAuOCwgMS4wKQoJY3R4Om1vdmVfdG8gKC41ICogKHcgLSB0dyksIC41ICogKGggLSB0aCkpCgl0eHQ6c2hvd19pbl9jYWlyb19jb250ZXh0IChjdHgpCgoJcmV0dXJuIHt3LCBofQplbmQKLS1dXQo=</script>
-          <Port id="0" value="6.0465011596679688"/>
+          <Port id="0" value="-1.33514404296875e-05"/>
         </luaproc>
-        <Controllable name="Gain" id="5304391" flags="" value="6.0465011596679688" parameter="0"/>
+        <Controllable name="Gain" id="5304391" flags="" value="-1.33514404296875e-05" parameter="0"/>
       </Processor>
       <Processor id="2278057" name="Onset Trigger - Bassdrum Detection Mono" active="1" user-latency="0" type="lv2" unique-id="http://gareus.org/oss/lv2/onsettrigger#bassdrum_mono" count="1" custom="0">
         <Automation>
@@ -8264,7 +8262,7 @@
         </OutputMap-0>
         <ThruMap/>
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
-          <Port symbol="threshold" value="-60.465164184570312"/>
+          <Port symbol="threshold" value="-59.534931182861328"/>
           <Port symbol="midinote" value="0"/>
           <Port symbol="mididuration" value="80"/>
           <Port symbol="velocity_min" value="16"/>
@@ -8273,7 +8271,7 @@
           <Port symbol="filter_freq" value="95.87628173828125"/>
           <Port symbol="filter_bandwidth" value="120"/>
         </lv2>
-        <Controllable name="Signal Level Theshold [dBFS, RMS]" id="2278059" flags="" value="-60.465164184570312" parameter="2" symbol="threshold"/>
+        <Controllable name="Signal Level Theshold [dBFS, RMS]" id="2278059" flags="" value="-59.534931182861328" parameter="2" symbol="threshold"/>
         <Controllable name="Midi Note" id="2278061" flags="" value="0" parameter="3" symbol="midinote"/>
         <Controllable name="Note Duration [ms]" id="2278063" flags="" value="80" parameter="4" symbol="mididuration"/>
         <Controllable name="Midi Velocity Minimum" id="2278065" flags="" value="16" parameter="5" symbol="velocity_min"/>
@@ -8365,8 +8363,8 @@
           <Connection other="sooperlooper:loop3_in_4"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Main" muted="0"/>
-      <Controllable name="mute" id="3867866" flags="Toggle,RealTime" value="0"/>
+      <MuteMaster mute-point="PostFader,Main" muted="1"/>
+      <Controllable name="mute" id="3867866" flags="Toggle,RealTime" value="1"/>
       <Controllable name="phase" id="3867868" flags="Toggle" value="0" phase-invert="00"/>
       <Automation>
         <AutomationList automation-id="solo" id="3867863" interpolation-style="Discrete" state="Off"/>
@@ -8597,8 +8595,8 @@
           <Connection other="sooperlooper:loop3_in_4"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Main" muted="0"/>
-      <Controllable name="mute" id="3867966" flags="Toggle,RealTime" value="0"/>
+      <MuteMaster mute-point="PostFader,Main" muted="1"/>
+      <Controllable name="mute" id="3867966" flags="Toggle,RealTime" value="1"/>
       <Controllable name="phase" id="3867968" flags="Toggle" value="0" phase-invert="00"/>
       <Automation>
         <AutomationList automation-id="solo" id="3867963" interpolation-style="Discrete" state="Off"/>
@@ -8693,7 +8691,6 @@
       <Controllable name="solo-safe" id="3868423" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Table3Trigger" id="3868327" direction="Input" default-type="midi" user-latency="0">
         <Port type="audio" name="Table3Trigger/audio_in 1">
-          <Connection other="system:capture_11"/>
           <Connection other="system:capture_5"/>
         </Port>
         <Port type="midi" name="Table3Trigger/midi_in 1"/>
@@ -8874,7 +8871,6 @@
       <Controllable name="solo-safe" id="3868582" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Table4Trigger" id="3868486" direction="Input" default-type="midi" user-latency="0">
         <Port type="audio" name="Table4Trigger/audio_in 1">
-          <Connection other="system:capture_11"/>
           <Connection other="system:capture_6"/>
         </Port>
         <Port type="midi" name="Table4Trigger/midi_in 1"/>
@@ -9055,7 +9051,6 @@
       <Controllable name="solo-safe" id="3868741" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Table5Trigger" id="3868645" direction="Input" default-type="midi" user-latency="0">
         <Port type="audio" name="Table5Trigger/audio_in 1">
-          <Connection other="system:capture_11"/>
           <Connection other="system:capture_7"/>
         </Port>
         <Port type="midi" name="Table5Trigger/midi_in 1"/>
@@ -9155,7 +9150,7 @@
         </OutputMap-0>
         <ThruMap/>
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
-          <Port symbol="threshold" value="-67.906997680664062"/>
+          <Port symbol="threshold" value="-76.279075622558594"/>
           <Port symbol="midinote" value="0"/>
           <Port symbol="mididuration" value="80"/>
           <Port symbol="velocity_min" value="103"/>
@@ -9164,7 +9159,7 @@
           <Port symbol="filter_freq" value="261.80361938476562"/>
           <Port symbol="filter_bandwidth" value="120"/>
         </lv2>
-        <Controllable name="Signal Level Theshold [dBFS, RMS]" id="3868685" flags="" value="-67.906997680664062" parameter="2" symbol="threshold"/>
+        <Controllable name="Signal Level Theshold [dBFS, RMS]" id="3868685" flags="" value="-76.279075622558594" parameter="2" symbol="threshold"/>
         <Controllable name="Midi Note" id="3868686" flags="" value="0" parameter="3" symbol="midinote"/>
         <Controllable name="Note Duration [ms]" id="3868687" flags="" value="80" parameter="4" symbol="mididuration"/>
         <Controllable name="Midi Velocity Minimum" id="3868688" flags="" value="103" parameter="5" symbol="velocity_min"/>
@@ -10436,7 +10431,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="5124876" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="5124877" flags="GainLike" value="1.4367232322692871"/>
+        <Controllable name="gaincontrol" id="5124877" flags="GainLike" value="1.7279865741729736"/>
       </Processor>
       <Processor id="5124905" name="meter-Voix Synthé" active="1" user-latency="0" type="meter"/>
       <Processor id="5124906" name="Voix Synthé" active="1" user-latency="0" own-input="1" own-output="0" output="Voix Synthé" type="main-outs" role="Main">
@@ -11000,9 +10995,9 @@
         </OutputMap-0>
         <ThruMap/>
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
-          <Port symbol="xfade" value="0"/>
+          <Port symbol="xfade" value="0.0099999997764825821"/>
         </lv2>
-        <Controllable name="Crossfade" id="5782087" flags="" value="0" parameter="0" symbol="xfade"/>
+        <Controllable name="Crossfade" id="5782087" flags="" value="0.0099999997764825821" parameter="0" symbol="xfade"/>
       </Processor>
       <Processor id="5822156" name="Monitor" active="0" user-latency="0" own-input="1" own-output="1" type="intsend" role="Listen" selfdestruct="0" target="58" allow-feedback="0">
         <Automation>
