@@ -226,12 +226,7 @@ system:capture_1                         |> ardour:VoixSynthTriger/audio_in 1
 system:capture_10                        |> ardour:Zik/audio_in 2
 system:capture_11                        |> ardour:DPA/audio_in 1
 system:capture_11                        |> ardour:Table1Audio/audio_in 1
-system:capture_11                        |> ardour:Table1Trigger/audio_in 1
 system:capture_11                        |> ardour:Table2Audio/audio_in 1
-system:capture_11                        |> ardour:Table2Trigger/audio_in 1
-system:capture_11                        |> ardour:Table3Trigger/audio_in 1
-system:capture_11                        |> ardour:Table4Trigger/audio_in 1
-system:capture_11                        |> ardour:Table5Trigger/audio_in 1
 system:capture_12                        |> ardour:TALKBACK/audio_in 1
 system:capture_13                        |> ardour:Table1Audio/audio_in 1
 system:capture_13                        |> ardour:Table1Trigger/audio_in 1
