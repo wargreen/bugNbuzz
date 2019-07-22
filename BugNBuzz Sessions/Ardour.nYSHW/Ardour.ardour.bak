@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="BugNBuzz" sample-rate="48000" end-is-free="1" id-counter="6936038" name-counter="7" event-counter="15555895" vca-counter="2">
+<Session version="3002" name="BugNBuzz" sample-rate="48000" end-is-free="1" id-counter="6957206" name-counter="7" event-counter="15557033" vca-counter="2">
   <ProgramVersion created-with="unknown" modified-with="Ardour 5.12"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -7415,7 +7415,7 @@
       </IO>
       <IO name="CravatteTrigger" id="2091824" direction="Output" default-type="midi" user-latency="0">
         <Port type="midi" name="CravatteTrigger/midi_out 1">
-          <Connection other="system:midi_playback_6"/>
+          <Connection other="system:midi_playback_8"/>
         </Port>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
@@ -7481,8 +7481,8 @@
           <AutomationList automation-id="parameter-5" id="1287681" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="1287683" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="1287685" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="6919888" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="6919890" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="6941079" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="6941081" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -7560,7 +7560,7 @@
         </OutputMap-0>
         <ThruMap/>
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
-          <Port symbol="chn1" value="1"/>
+          <Port symbol="chn1" value="3"/>
           <Port symbol="chn2" value="2"/>
           <Port symbol="chn3" value="3"/>
           <Port symbol="chn4" value="4"/>
@@ -7577,7 +7577,7 @@
           <Port symbol="chn15" value="15"/>
           <Port symbol="chn16" value="16"/>
         </lv2>
-        <Controllable name="Channel  1 to" id="6935669" flags="" value="1" parameter="3" symbol="chn1"/>
+        <Controllable name="Channel  1 to" id="6935669" flags="" value="3" parameter="3" symbol="chn1"/>
         <Controllable name="Channel  2 to" id="6935671" flags="" value="2" parameter="4" symbol="chn2"/>
         <Controllable name="Channel  3 to" id="6935673" flags="" value="3" parameter="5" symbol="chn3"/>
         <Controllable name="Channel  4 to" id="6935675" flags="" value="4" parameter="6" symbol="chn4"/>
@@ -7663,7 +7663,7 @@
       </IO>
       <IO name="CuisseTrigger" id="2093184" direction="Output" default-type="midi" user-latency="0">
         <Port type="midi" name="CuisseTrigger/midi_out 1">
-          <Connection other="system:midi_playback_6"/>
+          <Connection other="system:midi_playback_8"/>
         </Port>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
@@ -7729,8 +7729,8 @@
           <AutomationList automation-id="parameter-5" id="5304417" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="5304419" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="5304421" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="6919974" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="6919976" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="6941199" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="6941201" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -7808,7 +7808,7 @@
         </OutputMap-0>
         <ThruMap/>
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
-          <Port symbol="chn1" value="2"/>
+          <Port symbol="chn1" value="4"/>
           <Port symbol="chn2" value="2"/>
           <Port symbol="chn3" value="3"/>
           <Port symbol="chn4" value="4"/>
@@ -7825,7 +7825,7 @@
           <Port symbol="chn15" value="15"/>
           <Port symbol="chn16" value="16"/>
         </lv2>
-        <Controllable name="Channel  1 to" id="6935669" flags="" value="2" parameter="3" symbol="chn1"/>
+        <Controllable name="Channel  1 to" id="6935669" flags="" value="4" parameter="3" symbol="chn1"/>
         <Controllable name="Channel  2 to" id="6935671" flags="" value="2" parameter="4" symbol="chn2"/>
         <Controllable name="Channel  3 to" id="6935673" flags="" value="3" parameter="5" symbol="chn3"/>
         <Controllable name="Channel  4 to" id="6935675" flags="" value="4" parameter="6" symbol="chn4"/>
@@ -7911,7 +7911,7 @@
       </IO>
       <IO name="Table1Trigger" id="2093232" direction="Output" default-type="midi" user-latency="0">
         <Port type="midi" name="Table1Trigger/midi_out 1">
-          <Connection other="system:midi_playback_6"/>
+          <Connection other="system:midi_playback_8"/>
         </Port>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
@@ -7978,8 +7978,8 @@
           <AutomationList automation-id="parameter-5" id="2278005" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="2278007" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="2278009" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="6920060" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="6920062" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="6941319" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="6941321" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -8057,7 +8057,7 @@
         </OutputMap-0>
         <ThruMap/>
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
-          <Port symbol="chn1" value="4"/>
+          <Port symbol="chn1" value="6"/>
           <Port symbol="chn2" value="2"/>
           <Port symbol="chn3" value="3"/>
           <Port symbol="chn4" value="4"/>
@@ -8074,7 +8074,7 @@
           <Port symbol="chn15" value="15"/>
           <Port symbol="chn16" value="16"/>
         </lv2>
-        <Controllable name="Channel  1 to" id="6935669" flags="" value="4" parameter="3" symbol="chn1"/>
+        <Controllable name="Channel  1 to" id="6935669" flags="" value="6" parameter="3" symbol="chn1"/>
         <Controllable name="Channel  2 to" id="6935671" flags="" value="2" parameter="4" symbol="chn2"/>
         <Controllable name="Channel  3 to" id="6935673" flags="" value="3" parameter="5" symbol="chn3"/>
         <Controllable name="Channel  4 to" id="6935675" flags="" value="4" parameter="6" symbol="chn4"/>
@@ -8159,7 +8159,7 @@
       </IO>
       <IO name="TableBnBTrigger" id="2093280" direction="Output" default-type="midi" user-latency="0">
         <Port type="midi" name="TableBnBTrigger/midi_out 1">
-          <Connection other="system:midi_playback_6"/>
+          <Connection other="system:midi_playback_8"/>
         </Port>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
@@ -8225,8 +8225,8 @@
           <AutomationList automation-id="parameter-5" id="2278085" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="2278087" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="2278089" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="6920146" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="6920148" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="6941439" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="6941441" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -8304,7 +8304,7 @@
         </OutputMap-0>
         <ThruMap/>
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
-          <Port symbol="chn1" value="3"/>
+          <Port symbol="chn1" value="5"/>
           <Port symbol="chn2" value="2"/>
           <Port symbol="chn3" value="3"/>
           <Port symbol="chn4" value="4"/>
@@ -8321,7 +8321,7 @@
           <Port symbol="chn15" value="15"/>
           <Port symbol="chn16" value="16"/>
         </lv2>
-        <Controllable name="Channel  1 to" id="6935669" flags="" value="3" parameter="3" symbol="chn1"/>
+        <Controllable name="Channel  1 to" id="6935669" flags="" value="5" parameter="3" symbol="chn1"/>
         <Controllable name="Channel  2 to" id="6935671" flags="" value="2" parameter="4" symbol="chn2"/>
         <Controllable name="Channel  3 to" id="6935673" flags="" value="3" parameter="5" symbol="chn3"/>
         <Controllable name="Channel  4 to" id="6935675" flags="" value="4" parameter="6" symbol="chn4"/>
@@ -8407,7 +8407,7 @@
       </IO>
       <IO name="Table2Trigger" id="2093328" direction="Output" default-type="midi" user-latency="0">
         <Port type="midi" name="Table2Trigger/midi_out 1">
-          <Connection other="system:midi_playback_6"/>
+          <Connection other="system:midi_playback_8"/>
         </Port>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
@@ -8499,8 +8499,8 @@
 505150831 0.60000002384185791
 </events>
           </AutomationList>
-          <AutomationList automation-id="parameter-8" id="6920232" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="6920234" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="6941559" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="6941561" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -8578,7 +8578,7 @@
         </OutputMap-0>
         <ThruMap/>
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
-          <Port symbol="chn1" value="5"/>
+          <Port symbol="chn1" value="7"/>
           <Port symbol="chn2" value="2"/>
           <Port symbol="chn3" value="3"/>
           <Port symbol="chn4" value="4"/>
@@ -8595,7 +8595,7 @@
           <Port symbol="chn15" value="15"/>
           <Port symbol="chn16" value="16"/>
         </lv2>
-        <Controllable name="Channel  1 to" id="6935669" flags="" value="5" parameter="3" symbol="chn1"/>
+        <Controllable name="Channel  1 to" id="6935669" flags="" value="7" parameter="3" symbol="chn1"/>
         <Controllable name="Channel  2 to" id="6935671" flags="" value="2" parameter="4" symbol="chn2"/>
         <Controllable name="Channel  3 to" id="6935673" flags="" value="3" parameter="5" symbol="chn3"/>
         <Controllable name="Channel  4 to" id="6935675" flags="" value="4" parameter="6" symbol="chn4"/>
@@ -9029,7 +9029,7 @@
       </IO>
       <IO name="Table3Trigger" id="3868328" direction="Output" default-type="midi" user-latency="0">
         <Port type="midi" name="Table3Trigger/midi_out 1">
-          <Connection other="system:midi_playback_6"/>
+          <Connection other="system:midi_playback_8"/>
         </Port>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
@@ -9097,8 +9097,8 @@
           <AutomationList automation-id="parameter-5" id="2278064" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="2278066" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="2278068" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="6920516" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="6920518" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="6941877" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="6941879" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -9176,7 +9176,7 @@
         </OutputMap-0>
         <ThruMap/>
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
-          <Port symbol="chn1" value="6"/>
+          <Port symbol="chn1" value="8"/>
           <Port symbol="chn2" value="2"/>
           <Port symbol="chn3" value="3"/>
           <Port symbol="chn4" value="4"/>
@@ -9193,7 +9193,7 @@
           <Port symbol="chn15" value="15"/>
           <Port symbol="chn16" value="16"/>
         </lv2>
-        <Controllable name="Channel  1 to" id="6935669" flags="" value="6" parameter="3" symbol="chn1"/>
+        <Controllable name="Channel  1 to" id="6935669" flags="" value="8" parameter="3" symbol="chn1"/>
         <Controllable name="Channel  2 to" id="6935671" flags="" value="2" parameter="4" symbol="chn2"/>
         <Controllable name="Channel  3 to" id="6935673" flags="" value="3" parameter="5" symbol="chn3"/>
         <Controllable name="Channel  4 to" id="6935675" flags="" value="4" parameter="6" symbol="chn4"/>
@@ -9279,7 +9279,7 @@
       </IO>
       <IO name="Table4Trigger" id="3868487" direction="Output" default-type="midi" user-latency="0">
         <Port type="midi" name="Table4Trigger/midi_out 1">
-          <Connection other="system:midi_playback_6"/>
+          <Connection other="system:midi_playback_8"/>
         </Port>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
@@ -9347,8 +9347,8 @@
           <AutomationList automation-id="parameter-5" id="2278064" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="2278066" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="2278068" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="6920602" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="6920604" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="6941997" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="6941999" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -9426,7 +9426,7 @@
         </OutputMap-0>
         <ThruMap/>
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
-          <Port symbol="chn1" value="7"/>
+          <Port symbol="chn1" value="9"/>
           <Port symbol="chn2" value="2"/>
           <Port symbol="chn3" value="3"/>
           <Port symbol="chn4" value="4"/>
@@ -9443,7 +9443,7 @@
           <Port symbol="chn15" value="15"/>
           <Port symbol="chn16" value="16"/>
         </lv2>
-        <Controllable name="Channel  1 to" id="6935669" flags="" value="7" parameter="3" symbol="chn1"/>
+        <Controllable name="Channel  1 to" id="6935669" flags="" value="9" parameter="3" symbol="chn1"/>
         <Controllable name="Channel  2 to" id="6935671" flags="" value="2" parameter="4" symbol="chn2"/>
         <Controllable name="Channel  3 to" id="6935673" flags="" value="3" parameter="5" symbol="chn3"/>
         <Controllable name="Channel  4 to" id="6935675" flags="" value="4" parameter="6" symbol="chn4"/>
@@ -9529,7 +9529,7 @@
       </IO>
       <IO name="Table5Trigger" id="3868646" direction="Output" default-type="midi" user-latency="0">
         <Port type="midi" name="Table5Trigger/midi_out 1">
-          <Connection other="system:midi_playback_6"/>
+          <Connection other="system:midi_playback_8"/>
         </Port>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
@@ -9597,8 +9597,8 @@
           <AutomationList automation-id="parameter-5" id="2278064" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="2278066" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="2278068" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="6920688" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="6920690" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="6942117" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="6942119" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -9676,7 +9676,7 @@
         </OutputMap-0>
         <ThruMap/>
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
-          <Port symbol="chn1" value="8"/>
+          <Port symbol="chn1" value="10"/>
           <Port symbol="chn2" value="2"/>
           <Port symbol="chn3" value="3"/>
           <Port symbol="chn4" value="4"/>
@@ -9693,7 +9693,7 @@
           <Port symbol="chn15" value="15"/>
           <Port symbol="chn16" value="16"/>
         </lv2>
-        <Controllable name="Channel  1 to" id="6935886" flags="" value="8" parameter="3" symbol="chn1"/>
+        <Controllable name="Channel  1 to" id="6935886" flags="" value="10" parameter="3" symbol="chn1"/>
         <Controllable name="Channel  2 to" id="6935888" flags="" value="2" parameter="4" symbol="chn2"/>
         <Controllable name="Channel  3 to" id="6935890" flags="" value="3" parameter="5" symbol="chn3"/>
         <Controllable name="Channel  4 to" id="6935892" flags="" value="4" parameter="6" symbol="chn4"/>
@@ -9779,7 +9779,7 @@
       </IO>
       <IO name="CoeurTrigger" id="3868805" direction="Output" default-type="midi" user-latency="0">
         <Port type="midi" name="CoeurTrigger/midi_out 1">
-          <Connection other="system:midi_playback_6"/>
+          <Connection other="system:midi_playback_8"/>
         </Port>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
@@ -9845,8 +9845,8 @@
           <AutomationList automation-id="parameter-5" id="2278064" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="2278066" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="2278068" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="6920774" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="6920776" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="6942237" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="6942239" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -9924,7 +9924,7 @@
         </OutputMap-0>
         <ThruMap/>
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
-          <Port symbol="chn1" value="9"/>
+          <Port symbol="chn1" value="2"/>
           <Port symbol="chn2" value="2"/>
           <Port symbol="chn3" value="3"/>
           <Port symbol="chn4" value="4"/>
@@ -9941,7 +9941,7 @@
           <Port symbol="chn15" value="15"/>
           <Port symbol="chn16" value="16"/>
         </lv2>
-        <Controllable name="Channel  1 to" id="6935886" flags="" value="9" parameter="3" symbol="chn1"/>
+        <Controllable name="Channel  1 to" id="6935886" flags="" value="2" parameter="3" symbol="chn1"/>
         <Controllable name="Channel  2 to" id="6935888" flags="" value="2" parameter="4" symbol="chn2"/>
         <Controllable name="Channel  3 to" id="6935890" flags="" value="3" parameter="5" symbol="chn3"/>
         <Controllable name="Channel  4 to" id="6935892" flags="" value="4" parameter="6" symbol="chn4"/>
@@ -10027,7 +10027,7 @@
       </IO>
       <IO name="VoixSynthTriger" id="3868964" direction="Output" default-type="midi" user-latency="0">
         <Port type="midi" name="VoixSynthTriger/midi_out 1">
-          <Connection other="system:midi_playback_6"/>
+          <Connection other="system:midi_playback_8"/>
         </Port>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
@@ -10095,8 +10095,8 @@
           <AutomationList automation-id="parameter-5" id="2278064" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="2278066" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="2278068" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="6920860" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="6920862" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="6942357" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="6942359" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -10174,7 +10174,7 @@
         </OutputMap-0>
         <ThruMap/>
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
-          <Port symbol="chn1" value="10"/>
+          <Port symbol="chn1" value="1"/>
           <Port symbol="chn2" value="2"/>
           <Port symbol="chn3" value="3"/>
           <Port symbol="chn4" value="4"/>
@@ -10191,7 +10191,7 @@
           <Port symbol="chn15" value="15"/>
           <Port symbol="chn16" value="16"/>
         </lv2>
-        <Controllable name="Channel  1 to" id="6935959" flags="" value="10" parameter="3" symbol="chn1"/>
+        <Controllable name="Channel  1 to" id="6935959" flags="" value="1" parameter="3" symbol="chn1"/>
         <Controllable name="Channel  2 to" id="6935961" flags="" value="2" parameter="4" symbol="chn2"/>
         <Controllable name="Channel  3 to" id="6935963" flags="" value="3" parameter="5" symbol="chn3"/>
         <Controllable name="Channel  4 to" id="6935965" flags="" value="4" parameter="6" symbol="chn4"/>
@@ -13130,14 +13130,12 @@
     </Processor>
   </Click>
   <LTC-In>
-    <IO name="LTC In" id="47" direction="Input" default-type="audio" user-latency="0">
-      <Port type="audio" name="LTC-in">
-        <Connection other="system:capture_1"/>
-      </Port>
+    <IO name="LTC In" id="48" direction="Input" default-type="audio" user-latency="0">
+      <Port type="audio" name="LTC-in"/>
     </IO>
   </LTC-In>
   <LTC-Out>
-    <IO name="LTC Out" id="48" direction="Output" default-type="audio" user-latency="0">
+    <IO name="LTC Out" id="49" direction="Output" default-type="audio" user-latency="0">
       <Port type="audio" name="LTC-out"/>
     </IO>
   </LTC-Out>
@@ -13202,7 +13200,7 @@
       <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="817" y-size="485"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="69" y-off="24" x-size="620" y-size="370"/>
-      <Window name="audio-midi-setup" visible="0" x-off="269" y-off="37" x-size="636" y-size="398"/>
+      <Window name="audio-midi-setup" visible="0" x-off="410" y-off="343" x-size="636" y-size="398"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="0" x-off="507" y-off="394" x-size="361" y-size="341"/>
       <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -13755,36 +13753,42 @@
       <Window name="PM-188016-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-2091795-2491567" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-2091795-2092723" visible="0" x-off="191" y-off="15" x-size="830" y-size="351" custom-ui="1"/>
+      <Window name="P-2091795-6935993" visible="0" x-off="593" y-off="242" x-size="847" y-size="484" custom-ui="1"/>
       <Window name="P-2091795-2091842" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-2091795-2091825" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-2091795-2091827" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-2091795-2091828" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-2491567-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2092723-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-6935993-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2091842-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2091825-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2091827-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2091828-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-2093155-5304430" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-2093155-5304410" visible="0" x-off="0" y-off="122" x-size="830" y-size="322" custom-ui="1"/>
+      <Window name="P-2093155-6935667" visible="0" x-off="419" y-off="359" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-2093155-2093346" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-2093155-2093185" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-2093155-2093187" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-2093155-2093188" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-5304430-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-5304410-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-6935667-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2093346-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2093185-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2093187-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2093188-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-2093251-2491555" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-2093251-2278078" visible="0" x-off="330" y-off="188" x-size="830" y-size="351" custom-ui="1"/>
+      <Window name="P-2093251-6935703" visible="0" x-off="593" y-off="242" x-size="847" y-size="484" custom-ui="1"/>
       <Window name="P-2093251-2093362" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-2093251-2093281" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-2093251-2093283" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-2093251-2093284" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-2491555-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2278078-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-6935703-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2093362-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2093281-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2093283-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -13792,83 +13796,97 @@
       <Window name="P-2093203-2093235" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-2093203-2278100" visible="0" x-off="509" y-off="493" x-size="847" y-size="188" custom-ui="1"/>
       <Window name="P-2093203-2277998" visible="0" x-off="405" y-off="561" x-size="830" y-size="352" custom-ui="1"/>
+      <Window name="P-2093203-6935739" visible="0" x-off="593" y-off="242" x-size="847" y-size="484" custom-ui="1"/>
       <Window name="P-2093203-2093354" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-2093203-2093233" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-2093203-2093236" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-2093235-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2278100-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2277998-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-6935739-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2093354-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2093233-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2093236-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-2093299-5304389" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-2093299-2278057" visible="0" x-off="350" y-off="80" x-size="830" y-size="351" custom-ui="1"/>
+      <Window name="P-2093299-6935775" visible="0" x-off="593" y-off="242" x-size="847" y-size="484" custom-ui="1"/>
       <Window name="P-2093299-2093370" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-2093299-2093329" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-2093299-2093331" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-2093299-2093332" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-5304389-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2278057-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-6935775-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2093370-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2093329-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2093331-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2093332-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-3868326-5782061" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-3868326-3868375" visible="0" x-off="299" y-off="405" x-size="830" y-size="322" custom-ui="1"/>
+      <Window name="P-3868326-6935811" visible="0" x-off="593" y-off="242" x-size="847" y-size="484" custom-ui="1"/>
       <Window name="P-3868326-3868401" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-3868326-3868406" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-3868326-3868409" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-3868326-3868410" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-5782061-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3868375-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-6935811-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3868401-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3868406-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3868409-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3868410-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-3868485-5782067" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-3868485-3868534" visible="0" x-off="237" y-off="0" x-size="830" y-size="352" custom-ui="1"/>
+      <Window name="P-3868485-6935847" visible="0" x-off="593" y-off="242" x-size="847" y-size="484" custom-ui="1"/>
       <Window name="P-3868485-3868560" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-3868485-3868565" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-3868485-3868568" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-3868485-3868569" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-5782067-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3868534-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-6935847-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3868560-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3868565-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3868568-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3868569-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-3868644-5782073" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-3868644-3868693" visible="0" x-off="201" y-off="0" x-size="830" y-size="351" custom-ui="1"/>
+      <Window name="P-3868644-6935884" visible="0" x-off="171" y-off="359" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-3868644-3868719" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-3868644-3868724" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-3868644-3868727" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-3868644-3868728" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-5782073-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3868693-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-6935884-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3868719-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3868724-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3868727-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3868728-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-3868803-5304845" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-3868803-3868852" visible="0" x-off="237" y-off="0" x-size="830" y-size="351" custom-ui="1"/>
+      <Window name="P-3868803-6935920" visible="0" x-off="593" y-off="242" x-size="847" y-size="484" custom-ui="1"/>
       <Window name="P-3868803-3868878" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-3868803-3868883" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-3868803-3868886" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-3868803-3868887" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-5304845-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3868852-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-6935920-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3868878-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3868883-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3868886-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3868887-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-3868962-5126242" visible="0" x-off="421" y-off="195" x-size="847" y-size="197" custom-ui="1"/>
       <Window name="P-3868962-3869011" visible="0" x-off="237" y-off="26" x-size="830" y-size="322" custom-ui="1"/>
+      <Window name="P-3868962-6935957" visible="0" x-off="412" y-off="359" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-3868962-3869037" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-3868962-3869042" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-3868962-3869045" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-3868962-3869046" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-5126242-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3869011-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-6935957-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3869037-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3869042-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-3869045-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -13999,14 +14017,14 @@
       <Window name="PM-3874988-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-1265142-1265173" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-1265142-1265174" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-1265142-6919281" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-1265142-6940472" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-1265142-6105372" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-1265142-1265191" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-1265142-1265172" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-1265142-1265175" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-1265173-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-1265174-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-6919281-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-6940472-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-6105372-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-1265191-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-1265172-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -14045,26 +14063,6 @@
       <Window name="PM-4121999-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-4122001-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-4122002-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-2093155-6935667" visible="0" x-off="419" y-off="359" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-6935667-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-2093251-6935703" visible="0" x-off="164" y-off="0" x-size="847" y-size="484" custom-ui="1"/>
-      <Window name="PM-6935703-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-2093203-6935739" visible="0" x-off="164" y-off="0" x-size="847" y-size="484" custom-ui="1"/>
-      <Window name="PM-6935739-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-2093299-6935775" visible="0" x-off="164" y-off="0" x-size="847" y-size="484" custom-ui="1"/>
-      <Window name="PM-6935775-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-3868326-6935811" visible="0" x-off="164" y-off="0" x-size="847" y-size="484" custom-ui="1"/>
-      <Window name="PM-6935811-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-3868485-6935847" visible="0" x-off="164" y-off="0" x-size="847" y-size="484" custom-ui="1"/>
-      <Window name="PM-6935847-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-3868644-6935884" visible="0" x-off="171" y-off="359" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-6935884-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-3868803-6935920" visible="0" x-off="164" y-off="0" x-size="847" y-size="484" custom-ui="1"/>
-      <Window name="PM-6935920-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-3868962-6935957" visible="0" x-off="412" y-off="359" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-6935957-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-2091795-6935993" visible="0" x-off="164" y-off="0" x-size="847" y-size="484" custom-ui="1"/>
-      <Window name="PM-6935993-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="route 28" color="64677:42885:49059"/>
         <Object id="rtav 28" height="64" visible="1"/>
@@ -15492,6 +15490,7 @@
           <Object id="processor 6870699"/>
           <Object id="processor 6891497"/>
           <Object id="processor 6919281"/>
+          <Object id="processor 6940472"/>
         </Object>
         <Object id="rtav 1304815" height="174" visible="1"/>
         <Object id="automation 1304819" height="68" visible="0"/>
@@ -16778,6 +16777,7 @@
         <Object id="vtv 6867482" height="68"/>
         <Object id="vtv 6888280" height="68"/>
         <Object id="vtv 6916064" height="68"/>
+        <Object id="vtv 6937255" height="68"/>
       </GUIObjectState>
     </UI>
     <Videomonitor active="0"/>

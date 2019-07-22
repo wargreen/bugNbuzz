@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="BugNBuzz" sample-rate="48000" end-is-free="1" id-counter="6936038" name-counter="7" event-counter="15556543" vca-counter="2">
+<Session version="3002" name="BugNBuzz" sample-rate="48000" end-is-free="1" id-counter="6957206" name-counter="7" event-counter="15556881" vca-counter="2">
   <ProgramVersion created-with="unknown" modified-with="Ardour 5.12"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -7415,7 +7415,7 @@
       </IO>
       <IO name="CravatteTrigger" id="2091824" direction="Output" default-type="midi" user-latency="0">
         <Port type="midi" name="CravatteTrigger/midi_out 1">
-          <Connection other="system:midi_playback_6"/>
+          <Connection other="system:midi_playback_8"/>
         </Port>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
@@ -7481,8 +7481,8 @@
           <AutomationList automation-id="parameter-5" id="1287681" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="1287683" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="1287685" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="6919888" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="6919890" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="6941079" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="6941081" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -7663,7 +7663,7 @@
       </IO>
       <IO name="CuisseTrigger" id="2093184" direction="Output" default-type="midi" user-latency="0">
         <Port type="midi" name="CuisseTrigger/midi_out 1">
-          <Connection other="system:midi_playback_6"/>
+          <Connection other="system:midi_playback_8"/>
         </Port>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
@@ -7729,8 +7729,8 @@
           <AutomationList automation-id="parameter-5" id="5304417" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="5304419" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="5304421" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="6919974" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="6919976" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="6941199" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="6941201" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -7911,7 +7911,7 @@
       </IO>
       <IO name="Table1Trigger" id="2093232" direction="Output" default-type="midi" user-latency="0">
         <Port type="midi" name="Table1Trigger/midi_out 1">
-          <Connection other="system:midi_playback_6"/>
+          <Connection other="system:midi_playback_8"/>
         </Port>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
@@ -7978,8 +7978,8 @@
           <AutomationList automation-id="parameter-5" id="2278005" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="2278007" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="2278009" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="6920060" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="6920062" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="6941319" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="6941321" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -8159,7 +8159,7 @@
       </IO>
       <IO name="TableBnBTrigger" id="2093280" direction="Output" default-type="midi" user-latency="0">
         <Port type="midi" name="TableBnBTrigger/midi_out 1">
-          <Connection other="system:midi_playback_6"/>
+          <Connection other="system:midi_playback_8"/>
         </Port>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
@@ -8225,8 +8225,8 @@
           <AutomationList automation-id="parameter-5" id="2278085" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="2278087" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="2278089" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="6920146" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="6920148" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="6941439" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="6941441" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -8407,7 +8407,7 @@
       </IO>
       <IO name="Table2Trigger" id="2093328" direction="Output" default-type="midi" user-latency="0">
         <Port type="midi" name="Table2Trigger/midi_out 1">
-          <Connection other="system:midi_playback_6"/>
+          <Connection other="system:midi_playback_8"/>
         </Port>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
@@ -8499,8 +8499,8 @@
 505150831 0.60000002384185791
 </events>
           </AutomationList>
-          <AutomationList automation-id="parameter-8" id="6920232" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="6920234" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="6941559" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="6941561" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -9029,7 +9029,7 @@
       </IO>
       <IO name="Table3Trigger" id="3868328" direction="Output" default-type="midi" user-latency="0">
         <Port type="midi" name="Table3Trigger/midi_out 1">
-          <Connection other="system:midi_playback_6"/>
+          <Connection other="system:midi_playback_8"/>
         </Port>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
@@ -9097,8 +9097,8 @@
           <AutomationList automation-id="parameter-5" id="2278064" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="2278066" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="2278068" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="6920516" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="6920518" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="6941877" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="6941879" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -9279,7 +9279,7 @@
       </IO>
       <IO name="Table4Trigger" id="3868487" direction="Output" default-type="midi" user-latency="0">
         <Port type="midi" name="Table4Trigger/midi_out 1">
-          <Connection other="system:midi_playback_6"/>
+          <Connection other="system:midi_playback_8"/>
         </Port>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
@@ -9347,8 +9347,8 @@
           <AutomationList automation-id="parameter-5" id="2278064" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="2278066" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="2278068" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="6920602" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="6920604" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="6941997" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="6941999" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -9529,7 +9529,7 @@
       </IO>
       <IO name="Table5Trigger" id="3868646" direction="Output" default-type="midi" user-latency="0">
         <Port type="midi" name="Table5Trigger/midi_out 1">
-          <Connection other="system:midi_playback_6"/>
+          <Connection other="system:midi_playback_8"/>
         </Port>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
@@ -9597,8 +9597,8 @@
           <AutomationList automation-id="parameter-5" id="2278064" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="2278066" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="2278068" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="6920688" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="6920690" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="6942117" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="6942119" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -9779,7 +9779,7 @@
       </IO>
       <IO name="CoeurTrigger" id="3868805" direction="Output" default-type="midi" user-latency="0">
         <Port type="midi" name="CoeurTrigger/midi_out 1">
-          <Connection other="system:midi_playback_6"/>
+          <Connection other="system:midi_playback_8"/>
         </Port>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
@@ -9845,8 +9845,8 @@
           <AutomationList automation-id="parameter-5" id="2278064" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="2278066" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="2278068" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="6920774" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="6920776" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="6942237" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="6942239" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -10027,7 +10027,7 @@
       </IO>
       <IO name="VoixSynthTriger" id="3868964" direction="Output" default-type="midi" user-latency="0">
         <Port type="midi" name="VoixSynthTriger/midi_out 1">
-          <Connection other="system:midi_playback_6"/>
+          <Connection other="system:midi_playback_8"/>
         </Port>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
@@ -10095,8 +10095,8 @@
           <AutomationList automation-id="parameter-5" id="2278064" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="2278066" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="2278068" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="6920860" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="6920862" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="6942357" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="6942359" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -13130,14 +13130,12 @@
     </Processor>
   </Click>
   <LTC-In>
-    <IO name="LTC In" id="47" direction="Input" default-type="audio" user-latency="0">
-      <Port type="audio" name="LTC-in">
-        <Connection other="system:capture_1"/>
-      </Port>
+    <IO name="LTC In" id="48" direction="Input" default-type="audio" user-latency="0">
+      <Port type="audio" name="LTC-in"/>
     </IO>
   </LTC-In>
   <LTC-Out>
-    <IO name="LTC Out" id="48" direction="Output" default-type="audio" user-latency="0">
+    <IO name="LTC Out" id="49" direction="Output" default-type="audio" user-latency="0">
       <Port type="audio" name="LTC-out"/>
     </IO>
   </LTC-Out>
@@ -13202,7 +13200,7 @@
       <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="817" y-size="485"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="69" y-off="24" x-size="620" y-size="370"/>
-      <Window name="audio-midi-setup" visible="0" x-off="269" y-off="37" x-size="636" y-size="398"/>
+      <Window name="audio-midi-setup" visible="0" x-off="729" y-off="285" x-size="636" y-size="398"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="0" x-off="507" y-off="394" x-size="361" y-size="341"/>
       <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -14047,23 +14045,23 @@
       <Window name="PM-4122002-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-2093155-6935667" visible="0" x-off="419" y-off="359" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-6935667-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-2093251-6935703" visible="0" x-off="164" y-off="0" x-size="847" y-size="484" custom-ui="1"/>
+      <Window name="P-2093251-6935703" visible="0" x-off="593" y-off="242" x-size="847" y-size="484" custom-ui="1"/>
       <Window name="PM-6935703-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-2093203-6935739" visible="0" x-off="164" y-off="0" x-size="847" y-size="484" custom-ui="1"/>
+      <Window name="P-2093203-6935739" visible="0" x-off="593" y-off="242" x-size="847" y-size="484" custom-ui="1"/>
       <Window name="PM-6935739-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-2093299-6935775" visible="0" x-off="164" y-off="0" x-size="847" y-size="484" custom-ui="1"/>
+      <Window name="P-2093299-6935775" visible="0" x-off="593" y-off="242" x-size="847" y-size="484" custom-ui="1"/>
       <Window name="PM-6935775-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-3868326-6935811" visible="0" x-off="164" y-off="0" x-size="847" y-size="484" custom-ui="1"/>
+      <Window name="P-3868326-6935811" visible="0" x-off="593" y-off="242" x-size="847" y-size="484" custom-ui="1"/>
       <Window name="PM-6935811-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-3868485-6935847" visible="0" x-off="164" y-off="0" x-size="847" y-size="484" custom-ui="1"/>
+      <Window name="P-3868485-6935847" visible="0" x-off="593" y-off="242" x-size="847" y-size="484" custom-ui="1"/>
       <Window name="PM-6935847-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-3868644-6935884" visible="0" x-off="171" y-off="359" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-6935884-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-3868803-6935920" visible="0" x-off="164" y-off="0" x-size="847" y-size="484" custom-ui="1"/>
+      <Window name="P-3868803-6935920" visible="0" x-off="593" y-off="242" x-size="847" y-size="484" custom-ui="1"/>
       <Window name="PM-6935920-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-3868962-6935957" visible="0" x-off="412" y-off="359" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-6935957-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-2091795-6935993" visible="0" x-off="164" y-off="0" x-size="847" y-size="484" custom-ui="1"/>
+      <Window name="P-2091795-6935993" visible="0" x-off="593" y-off="242" x-size="847" y-size="484" custom-ui="1"/>
       <Window name="PM-6935993-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="route 28" color="64677:42885:49059"/>

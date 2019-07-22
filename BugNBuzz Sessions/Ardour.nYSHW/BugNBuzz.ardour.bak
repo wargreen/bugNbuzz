@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="BugNBuzz" sample-rate="48000" end-is-free="1" id-counter="6928662" name-counter="7" event-counter="15555893" vca-counter="2">
+<Session version="3002" name="BugNBuzz" sample-rate="48000" end-is-free="1" id-counter="6935622" name-counter="7" event-counter="15555895" vca-counter="2">
   <ProgramVersion created-with="unknown" modified-with="Ardour 5.12"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -264,42 +264,14 @@
       <Controllable name="solo-iso" id="1082315" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="1082317" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Master" id="47" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="Master/audio_in 1">
-          <Connection other="LOOP 1/audio_out 1"/>
-          <Connection other="LOOP2/audio_out 1"/>
-          <Connection other="LOOP3/audio_out 1"/>
-          <Connection other="LOOP4/audio_out 1"/>
-          <Connection other="REC/audio_out 1"/>
-          <Connection other="Table1Trigger/audio_out 1"/>
-          <Connection other="Table2Trigger/audio_out 1"/>
-          <Connection other="TableBnBTrigger/audio_out 1"/>
-          <Connection other="Zik/audio_out 1"/>
-        </Port>
-        <Port type="audio" name="Master/audio_in 2">
-          <Connection other="LOOP 1/audio_out 2"/>
-          <Connection other="LOOP2/audio_out 2"/>
-          <Connection other="LOOP3/audio_out 2"/>
-          <Connection other="LOOP4/audio_out 2"/>
-          <Connection other="REC/audio_out 2"/>
-          <Connection other="Table1Trigger/audio_out 2"/>
-          <Connection other="Table2Trigger/audio_out 2"/>
-          <Connection other="TableBnBTrigger/audio_out 2"/>
-          <Connection other="Zik/audio_out 2"/>
-        </Port>
+        <Port type="audio" name="Master/audio_in 1"/>
+        <Port type="audio" name="Master/audio_in 2"/>
       </IO>
       <IO name="Master" id="48" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="Master/audio_out 1">
-          <Connection other="system:playback_1"/>
-        </Port>
-        <Port type="audio" name="Master/audio_out 2">
-          <Connection other="system:playback_2"/>
-        </Port>
-        <Port type="audio" name="Master/audio_out 3">
-          <Connection other="system:playback_5"/>
-        </Port>
-        <Port type="audio" name="Master/audio_out 4">
-          <Connection other="system:playback_6"/>
-        </Port>
+        <Port type="audio" name="Master/audio_out 1"/>
+        <Port type="audio" name="Master/audio_out 2"/>
+        <Port type="audio" name="Master/audio_out 3"/>
+        <Port type="audio" name="Master/audio_out 4"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="32" flags="Toggle" value="0"/>
@@ -672,24 +644,14 @@
       <Controllable name="solo-iso" id="1082260" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="1082262" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Monitor" id="66" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="Monitor/audio_in 1">
-          <Connection other="auditioner/audio_out 1"/>
-        </Port>
-        <Port type="audio" name="Monitor/audio_in 2">
-          <Connection other="auditioner/audio_out 2"/>
-        </Port>
+        <Port type="audio" name="Monitor/audio_in 1"/>
+        <Port type="audio" name="Monitor/audio_in 2"/>
         <Port type="audio" name="Monitor/audio_in 3"/>
         <Port type="audio" name="Monitor/audio_in 4"/>
       </IO>
       <IO name="Monitor" id="67" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="Monitor/audio_out 1">
-          <Connection other="system:playback_17"/>
-          <Connection other="system:playback_7"/>
-        </Port>
-        <Port type="audio" name="Monitor/audio_out 2">
-          <Connection other="system:playback_18"/>
-          <Connection other="system:playback_8"/>
-        </Port>
+        <Port type="audio" name="Monitor/audio_out 1"/>
+        <Port type="audio" name="Monitor/audio_out 2"/>
         <Port type="audio" name="Monitor/audio_out 3"/>
         <Port type="audio" name="Monitor/audio_out 4"/>
       </IO>
@@ -736,9 +698,7 @@
       <Controllable name="solo-iso" id="1082420" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="1082422" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Voix" id="274" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="Voix/audio_in 1">
-          <Connection other="system:capture_1"/>
-        </Port>
+        <Port type="audio" name="Voix/audio_in 1"/>
       </IO>
       <IO name="Voix" id="275" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="Voix/audio_out 1"/>
@@ -1264,9 +1224,7 @@
       <Controllable name="solo-iso" id="1082650" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="1082652" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="DPA" id="312" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="DPA/audio_in 1">
-          <Connection other="system:capture_11"/>
-        </Port>
+        <Port type="audio" name="DPA/audio_in 1"/>
       </IO>
       <IO name="DPA" id="313" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="DPA/audio_out 1"/>
@@ -1488,25 +1446,15 @@
       <Controllable name="solo-iso" id="1082728" flags="Toggle,RealTime" value="1" solo-isolated="1"/>
       <Controllable name="solo-safe" id="1082730" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="PiezzCrav" id="350" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="PiezzCrav/audio_in 1">
-          <Connection other="CravateAudio/audio_out 1"/>
-        </Port>
-        <Port type="audio" name="PiezzCrav/audio_in 2">
-          <Connection other="CravateAudio/audio_out 2"/>
-        </Port>
-        <Port type="audio" name="PiezzCrav/audio_in 3">
-          <Connection other="CravatteSynthAudio/audio_out 1"/>
-        </Port>
-        <Port type="audio" name="PiezzCrav/audio_in 4">
-          <Connection other="CravatteSynthAudio/audio_out 2"/>
-        </Port>
+        <Port type="audio" name="PiezzCrav/audio_in 1"/>
+        <Port type="audio" name="PiezzCrav/audio_in 2"/>
+        <Port type="audio" name="PiezzCrav/audio_in 3"/>
+        <Port type="audio" name="PiezzCrav/audio_in 4"/>
       </IO>
       <IO name="PiezzCrav" id="351" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="PiezzCrav/audio_out 1"/>
         <Port type="audio" name="PiezzCrav/audio_out 2"/>
-        <Port type="midi" name="PiezzCrav/midi_out 1">
-          <Connection other="system:midi_playback_6"/>
-        </Port>
+        <Port type="midi" name="PiezzCrav/midi_out 1"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
       <Controllable name="mute" id="335" flags="Toggle" value="1"/>
@@ -1639,18 +1587,10 @@
       <Controllable name="solo-iso" id="1082884" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="1082886" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Table1" id="426" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="Table1/audio_in 1">
-          <Connection other="Table1Audio/audio_out 1"/>
-        </Port>
-        <Port type="audio" name="Table1/audio_in 2">
-          <Connection other="Table1Audio/audio_out 2"/>
-        </Port>
-        <Port type="audio" name="Table1/audio_in 3">
-          <Connection other="Table1SynthAudio/audio_out 1"/>
-        </Port>
-        <Port type="audio" name="Table1/audio_in 4">
-          <Connection other="Table1SynthAudio/audio_out 2"/>
-        </Port>
+        <Port type="audio" name="Table1/audio_in 1"/>
+        <Port type="audio" name="Table1/audio_in 2"/>
+        <Port type="audio" name="Table1/audio_in 3"/>
+        <Port type="audio" name="Table1/audio_in 4"/>
       </IO>
       <IO name="Table1" id="427" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="Table1/audio_out 1"/>
@@ -1787,25 +1727,15 @@
       <Controllable name="solo-iso" id="1083040" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="1083042" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="TableBnB" id="502" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="TableBnB/audio_in 1">
-          <Connection other="TableBnB Audio/audio_out 1"/>
-        </Port>
-        <Port type="audio" name="TableBnB/audio_in 2">
-          <Connection other="TableBnB Audio/audio_out 2"/>
-        </Port>
-        <Port type="audio" name="TableBnB/audio_in 3">
-          <Connection other="TableBnBSynthAudio/audio_out 1"/>
-        </Port>
-        <Port type="audio" name="TableBnB/audio_in 4">
-          <Connection other="TableBnBSynthAudio/audio_out 2"/>
-        </Port>
+        <Port type="audio" name="TableBnB/audio_in 1"/>
+        <Port type="audio" name="TableBnB/audio_in 2"/>
+        <Port type="audio" name="TableBnB/audio_in 3"/>
+        <Port type="audio" name="TableBnB/audio_in 4"/>
       </IO>
       <IO name="TableBnB" id="503" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="TableBnB/audio_out 1"/>
         <Port type="audio" name="TableBnB/audio_out 2"/>
-        <Port type="midi" name="TableBnB/midi_out 1">
-          <Connection other="system:midi_playback_6"/>
-        </Port>
+        <Port type="midi" name="TableBnB/midi_out 1"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
       <Controllable name="mute" id="487" flags="Toggle" value="1"/>
@@ -1938,18 +1868,10 @@
       <Controllable name="solo-iso" id="1083118" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="1083120" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Table2" id="540" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="Table2/audio_in 1">
-          <Connection other="Table2Audio/audio_out 1"/>
-        </Port>
-        <Port type="audio" name="Table2/audio_in 2">
-          <Connection other="Table2Audio/audio_out 2"/>
-        </Port>
-        <Port type="audio" name="Table2/audio_in 3">
-          <Connection other="Table2SynthAudio/audio_out 1"/>
-        </Port>
-        <Port type="audio" name="Table2/audio_in 4">
-          <Connection other="Table2SynthAudio/audio_out 2"/>
-        </Port>
+        <Port type="audio" name="Table2/audio_in 1"/>
+        <Port type="audio" name="Table2/audio_in 2"/>
+        <Port type="audio" name="Table2/audio_in 3"/>
+        <Port type="audio" name="Table2/audio_in 4"/>
       </IO>
       <IO name="Table2" id="541" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="Table2/audio_out 1"/>
@@ -1958,9 +1880,7 @@
         <Port type="audio" name="Table2/audio_out 4"/>
         <Port type="audio" name="Table2/audio_out 5"/>
         <Port type="audio" name="Table2/audio_out 6"/>
-        <Port type="midi" name="Table2/midi_out 1">
-          <Connection other="system:midi_playback_6"/>
-        </Port>
+        <Port type="midi" name="Table2/midi_out 1"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
       <Controllable name="mute" id="525" flags="Toggle" value="1"/>
@@ -2144,24 +2064,12 @@
       <Controllable name="solo-iso" id="1083196" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="1083198" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="LOOP 1" id="2288" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="LOOP 1/audio_in 1">
-          <Connection other="Loop1 DPA/audio_out 1"/>
-          <Connection other="Loop1 VX/audio_out 1"/>
-          <Connection other="Loop1Piezz/audio_out 1"/>
-        </Port>
-        <Port type="audio" name="LOOP 1/audio_in 2">
-          <Connection other="Loop1 DPA/audio_out 2"/>
-          <Connection other="Loop1 VX/audio_out 2"/>
-          <Connection other="Loop1Piezz/audio_out 2"/>
-        </Port>
+        <Port type="audio" name="LOOP 1/audio_in 1"/>
+        <Port type="audio" name="LOOP 1/audio_in 2"/>
       </IO>
       <IO name="LOOP 1" id="2289" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="LOOP 1/audio_out 1">
-          <Connection other="Master/audio_in 1"/>
-        </Port>
-        <Port type="audio" name="LOOP 1/audio_out 2">
-          <Connection other="Master/audio_in 2"/>
-        </Port>
+        <Port type="audio" name="LOOP 1/audio_out 1"/>
+        <Port type="audio" name="LOOP 1/audio_out 2"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="2273" flags="Toggle" value="0">
@@ -2298,24 +2206,12 @@
       <Controllable name="solo-iso" id="1083792" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="1083794" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="LOOP2" id="2324" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="LOOP2/audio_in 1">
-          <Connection other="Loop2 DPA/audio_out 1"/>
-          <Connection other="Loop2 VX/audio_out 1"/>
-          <Connection other="Loop2Piezz/audio_out 1"/>
-        </Port>
-        <Port type="audio" name="LOOP2/audio_in 2">
-          <Connection other="Loop2 DPA/audio_out 2"/>
-          <Connection other="Loop2 VX/audio_out 2"/>
-          <Connection other="Loop2Piezz/audio_out 2"/>
-        </Port>
+        <Port type="audio" name="LOOP2/audio_in 1"/>
+        <Port type="audio" name="LOOP2/audio_in 2"/>
       </IO>
       <IO name="LOOP2" id="2325" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="LOOP2/audio_out 1">
-          <Connection other="Master/audio_in 1"/>
-        </Port>
-        <Port type="audio" name="LOOP2/audio_out 2">
-          <Connection other="Master/audio_in 2"/>
-        </Port>
+        <Port type="audio" name="LOOP2/audio_out 1"/>
+        <Port type="audio" name="LOOP2/audio_out 2"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="2309" flags="Toggle" value="0">
@@ -2452,24 +2348,12 @@
       <Controllable name="solo-iso" id="1084388" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="1084390" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="LOOP3" id="2360" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="LOOP3/audio_in 1">
-          <Connection other="Loop3 DPA/audio_out 1"/>
-          <Connection other="Loop3 VX/audio_out 1"/>
-          <Connection other="Loop3Piezz/audio_out 1"/>
-        </Port>
-        <Port type="audio" name="LOOP3/audio_in 2">
-          <Connection other="Loop3 DPA/audio_out 2"/>
-          <Connection other="Loop3 VX/audio_out 2"/>
-          <Connection other="Loop3Piezz/audio_out 2"/>
-        </Port>
+        <Port type="audio" name="LOOP3/audio_in 1"/>
+        <Port type="audio" name="LOOP3/audio_in 2"/>
       </IO>
       <IO name="LOOP3" id="2361" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="LOOP3/audio_out 1">
-          <Connection other="Master/audio_in 1"/>
-        </Port>
-        <Port type="audio" name="LOOP3/audio_out 2">
-          <Connection other="Master/audio_in 2"/>
-        </Port>
+        <Port type="audio" name="LOOP3/audio_out 1"/>
+        <Port type="audio" name="LOOP3/audio_out 2"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="2345" flags="Toggle" value="0">
@@ -2606,24 +2490,12 @@
       <Controllable name="solo-iso" id="1084960" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="1084962" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="LOOP4" id="2396" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="LOOP4/audio_in 1">
-          <Connection other="Loop4 DPA/audio_out 1"/>
-          <Connection other="Loop4 VX/audio_out 1"/>
-          <Connection other="Loop4Piezz/audio_out 1"/>
-        </Port>
-        <Port type="audio" name="LOOP4/audio_in 2">
-          <Connection other="Loop4 DPA/audio_out 2"/>
-          <Connection other="Loop4 VX/audio_out 2"/>
-          <Connection other="Loop4Piezz/audio_out 2"/>
-        </Port>
+        <Port type="audio" name="LOOP4/audio_in 1"/>
+        <Port type="audio" name="LOOP4/audio_in 2"/>
       </IO>
       <IO name="LOOP4" id="2397" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="LOOP4/audio_out 1">
-          <Connection other="Master/audio_in 1"/>
-        </Port>
-        <Port type="audio" name="LOOP4/audio_out 2">
-          <Connection other="Master/audio_in 2"/>
-        </Port>
+        <Port type="audio" name="LOOP4/audio_out 1"/>
+        <Port type="audio" name="LOOP4/audio_out 2"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="2381" flags="Toggle" value="0">
@@ -2756,17 +2628,11 @@
       <Controllable name="solo-iso" id="1085598" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="1085600" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="CravateAudio" id="187847" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="CravateAudio/audio_in 1">
-          <Connection other="system:capture_2"/>
-        </Port>
+        <Port type="audio" name="CravateAudio/audio_in 1"/>
       </IO>
       <IO name="CravateAudio" id="187848" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="CravateAudio/audio_out 1">
-          <Connection other="PiezzCrav/audio_in 1"/>
-        </Port>
-        <Port type="audio" name="CravateAudio/audio_out 2">
-          <Connection other="PiezzCrav/audio_in 2"/>
-        </Port>
+        <Port type="audio" name="CravateAudio/audio_out 1"/>
+        <Port type="audio" name="CravateAudio/audio_out 2"/>
         <Port type="midi" name="CravateAudio/midi_out 1"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
@@ -3128,9 +2994,7 @@
       <Controllable name="solo-iso" id="1085658" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="1085660" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="CuisseAudio" id="187887" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="CuisseAudio/audio_in 1">
-          <Connection other="system:capture_3"/>
-        </Port>
+        <Port type="audio" name="CuisseAudio/audio_in 1"/>
       </IO>
       <IO name="CuisseAudio" id="187888" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="CuisseAudio/audio_out 1"/>
@@ -3229,18 +3093,11 @@
       <Controllable name="solo-iso" id="1085740" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="1085742" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Table1Audio" id="187927" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="Table1Audio/audio_in 1">
-          <Connection other="system:capture_11"/>
-          <Connection other="system:capture_13"/>
-        </Port>
+        <Port type="audio" name="Table1Audio/audio_in 1"/>
       </IO>
       <IO name="Table1Audio" id="187928" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="Table1Audio/audio_out 1">
-          <Connection other="Table1/audio_in 1"/>
-        </Port>
-        <Port type="audio" name="Table1Audio/audio_out 2">
-          <Connection other="Table1/audio_in 2"/>
-        </Port>
+        <Port type="audio" name="Table1Audio/audio_out 1"/>
+        <Port type="audio" name="Table1Audio/audio_out 2"/>
         <Port type="midi" name="Table1Audio/midi_out 1"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
@@ -3516,18 +3373,11 @@
       <Controllable name="solo-iso" id="1085908" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="1085910" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Table2Audio" id="188007" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="Table2Audio/audio_in 1">
-          <Connection other="system:capture_11"/>
-          <Connection other="system:capture_14"/>
-        </Port>
+        <Port type="audio" name="Table2Audio/audio_in 1"/>
       </IO>
       <IO name="Table2Audio" id="188008" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="Table2Audio/audio_out 1">
-          <Connection other="Table2/audio_in 1"/>
-        </Port>
-        <Port type="audio" name="Table2Audio/audio_out 2">
-          <Connection other="Table2/audio_in 2"/>
-        </Port>
+        <Port type="audio" name="Table2Audio/audio_out 1"/>
+        <Port type="audio" name="Table2Audio/audio_out 2"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="187988" flags="Toggle" value="0"/>
@@ -3824,17 +3674,11 @@
       <Controllable name="solo-iso" id="1085968" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="1085970" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="TableBnB Audio" id="188047" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="TableBnB Audio/audio_in 1">
-          <Connection other="system:capture_4"/>
-        </Port>
+        <Port type="audio" name="TableBnB Audio/audio_in 1"/>
       </IO>
       <IO name="TableBnB Audio" id="188048" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="TableBnB Audio/audio_out 1">
-          <Connection other="TableBnB/audio_in 1"/>
-        </Port>
-        <Port type="audio" name="TableBnB Audio/audio_out 2">
-          <Connection other="TableBnB/audio_in 2"/>
-        </Port>
+        <Port type="audio" name="TableBnB Audio/audio_out 1"/>
+        <Port type="audio" name="TableBnB Audio/audio_out 2"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="188028" flags="Toggle" value="0"/>
@@ -4142,20 +3986,12 @@
       <Controllable name="solo-iso" id="1130507" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="1130509" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="EARS" id="1130521" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="EARS/audio_in 1">
-          <Connection other="TALKBACK/audio_out 1"/>
-        </Port>
-        <Port type="audio" name="EARS/audio_in 2">
-          <Connection other="TALKBACK/audio_out 2"/>
-        </Port>
+        <Port type="audio" name="EARS/audio_in 1"/>
+        <Port type="audio" name="EARS/audio_in 2"/>
       </IO>
       <IO name="EARS" id="1130522" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="EARS/audio_out 1">
-          <Connection other="system:playback_3"/>
-        </Port>
-        <Port type="audio" name="EARS/audio_out 2">
-          <Connection other="system:playback_4"/>
-        </Port>
+        <Port type="audio" name="EARS/audio_out 1"/>
+        <Port type="audio" name="EARS/audio_out 2"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="1130503" flags="Toggle,RealTime" value="0"/>
@@ -4296,12 +4132,8 @@
         <Port type="audio" name="Loop1 VX/audio_in 1"/>
       </IO>
       <IO name="Loop1 VX" id="1226820" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="Loop1 VX/audio_out 1">
-          <Connection other="LOOP 1/audio_in 1"/>
-        </Port>
-        <Port type="audio" name="Loop1 VX/audio_out 2">
-          <Connection other="LOOP 1/audio_in 2"/>
-        </Port>
+        <Port type="audio" name="Loop1 VX/audio_out 1"/>
+        <Port type="audio" name="Loop1 VX/audio_out 2"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="1226801" flags="Toggle,RealTime" value="0"/>
@@ -4574,12 +4406,8 @@
         <Port type="audio" name="Loop1 DPA/audio_in 1"/>
       </IO>
       <IO name="Loop1 DPA" id="1226862" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="Loop1 DPA/audio_out 1">
-          <Connection other="LOOP 1/audio_in 1"/>
-        </Port>
-        <Port type="audio" name="Loop1 DPA/audio_out 2">
-          <Connection other="LOOP 1/audio_in 2"/>
-        </Port>
+        <Port type="audio" name="Loop1 DPA/audio_out 1"/>
+        <Port type="audio" name="Loop1 DPA/audio_out 2"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="1226843" flags="Toggle,RealTime" value="0"/>
@@ -4677,12 +4505,8 @@
         <Port type="audio" name="Loop2 VX/audio_in 1"/>
       </IO>
       <IO name="Loop2 VX" id="1226954" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="Loop2 VX/audio_out 1">
-          <Connection other="LOOP2/audio_in 1"/>
-        </Port>
-        <Port type="audio" name="Loop2 VX/audio_out 2">
-          <Connection other="LOOP2/audio_in 2"/>
-        </Port>
+        <Port type="audio" name="Loop2 VX/audio_out 1"/>
+        <Port type="audio" name="Loop2 VX/audio_out 2"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="1226935" flags="Toggle,RealTime" value="0"/>
@@ -4835,12 +4659,8 @@
         <Port type="audio" name="Loop2 DPA/audio_in 1"/>
       </IO>
       <IO name="Loop2 DPA" id="1226996" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="Loop2 DPA/audio_out 1">
-          <Connection other="LOOP2/audio_in 1"/>
-        </Port>
-        <Port type="audio" name="Loop2 DPA/audio_out 2">
-          <Connection other="LOOP2/audio_in 2"/>
-        </Port>
+        <Port type="audio" name="Loop2 DPA/audio_out 1"/>
+        <Port type="audio" name="Loop2 DPA/audio_out 2"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="1226977" flags="Toggle,RealTime" value="0"/>
@@ -4938,12 +4758,8 @@
         <Port type="audio" name="Loop3 VX/audio_in 1"/>
       </IO>
       <IO name="Loop3 VX" id="1227088" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="Loop3 VX/audio_out 1">
-          <Connection other="LOOP3/audio_in 1"/>
-        </Port>
-        <Port type="audio" name="Loop3 VX/audio_out 2">
-          <Connection other="LOOP3/audio_in 2"/>
-        </Port>
+        <Port type="audio" name="Loop3 VX/audio_out 1"/>
+        <Port type="audio" name="Loop3 VX/audio_out 2"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="1227069" flags="Toggle,RealTime" value="0"/>
@@ -5041,12 +4857,8 @@
         <Port type="audio" name="Loop3 DPA/audio_in 1"/>
       </IO>
       <IO name="Loop3 DPA" id="1227130" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="Loop3 DPA/audio_out 1">
-          <Connection other="LOOP3/audio_in 1"/>
-        </Port>
-        <Port type="audio" name="Loop3 DPA/audio_out 2">
-          <Connection other="LOOP3/audio_in 2"/>
-        </Port>
+        <Port type="audio" name="Loop3 DPA/audio_out 1"/>
+        <Port type="audio" name="Loop3 DPA/audio_out 2"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="1227111" flags="Toggle,RealTime" value="0"/>
@@ -5144,12 +4956,8 @@
         <Port type="audio" name="Loop4 VX/audio_in 1"/>
       </IO>
       <IO name="Loop4 VX" id="1227222" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="Loop4 VX/audio_out 1">
-          <Connection other="LOOP4/audio_in 1"/>
-        </Port>
-        <Port type="audio" name="Loop4 VX/audio_out 2">
-          <Connection other="LOOP4/audio_in 2"/>
-        </Port>
+        <Port type="audio" name="Loop4 VX/audio_out 1"/>
+        <Port type="audio" name="Loop4 VX/audio_out 2"/>
         <Port type="midi" name="Loop4 VX/midi_out 1"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
@@ -5759,12 +5567,8 @@
         <Port type="audio" name="Loop4 DPA/audio_in 1"/>
       </IO>
       <IO name="Loop4 DPA" id="1227264" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="Loop4 DPA/audio_out 1">
-          <Connection other="LOOP4/audio_in 1"/>
-        </Port>
-        <Port type="audio" name="Loop4 DPA/audio_out 2">
-          <Connection other="LOOP4/audio_in 2"/>
-        </Port>
+        <Port type="audio" name="Loop4 DPA/audio_out 1"/>
+        <Port type="audio" name="Loop4 DPA/audio_out 2"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="1227245" flags="Toggle,RealTime" value="0"/>
@@ -5863,12 +5667,8 @@
         <Port type="audio" name="Loop1Piezz/audio_in 2"/>
       </IO>
       <IO name="Loop1Piezz" id="1227382" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="Loop1Piezz/audio_out 1">
-          <Connection other="LOOP 1/audio_in 1"/>
-        </Port>
-        <Port type="audio" name="Loop1Piezz/audio_out 2">
-          <Connection other="LOOP 1/audio_in 2"/>
-        </Port>
+        <Port type="audio" name="Loop1Piezz/audio_out 1"/>
+        <Port type="audio" name="Loop1Piezz/audio_out 2"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="1227363" flags="Toggle,RealTime" value="0"/>
@@ -5967,12 +5767,8 @@
         <Port type="audio" name="Loop2Piezz/audio_in 2"/>
       </IO>
       <IO name="Loop2Piezz" id="1227450" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="Loop2Piezz/audio_out 1">
-          <Connection other="LOOP2/audio_in 1"/>
-        </Port>
-        <Port type="audio" name="Loop2Piezz/audio_out 2">
-          <Connection other="LOOP2/audio_in 2"/>
-        </Port>
+        <Port type="audio" name="Loop2Piezz/audio_out 1"/>
+        <Port type="audio" name="Loop2Piezz/audio_out 2"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="1227431" flags="Toggle,RealTime" value="0"/>
@@ -6071,12 +5867,8 @@
         <Port type="audio" name="Loop3Piezz/audio_in 2"/>
       </IO>
       <IO name="Loop3Piezz" id="1227518" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="Loop3Piezz/audio_out 1">
-          <Connection other="LOOP3/audio_in 1"/>
-        </Port>
-        <Port type="audio" name="Loop3Piezz/audio_out 2">
-          <Connection other="LOOP3/audio_in 2"/>
-        </Port>
+        <Port type="audio" name="Loop3Piezz/audio_out 1"/>
+        <Port type="audio" name="Loop3Piezz/audio_out 2"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="1227499" flags="Toggle,RealTime" value="0"/>
@@ -6175,12 +5967,8 @@
         <Port type="audio" name="Loop4Piezz/audio_in 2"/>
       </IO>
       <IO name="Loop4Piezz" id="1227586" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="Loop4Piezz/audio_out 1">
-          <Connection other="LOOP4/audio_in 1"/>
-        </Port>
-        <Port type="audio" name="Loop4Piezz/audio_out 2">
-          <Connection other="LOOP4/audio_in 2"/>
-        </Port>
+        <Port type="audio" name="Loop4Piezz/audio_out 1"/>
+        <Port type="audio" name="Loop4Piezz/audio_out 2"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="1227567" flags="Toggle,RealTime" value="0"/>
@@ -6275,20 +6063,12 @@
       <Controllable name="solo-iso" id="1265156" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="1265158" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Zik" id="1265170" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="Zik/audio_in 1">
-          <Connection other="system:capture_9"/>
-        </Port>
-        <Port type="audio" name="Zik/audio_in 2">
-          <Connection other="system:capture_10"/>
-        </Port>
+        <Port type="audio" name="Zik/audio_in 1"/>
+        <Port type="audio" name="Zik/audio_in 2"/>
       </IO>
       <IO name="Zik" id="1265171" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="Zik/audio_out 1">
-          <Connection other="Master/audio_in 1"/>
-        </Port>
-        <Port type="audio" name="Zik/audio_out 2">
-          <Connection other="Master/audio_in 2"/>
-        </Port>
+        <Port type="audio" name="Zik/audio_out 1"/>
+        <Port type="audio" name="Zik/audio_out 2"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
       <Controllable name="mute" id="1265152" flags="Toggle,RealTime" value="1"/>
@@ -6448,12 +6228,8 @@
         <Port type="audio" name="REC/audio_in 2"/>
       </IO>
       <IO name="REC" id="1304844" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="REC/audio_out 1">
-          <Connection other="Master/audio_in 1"/>
-        </Port>
-        <Port type="audio" name="REC/audio_out 2">
-          <Connection other="Master/audio_in 2"/>
-        </Port>
+        <Port type="audio" name="REC/audio_out 1"/>
+        <Port type="audio" name="REC/audio_out 2"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="1304825" flags="Toggle,RealTime" value="0"/>
@@ -6550,20 +6326,12 @@
       <Controllable name="solo-iso" id="2085384" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="2085386" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="CravatteSynthAudio" id="2085398" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="CravatteSynthAudio/audio_in 1">
-          <Connection other="pure_data_0:output4"/>
-        </Port>
-        <Port type="audio" name="CravatteSynthAudio/audio_in 2">
-          <Connection other="pure_data_0:output5"/>
-        </Port>
+        <Port type="audio" name="CravatteSynthAudio/audio_in 1"/>
+        <Port type="audio" name="CravatteSynthAudio/audio_in 2"/>
       </IO>
       <IO name="CravatteSynthAudio" id="2085399" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="CravatteSynthAudio/audio_out 1">
-          <Connection other="PiezzCrav/audio_in 3"/>
-        </Port>
-        <Port type="audio" name="CravatteSynthAudio/audio_out 2">
-          <Connection other="PiezzCrav/audio_in 4"/>
-        </Port>
+        <Port type="audio" name="CravatteSynthAudio/audio_out 1"/>
+        <Port type="audio" name="CravatteSynthAudio/audio_out 2"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="2085380" flags="Toggle,RealTime" value="0"/>
@@ -6782,20 +6550,12 @@
       <Controllable name="solo-iso" id="2085426" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="2085428" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="CuisseSynthAudio" id="2085440" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="CuisseSynthAudio/audio_in 1">
-          <Connection other="pure_data_0:output6"/>
-        </Port>
-        <Port type="audio" name="CuisseSynthAudio/audio_in 2">
-          <Connection other="pure_data_0:output7"/>
-        </Port>
+        <Port type="audio" name="CuisseSynthAudio/audio_in 1"/>
+        <Port type="audio" name="CuisseSynthAudio/audio_in 2"/>
       </IO>
       <IO name="CuisseSynthAudio" id="2085441" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="CuisseSynthAudio/audio_out 1">
-          <Connection other="Cuisse/audio_in 3"/>
-        </Port>
-        <Port type="audio" name="CuisseSynthAudio/audio_out 2">
-          <Connection other="Cuisse/audio_in 4"/>
-        </Port>
+        <Port type="audio" name="CuisseSynthAudio/audio_out 1"/>
+        <Port type="audio" name="CuisseSynthAudio/audio_out 2"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="2085422" flags="Toggle,RealTime" value="0"/>
@@ -6890,20 +6650,12 @@
       <Controllable name="solo-iso" id="2085468" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="2085470" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Table1SynthAudio" id="2085482" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="Table1SynthAudio/audio_in 1">
-          <Connection other="pure_data_0:output10"/>
-        </Port>
-        <Port type="audio" name="Table1SynthAudio/audio_in 2">
-          <Connection other="pure_data_0:output11"/>
-        </Port>
+        <Port type="audio" name="Table1SynthAudio/audio_in 1"/>
+        <Port type="audio" name="Table1SynthAudio/audio_in 2"/>
       </IO>
       <IO name="Table1SynthAudio" id="2085483" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="Table1SynthAudio/audio_out 1">
-          <Connection other="Table1/audio_in 3"/>
-        </Port>
-        <Port type="audio" name="Table1SynthAudio/audio_out 2">
-          <Connection other="Table1/audio_in 4"/>
-        </Port>
+        <Port type="audio" name="Table1SynthAudio/audio_out 1"/>
+        <Port type="audio" name="Table1SynthAudio/audio_out 2"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="2085464" flags="Toggle,RealTime" value="0"/>
@@ -7122,20 +6874,12 @@
       <Controllable name="solo-iso" id="2085510" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="2085512" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="TableBnBSynthAudio" id="2085524" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="TableBnBSynthAudio/audio_in 1">
-          <Connection other="pure_data_0:output8"/>
-        </Port>
-        <Port type="audio" name="TableBnBSynthAudio/audio_in 2">
-          <Connection other="pure_data_0:output9"/>
-        </Port>
+        <Port type="audio" name="TableBnBSynthAudio/audio_in 1"/>
+        <Port type="audio" name="TableBnBSynthAudio/audio_in 2"/>
       </IO>
       <IO name="TableBnBSynthAudio" id="2085525" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="TableBnBSynthAudio/audio_out 1">
-          <Connection other="TableBnB/audio_in 3"/>
-        </Port>
-        <Port type="audio" name="TableBnBSynthAudio/audio_out 2">
-          <Connection other="TableBnB/audio_in 4"/>
-        </Port>
+        <Port type="audio" name="TableBnBSynthAudio/audio_out 1"/>
+        <Port type="audio" name="TableBnBSynthAudio/audio_out 2"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="2085506" flags="Toggle,RealTime" value="0"/>
@@ -7230,20 +6974,12 @@
       <Controllable name="solo-iso" id="2085552" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="2085554" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Table2SynthAudio" id="2085566" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="Table2SynthAudio/audio_in 1">
-          <Connection other="pure_data_0:output12"/>
-        </Port>
-        <Port type="audio" name="Table2SynthAudio/audio_in 2">
-          <Connection other="pure_data_0:output13"/>
-        </Port>
+        <Port type="audio" name="Table2SynthAudio/audio_in 1"/>
+        <Port type="audio" name="Table2SynthAudio/audio_in 2"/>
       </IO>
       <IO name="Table2SynthAudio" id="2085567" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="Table2SynthAudio/audio_out 1">
-          <Connection other="Table2/audio_in 3"/>
-        </Port>
-        <Port type="audio" name="Table2SynthAudio/audio_out 2">
-          <Connection other="Table2/audio_in 4"/>
-        </Port>
+        <Port type="audio" name="Table2SynthAudio/audio_out 1"/>
+        <Port type="audio" name="Table2SynthAudio/audio_out 2"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="2085548" flags="Toggle,RealTime" value="0"/>
@@ -7338,17 +7074,13 @@
       <Controllable name="solo-iso" id="2091809" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="2091811" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="CravatteTrigger" id="2091823" direction="Input" default-type="midi" user-latency="0">
-        <Port type="audio" name="CravatteTrigger/audio_in 1">
-          <Connection other="system:capture_2"/>
-        </Port>
+        <Port type="audio" name="CravatteTrigger/audio_in 1"/>
         <Port type="midi" name="CravatteTrigger/midi_in 1"/>
       </IO>
       <IO name="CravatteTrigger" id="2091824" direction="Output" default-type="midi" user-latency="0">
         <Port type="audio" name="CravatteTrigger/audio_out 1"/>
         <Port type="audio" name="CravatteTrigger/audio_out 2"/>
-        <Port type="midi" name="CravatteTrigger/midi_out 1">
-          <Connection other="system:midi_playback_6"/>
-        </Port>
+        <Port type="midi" name="CravatteTrigger/midi_out 1"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="2091805" flags="Toggle,RealTime" value="0"/>
@@ -7413,8 +7145,8 @@
           <AutomationList automation-id="parameter-5" id="1287681" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="1287683" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="1287685" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="6912928" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="6912930" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="6919888" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="6919890" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -7516,17 +7248,13 @@
       <Controllable name="solo-iso" id="2093169" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="2093171" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="CuisseTrigger" id="2093183" direction="Input" default-type="midi" user-latency="0">
-        <Port type="audio" name="CuisseTrigger/audio_in 1">
-          <Connection other="system:capture_3"/>
-        </Port>
+        <Port type="audio" name="CuisseTrigger/audio_in 1"/>
         <Port type="midi" name="CuisseTrigger/midi_in 1"/>
       </IO>
       <IO name="CuisseTrigger" id="2093184" direction="Output" default-type="midi" user-latency="0">
         <Port type="audio" name="CuisseTrigger/audio_out 1"/>
         <Port type="audio" name="CuisseTrigger/audio_out 2"/>
-        <Port type="midi" name="CuisseTrigger/midi_out 1">
-          <Connection other="system:midi_playback_6"/>
-        </Port>
+        <Port type="midi" name="CuisseTrigger/midi_out 1"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="2093165" flags="Toggle,RealTime" value="0"/>
@@ -7591,8 +7319,8 @@
           <AutomationList automation-id="parameter-5" id="5304417" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="5304419" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="5304421" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="6913014" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="6913016" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="6919974" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="6919976" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -7694,21 +7422,13 @@
       <Controllable name="solo-iso" id="2093217" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="2093219" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Table1Trigger" id="2093231" direction="Input" default-type="midi" user-latency="0">
-        <Port type="audio" name="Table1Trigger/audio_in 1">
-          <Connection other="system:capture_13"/>
-        </Port>
+        <Port type="audio" name="Table1Trigger/audio_in 1"/>
         <Port type="midi" name="Table1Trigger/midi_in 1"/>
       </IO>
       <IO name="Table1Trigger" id="2093232" direction="Output" default-type="midi" user-latency="0">
-        <Port type="audio" name="Table1Trigger/audio_out 1">
-          <Connection other="Master/audio_in 1"/>
-        </Port>
-        <Port type="audio" name="Table1Trigger/audio_out 2">
-          <Connection other="Master/audio_in 2"/>
-        </Port>
-        <Port type="midi" name="Table1Trigger/midi_out 1">
-          <Connection other="system:midi_playback_6"/>
-        </Port>
+        <Port type="audio" name="Table1Trigger/audio_out 1"/>
+        <Port type="audio" name="Table1Trigger/audio_out 2"/>
+        <Port type="midi" name="Table1Trigger/midi_out 1"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="2093213" flags="Toggle,RealTime" value="0"/>
@@ -7774,8 +7494,8 @@
           <AutomationList automation-id="parameter-5" id="2278005" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="2278007" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="2278009" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="6913100" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="6913102" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="6920060" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="6920062" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -7876,21 +7596,13 @@
       <Controllable name="solo-iso" id="2093265" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="2093267" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="TableBnBTrigger" id="2093279" direction="Input" default-type="midi" user-latency="0">
-        <Port type="audio" name="TableBnBTrigger/audio_in 1">
-          <Connection other="system:capture_4"/>
-        </Port>
+        <Port type="audio" name="TableBnBTrigger/audio_in 1"/>
         <Port type="midi" name="TableBnBTrigger/midi_in 1"/>
       </IO>
       <IO name="TableBnBTrigger" id="2093280" direction="Output" default-type="midi" user-latency="0">
-        <Port type="audio" name="TableBnBTrigger/audio_out 1">
-          <Connection other="Master/audio_in 1"/>
-        </Port>
-        <Port type="audio" name="TableBnBTrigger/audio_out 2">
-          <Connection other="Master/audio_in 2"/>
-        </Port>
-        <Port type="midi" name="TableBnBTrigger/midi_out 1">
-          <Connection other="system:midi_playback_6"/>
-        </Port>
+        <Port type="audio" name="TableBnBTrigger/audio_out 1"/>
+        <Port type="audio" name="TableBnBTrigger/audio_out 2"/>
+        <Port type="midi" name="TableBnBTrigger/midi_out 1"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="2093261" flags="Toggle,RealTime" value="0"/>
@@ -7955,8 +7667,8 @@
           <AutomationList automation-id="parameter-5" id="2278085" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="2278087" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="2278089" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="6913186" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="6913188" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="6920146" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="6920148" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -8058,21 +7770,13 @@
       <Controllable name="solo-iso" id="2093313" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="2093315" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Table2Trigger" id="2093327" direction="Input" default-type="midi" user-latency="0">
-        <Port type="audio" name="Table2Trigger/audio_in 1">
-          <Connection other="system:capture_14"/>
-        </Port>
+        <Port type="audio" name="Table2Trigger/audio_in 1"/>
         <Port type="midi" name="Table2Trigger/midi_in 1"/>
       </IO>
       <IO name="Table2Trigger" id="2093328" direction="Output" default-type="midi" user-latency="0">
-        <Port type="audio" name="Table2Trigger/audio_out 1">
-          <Connection other="Master/audio_in 1"/>
-        </Port>
-        <Port type="audio" name="Table2Trigger/audio_out 2">
-          <Connection other="Master/audio_in 2"/>
-        </Port>
-        <Port type="midi" name="Table2Trigger/midi_out 1">
-          <Connection other="system:midi_playback_6"/>
-        </Port>
+        <Port type="audio" name="Table2Trigger/audio_out 1"/>
+        <Port type="audio" name="Table2Trigger/audio_out 2"/>
+        <Port type="midi" name="Table2Trigger/midi_out 1"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="2093309" flags="Toggle,RealTime" value="0"/>
@@ -8163,8 +7867,8 @@
 505150831 0.60000002384185791
 </events>
           </AutomationList>
-          <AutomationList automation-id="parameter-8" id="6913272" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="6913274" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="6920232" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="6920234" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -8266,12 +7970,8 @@
       <Controllable name="solo-iso" id="3867870" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="3867872" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Table3" id="3867884" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="Table3/audio_in 1">
-          <Connection other="Table3SynthAudio/audio_out 1"/>
-        </Port>
-        <Port type="audio" name="Table3/audio_in 2">
-          <Connection other="Table3SynthAudio/audio_out 2"/>
-        </Port>
+        <Port type="audio" name="Table3/audio_in 1"/>
+        <Port type="audio" name="Table3/audio_in 2"/>
       </IO>
       <IO name="Table3" id="3867885" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="Table3/audio_out 1"/>
@@ -8372,12 +8072,8 @@
       <Controllable name="solo-iso" id="3867920" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="3867922" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Table4" id="3867934" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="Table4/audio_in 1">
-          <Connection other="Table4SynthAudio/audio_out 1"/>
-        </Port>
-        <Port type="audio" name="Table4/audio_in 2">
-          <Connection other="Table4SynthAudio/audio_out 2"/>
-        </Port>
+        <Port type="audio" name="Table4/audio_in 1"/>
+        <Port type="audio" name="Table4/audio_in 2"/>
       </IO>
       <IO name="Table4" id="3867935" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="Table4/audio_out 1"/>
@@ -8478,12 +8174,8 @@
       <Controllable name="solo-iso" id="3867970" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="3867972" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Table5" id="3867984" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="Table5/audio_in 1">
-          <Connection other="Table5SynthAudio/audio_out 1"/>
-        </Port>
-        <Port type="audio" name="Table5/audio_in 2">
-          <Connection other="Table5SynthAudio/audio_out 2"/>
-        </Port>
+        <Port type="audio" name="Table5/audio_in 1"/>
+        <Port type="audio" name="Table5/audio_in 2"/>
       </IO>
       <IO name="Table5" id="3867985" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="Table5/audio_out 1"/>
@@ -8584,17 +8276,13 @@
       <Controllable name="solo-iso" id="3868422" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="3868423" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Table3Trigger" id="3868327" direction="Input" default-type="midi" user-latency="0">
-        <Port type="audio" name="Table3Trigger/audio_in 1">
-          <Connection other="system:capture_5"/>
-        </Port>
+        <Port type="audio" name="Table3Trigger/audio_in 1"/>
         <Port type="midi" name="Table3Trigger/midi_in 1"/>
       </IO>
       <IO name="Table3Trigger" id="3868328" direction="Output" default-type="midi" user-latency="0">
         <Port type="audio" name="Table3Trigger/audio_out 1"/>
         <Port type="audio" name="Table3Trigger/audio_out 2"/>
-        <Port type="midi" name="Table3Trigger/midi_out 1">
-          <Connection other="system:midi_playback_6"/>
-        </Port>
+        <Port type="midi" name="Table3Trigger/midi_out 1"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="3868424" flags="Toggle,RealTime" value="0"/>
@@ -8661,8 +8349,8 @@
           <AutomationList automation-id="parameter-5" id="2278064" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="2278066" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="2278068" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="6913556" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="6913558" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="6920516" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="6920518" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -8764,17 +8452,13 @@
       <Controllable name="solo-iso" id="3868581" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="3868582" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Table4Trigger" id="3868486" direction="Input" default-type="midi" user-latency="0">
-        <Port type="audio" name="Table4Trigger/audio_in 1">
-          <Connection other="system:capture_6"/>
-        </Port>
+        <Port type="audio" name="Table4Trigger/audio_in 1"/>
         <Port type="midi" name="Table4Trigger/midi_in 1"/>
       </IO>
       <IO name="Table4Trigger" id="3868487" direction="Output" default-type="midi" user-latency="0">
         <Port type="audio" name="Table4Trigger/audio_out 1"/>
         <Port type="audio" name="Table4Trigger/audio_out 2"/>
-        <Port type="midi" name="Table4Trigger/midi_out 1">
-          <Connection other="system:midi_playback_6"/>
-        </Port>
+        <Port type="midi" name="Table4Trigger/midi_out 1"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="3868583" flags="Toggle,RealTime" value="0"/>
@@ -8841,8 +8525,8 @@
           <AutomationList automation-id="parameter-5" id="2278064" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="2278066" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="2278068" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="6913642" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="6913644" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="6920602" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="6920604" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -8944,17 +8628,13 @@
       <Controllable name="solo-iso" id="3868740" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="3868741" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Table5Trigger" id="3868645" direction="Input" default-type="midi" user-latency="0">
-        <Port type="audio" name="Table5Trigger/audio_in 1">
-          <Connection other="system:capture_7"/>
-        </Port>
+        <Port type="audio" name="Table5Trigger/audio_in 1"/>
         <Port type="midi" name="Table5Trigger/midi_in 1"/>
       </IO>
       <IO name="Table5Trigger" id="3868646" direction="Output" default-type="midi" user-latency="0">
         <Port type="audio" name="Table5Trigger/audio_out 1"/>
         <Port type="audio" name="Table5Trigger/audio_out 2"/>
-        <Port type="midi" name="Table5Trigger/midi_out 1">
-          <Connection other="system:midi_playback_6"/>
-        </Port>
+        <Port type="midi" name="Table5Trigger/midi_out 1"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="3868742" flags="Toggle,RealTime" value="0"/>
@@ -9021,8 +8701,8 @@
           <AutomationList automation-id="parameter-5" id="2278064" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="2278066" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="2278068" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="6913728" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="6913730" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="6920688" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="6920690" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -9124,17 +8804,13 @@
       <Controllable name="solo-iso" id="3868899" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="3868900" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="CoeurTrigger" id="3868804" direction="Input" default-type="midi" user-latency="0">
-        <Port type="audio" name="CoeurTrigger/audio_in 1">
-          <Connection other="system:capture_15"/>
-        </Port>
+        <Port type="audio" name="CoeurTrigger/audio_in 1"/>
         <Port type="midi" name="CoeurTrigger/midi_in 1"/>
       </IO>
       <IO name="CoeurTrigger" id="3868805" direction="Output" default-type="midi" user-latency="0">
         <Port type="audio" name="CoeurTrigger/audio_out 1"/>
         <Port type="audio" name="CoeurTrigger/audio_out 2"/>
-        <Port type="midi" name="CoeurTrigger/midi_out 1">
-          <Connection other="system:midi_playback_6"/>
-        </Port>
+        <Port type="midi" name="CoeurTrigger/midi_out 1"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="3868901" flags="Toggle,RealTime" value="0"/>
@@ -9199,8 +8875,8 @@
           <AutomationList automation-id="parameter-5" id="2278064" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="2278066" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="2278068" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="6913814" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="6913816" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="6920774" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="6920776" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -9302,18 +8978,13 @@
       <Controllable name="solo-iso" id="3869058" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="3869059" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="VoixSynthTriger" id="3868963" direction="Input" default-type="midi" user-latency="0">
-        <Port type="audio" name="VoixSynthTriger/audio_in 1">
-          <Connection other="system:capture_1"/>
-        </Port>
+        <Port type="audio" name="VoixSynthTriger/audio_in 1"/>
         <Port type="midi" name="VoixSynthTriger/midi_in 1"/>
       </IO>
       <IO name="VoixSynthTriger" id="3868964" direction="Output" default-type="midi" user-latency="0">
         <Port type="audio" name="VoixSynthTriger/audio_out 1"/>
         <Port type="audio" name="VoixSynthTriger/audio_out 2"/>
-        <Port type="midi" name="VoixSynthTriger/midi_out 1">
-          <Connection other="system:midi_playback_3"/>
-          <Connection other="system:midi_playback_6"/>
-        </Port>
+        <Port type="midi" name="VoixSynthTriger/midi_out 1"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="3869060" flags="Toggle,RealTime" value="0"/>
@@ -9380,8 +9051,8 @@
           <AutomationList automation-id="parameter-5" id="2278064" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-6" id="2278066" interpolation-style="Linear" state="Off"/>
           <AutomationList automation-id="parameter-7" id="2278068" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="6913900" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="6913902" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="6920860" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="6920862" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -9483,20 +9154,12 @@
       <Controllable name="solo-iso" id="3874564" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="3874565" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Table3SynthAudio" id="3874501" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="Table3SynthAudio/audio_in 1">
-          <Connection other="pure_data_0:output14"/>
-        </Port>
-        <Port type="audio" name="Table3SynthAudio/audio_in 2">
-          <Connection other="pure_data_0:output15"/>
-        </Port>
+        <Port type="audio" name="Table3SynthAudio/audio_in 1"/>
+        <Port type="audio" name="Table3SynthAudio/audio_in 2"/>
       </IO>
       <IO name="Table3SynthAudio" id="3874502" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="Table3SynthAudio/audio_out 1">
-          <Connection other="Table3/audio_in 1"/>
-        </Port>
-        <Port type="audio" name="Table3SynthAudio/audio_out 2">
-          <Connection other="Table3/audio_in 2"/>
-        </Port>
+        <Port type="audio" name="Table3SynthAudio/audio_out 1"/>
+        <Port type="audio" name="Table3SynthAudio/audio_out 2"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="3874566" flags="Toggle,RealTime" value="0"/>
@@ -9591,20 +9254,12 @@
       <Controllable name="solo-iso" id="3874673" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="3874674" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Table4SynthAudio" id="3874610" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="Table4SynthAudio/audio_in 1">
-          <Connection other="pure_data_0:output16"/>
-        </Port>
-        <Port type="audio" name="Table4SynthAudio/audio_in 2">
-          <Connection other="pure_data_0:output17"/>
-        </Port>
+        <Port type="audio" name="Table4SynthAudio/audio_in 1"/>
+        <Port type="audio" name="Table4SynthAudio/audio_in 2"/>
       </IO>
       <IO name="Table4SynthAudio" id="3874611" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="Table4SynthAudio/audio_out 1">
-          <Connection other="Table4/audio_in 1"/>
-        </Port>
-        <Port type="audio" name="Table4SynthAudio/audio_out 2">
-          <Connection other="Table4/audio_in 2"/>
-        </Port>
+        <Port type="audio" name="Table4SynthAudio/audio_out 1"/>
+        <Port type="audio" name="Table4SynthAudio/audio_out 2"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="3874675" flags="Toggle,RealTime" value="0"/>
@@ -9699,20 +9354,12 @@
       <Controllable name="solo-iso" id="3874782" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="3874783" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Table5SynthAudio" id="3874719" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="Table5SynthAudio/audio_in 1">
-          <Connection other="pure_data_0:output18"/>
-        </Port>
-        <Port type="audio" name="Table5SynthAudio/audio_in 2">
-          <Connection other="pure_data_0:output19"/>
-        </Port>
+        <Port type="audio" name="Table5SynthAudio/audio_in 1"/>
+        <Port type="audio" name="Table5SynthAudio/audio_in 2"/>
       </IO>
       <IO name="Table5SynthAudio" id="3874720" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="Table5SynthAudio/audio_out 1">
-          <Connection other="Table5/audio_in 1"/>
-        </Port>
-        <Port type="audio" name="Table5SynthAudio/audio_out 2">
-          <Connection other="Table5/audio_in 2"/>
-        </Port>
+        <Port type="audio" name="Table5SynthAudio/audio_out 1"/>
+        <Port type="audio" name="Table5SynthAudio/audio_out 2"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="3874784" flags="Toggle,RealTime" value="0"/>
@@ -9807,14 +9454,8 @@
       <Controllable name="solo-iso" id="3874891" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="3874892" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Table6SynthAudio" id="3874828" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="Table6SynthAudio/audio_in 1">
-          <Connection other="pure_data_0:output2"/>
-          <Connection other="pure_data_0:output20"/>
-        </Port>
-        <Port type="audio" name="Table6SynthAudio/audio_in 2">
-          <Connection other="pure_data_0:output21"/>
-          <Connection other="pure_data_0:output3"/>
-        </Port>
+        <Port type="audio" name="Table6SynthAudio/audio_in 1"/>
+        <Port type="audio" name="Table6SynthAudio/audio_in 2"/>
       </IO>
       <IO name="Table6SynthAudio" id="3874829" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="Table6SynthAudio/audio_out 1"/>
@@ -9913,12 +9554,8 @@
       <Controllable name="solo-iso" id="3875000" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="3875001" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Table7SynthAudio" id="3874937" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="Table7SynthAudio/audio_in 1">
-          <Connection other="pure_data_0:output0"/>
-        </Port>
-        <Port type="audio" name="Table7SynthAudio/audio_in 2">
-          <Connection other="pure_data_0:output1"/>
-        </Port>
+        <Port type="audio" name="Table7SynthAudio/audio_in 1"/>
+        <Port type="audio" name="Table7SynthAudio/audio_in 2"/>
       </IO>
       <IO name="Table7SynthAudio" id="3874938" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="Table7SynthAudio/audio_out 1"/>
@@ -10017,17 +9654,11 @@
       <Controllable name="solo-iso" id="4121983" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="4121985" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="TALKBACK" id="4121997" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="TALKBACK/audio_in 1">
-          <Connection other="system:capture_12"/>
-        </Port>
+        <Port type="audio" name="TALKBACK/audio_in 1"/>
       </IO>
       <IO name="TALKBACK" id="4121998" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="TALKBACK/audio_out 1">
-          <Connection other="EARS/audio_in 1"/>
-        </Port>
-        <Port type="audio" name="TALKBACK/audio_out 2">
-          <Connection other="EARS/audio_in 2"/>
-        </Port>
+        <Port type="audio" name="TALKBACK/audio_out 1"/>
+        <Port type="audio" name="TALKBACK/audio_out 2"/>
       </IO>
       <MuteMaster mute-point="PostFader,Main" muted="1"/>
       <Controllable name="mute" id="4121979" flags="Toggle,RealTime" value="1"/>
@@ -10124,12 +9755,8 @@
       <Controllable name="solo-iso" id="5124887" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="5124889" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Voix Synthé" id="5124901" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="Voix Synthé/audio_in 1">
-          <Connection other="pure_data_0:output0"/>
-        </Port>
-        <Port type="audio" name="Voix Synthé/audio_in 2">
-          <Connection other="pure_data_0:output1"/>
-        </Port>
+        <Port type="audio" name="Voix Synthé/audio_in 1"/>
+        <Port type="audio" name="Voix Synthé/audio_in 2"/>
       </IO>
       <IO name="Voix Synthé" id="5124902" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="Voix Synthé/audio_out 1"/>
@@ -10358,12 +9985,8 @@
       <Controllable name="solo-iso" id="5304703" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="5304705" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Coeur 1" id="5304717" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="Coeur 1/audio_in 1">
-          <Connection other="pure_data_0:output2"/>
-        </Port>
-        <Port type="audio" name="Coeur 1/audio_in 2">
-          <Connection other="pure_data_0:output3"/>
-        </Port>
+        <Port type="audio" name="Coeur 1/audio_in 1"/>
+        <Port type="audio" name="Coeur 1/audio_in 2"/>
       </IO>
       <IO name="Coeur 1" id="5304718" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="Coeur 1/audio_out 1"/>
@@ -10464,18 +10087,10 @@
       <Controllable name="solo-iso" id="5822116" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="5822118" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Cuisse" id="5822130" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="Cuisse/audio_in 1">
-          <Connection other="system:capture_3"/>
-        </Port>
-        <Port type="audio" name="Cuisse/audio_in 2">
-          <Connection other="system:capture_3"/>
-        </Port>
-        <Port type="audio" name="Cuisse/audio_in 3">
-          <Connection other="CuisseSynthAudio/audio_out 1"/>
-        </Port>
-        <Port type="audio" name="Cuisse/audio_in 4">
-          <Connection other="CuisseSynthAudio/audio_out 2"/>
-        </Port>
+        <Port type="audio" name="Cuisse/audio_in 1"/>
+        <Port type="audio" name="Cuisse/audio_in 2"/>
+        <Port type="audio" name="Cuisse/audio_in 3"/>
+        <Port type="audio" name="Cuisse/audio_in 4"/>
       </IO>
       <IO name="Cuisse" id="5822131" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="Cuisse/audio_out 1"/>
@@ -12313,12 +11928,12 @@
     </Processor>
   </Click>
   <LTC-In>
-    <IO name="LTC In" id="48" direction="Input" default-type="audio" user-latency="0">
+    <IO name="LTC In" id="47" direction="Input" default-type="audio" user-latency="0">
       <Port type="audio" name="LTC-in"/>
     </IO>
   </LTC-In>
   <LTC-Out>
-    <IO name="LTC Out" id="49" direction="Output" default-type="audio" user-latency="0">
+    <IO name="LTC Out" id="48" direction="Output" default-type="audio" user-latency="0">
       <Port type="audio" name="LTC-out"/>
     </IO>
   </LTC-Out>
