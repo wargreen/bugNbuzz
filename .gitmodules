@@ -1,0 +1,3 @@
+[submodule "tools/Sampler"]
+	path = tools/Sampler
+	url = https://github.com/Childerique/Sampler.git
