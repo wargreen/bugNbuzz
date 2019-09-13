@@ -1,6 +1,7 @@
 Nouveau plan d'adressage :
 
-nanostation 10.13.0.1
-pc	    10.13.0.10
-x-OSC	    10.13.0.11
-stations    10.13.0.50-128
+nanostation 172.16.8.1
+WRT54GL		172.16.8.2
+pc	    	172.16.9.10
+x-OSC	    172.16.9.30
+stations     --DHCP--
