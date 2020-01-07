@@ -151,11 +151,11 @@ class MyServer(ServerThread):
             self.stdscr.refresh()
             if self.buttons[13] == 0 or self.buttons[7] == 0:
                 self.loopRecPlay()
-            if self.buttons[5] == 0 or self.buttons[6] == 0:
+            if self.buttons[14] == 0 or self.buttons[6] == 0:
                 self.loopStop()
             if self.buttons[15] == 0:
                 self.loopUndo()
-            if self.buttons[14] == 0:   ### TODO : ask what's the number of the button !
+            if self.buttons[5] == 0:   ### TODO : ask what's the number of the button !
                 self.loopReverse()
             if self.buttons[12] == 0:
                 self.loopSelect(-1)
@@ -186,7 +186,7 @@ class MyServer(ServerThread):
             if potar[l] != args[l]:                    
                 if args[l] >= 0.97 :
                         args[l] = 1
-                if args[l] < 0.05 :
+                if args[l] < 0.01 :
                         args[l] = 0
                 potar[l] = args[l]
                 self.stdscr.addstr(l + 4, 35, str(int(100.0 * potar[l])) + " % ")
